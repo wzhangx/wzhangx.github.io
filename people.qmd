@@ -25,6 +25,7 @@ listing:  #an example of listing external links
     - /people/tiffany-hugh.yml
     - /people/oliver-niedbala.yml    
     - /people/junki-choi.yml
+    - /people/xinyang-che.yml
 
 - id: lab-alumni
   sort: "lastname asc"
