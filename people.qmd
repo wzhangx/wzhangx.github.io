@@ -19,7 +19,6 @@ listing:  #an example of listing external links
 #    - labmembers.yml
     - /people/gang-he.yml
     - /people/kaifang-luo.yml
-    - /people/wenge-rao.yml
     - /people/mariah-galindo.yml
     - /people/arielle-canate.yml
     - /people/tiffany-hugh.yml
@@ -48,6 +47,7 @@ listing:  #an example of listing external links
     - /people/kately-arriage.yml 
     - /people/tamara-valderrama.yml
     - /people/tenzin-sinon.yml       
+    - /people/wenge-rao.yml
 
 page-navigation: false
 title-block-banner: false

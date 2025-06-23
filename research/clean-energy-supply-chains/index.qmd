@@ -14,6 +14,7 @@ listing:
   grid-item-align: left
   grid-columns: 2
   image-height: 200px
+  max-items: 4
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
@@ -66,6 +67,10 @@ Global clean energy supply chains stand at a critical intersection of integratio
 
 :::{#featured-publications}
 :::
+
+<!--
+<p align="right">[More Publications »](/more-publications.qmd)</p>
+-->
 
 ## Featured events
 

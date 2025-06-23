@@ -1,4 +1,13 @@
 
+    - path: 
+      image: /files/images/xjtu.jpg
+      title: "2025 Workshop on Open Modeling Carbon Neutrality of the Power Sector"
+      author: Gang He
+#      subtitle: "*Nature Communications*"
+      description: "The second workshop on open modeling carbon neutrality of the power sector is held in Xi'an Jiaotong University, China."
+      date: "2025-06-20"
+      categories: [power-system] 
+
     - path: https://drganghe.github.io/climate-guest-speakers/speakers.html
       image: /files/images/2024-2025-speakers.png
       title: "Climate Guest Speakers Series"

@@ -91,5 +91,9 @@
   {
     "listing": "/people.html",
     "items": []
+  },
+  {
+    "listing": "/more-publications.html",
+    "items": []
   }
 ]
