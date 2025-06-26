@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Macro-Energy Systems">
+<meta name="dcterms.date" content="2025-07-01">
+<meta name="description" content="Join us to discuss how macro-energy systems analysis can better capture critical supply chain risks.">
 
-<title>Research &amp; Initiatives – Deep Policy Lab</title>
+<title>Macro-Energy Systems Series: Supply Chains in Energy Systems – Deep Policy Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +26,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-169af918da36ef8da63e8c390ac41721.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-169af918da36ef8da63e8c390ac41721.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,20 +76,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-research .list');
+    const listingTargetEl = window.document.querySelector('#listing-moderator .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-research'] = new List('listing-research', options);
+    window['quarto-listings']['listing-moderator'] = new List('listing-moderator', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -101,20 +104,20 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-initiatives .list');
+    const listingTargetEl = window.document.querySelector('#listing-panelists .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-initiatives'] = new List('listing-initiatives', options);
+    window['quarto-listings']['listing-panelists'] = new List('listing-panelists', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -167,14 +170,18 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Research &amp; Initiatives – Deep Policy Lab">
-<meta property="og:description" content="What we do">
-<meta property="og:image" content="http://deeppolicylab.github.io/research/clean-energy-supply-chains/featured.jpeg">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Macro-Energy Systems Series: Supply Chains in Energy Systems – Deep Policy Lab">
+<meta property="og:description" content="Join us to discuss how macro-energy systems analysis can better capture critical supply chain risks.">
+<meta property="og:image" content="http://deeppolicylab.github.io/events/2025-07-01-mes-supply-chains-in-energy-systems-panel/flyer-small.png">
 <meta property="og:site_name" content="Deep Policy Lab">
-<meta name="twitter:title" content="Research &amp; Initiatives – Deep Policy Lab">
-<meta name="twitter:description" content="What we do">
-<meta name="twitter:image" content="http://deeppolicylab.github.io/research/clean-energy-supply-chains/featured.jpeg">
+<meta property="og:image:height" content="447">
+<meta property="og:image:width" content="609">
+<meta name="twitter:title" content="Macro-Energy Systems Series: Supply Chains in Energy Systems – Deep Policy Lab">
+<meta name="twitter:description" content="Join us to discuss how macro-energy systems analysis can better capture critical supply chain risks.">
+<meta name="twitter:image" content="http://deeppolicylab.github.io/events/2025-07-01-mes-supply-chains-in-energy-systems-panel/flyer-small.png">
+<meta name="twitter:image-height" content="447">
+<meta name="twitter:image-width" content="609">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -185,7 +192,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Deep Policy Lab</span>
     </a>
   </div>
@@ -196,43 +203,43 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
+    <a class="nav-link" href="../../news.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./events.html"> 
+    <a class="nav-link" href="../../events.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
+    <a class="nav-link" href="../../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="../../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
+    <a class="nav-link" href="../../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./support.html"> 
+    <a class="nav-link" href="../../support.html"> 
 <span class="menu-text">Support</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cn.html"> 
+    <a class="nav-link" href="../../cn.html"> 
 <span class="menu-text">中文</span></a>
   </li>  
 </ul>
@@ -259,24 +266,59 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#title" id="toc-title" class="nav-link active" data-scroll-target="#title">Title</a>
+  <ul class="collapse">
+  <li><a href="#time" id="toc-time" class="nav-link" data-scroll-target="#time">Time</a></li>
+  <li><a href="#venue" id="toc-venue" class="nav-link" data-scroll-target="#venue">Venue</a></li>
+  </ul></li>
+  <li><a href="#about" id="toc-about" class="nav-link" data-scroll-target="#about">About</a></li>
+  <li><a href="#moderator" id="toc-moderator" class="nav-link" data-scroll-target="#moderator">Moderator</a></li>
+  <li><a href="#panelists" id="toc-panelists" class="nav-link" data-scroll-target="#panelists">Panelists</a></li>
+  <li><a href="#acknowledgment" id="toc-acknowledgment" class="nav-link" data-scroll-target="#acknowledgment">Acknowledgment</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research &amp; Initiatives</h1>
-<p class="subtitle lead">What we do</p>
+<h1 class="title">Macro-Energy Systems Series: Supply Chains in Energy Systems</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">supply-chain</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Join us to discuss how macro-energy systems analysis can better capture critical supply chain risks.
+  </div>
 </div>
 
 
+<div class="quarto-title-meta">
 
-<div class="quarto-title-meta column-page">
-
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Macro-Energy Systems </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 1, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -286,86 +328,45 @@ window.Quarto = {
 </header>
 
 
-<section id="research" class="level2">
-<h2 class="anchored" data-anchor-id="research">Research</h2>
-<div id="listing-research" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1750964338460" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
-<a href="./research/clean-energy-supply-chains/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.macroenergysystems.org/events/mes-speaker-series-supply-chains-in-energy-systems" data-fig-align="center"><img src="../../files/images/MES-supply-chain-panel.png" class="img-fluid figure-img"></a></p>
+<figcaption>Flyer Credit: Designed by Haochi Wu</figcaption>
+</figure>
+</div>
+<section id="title" class="level2">
+<h2 class="anchored" data-anchor-id="title">Title</h2>
+<p>Macro-Energy Systems Series: Supply Chains in Energy Systems</p>
+<section id="time" class="level3">
+<h3 class="anchored" data-anchor-id="time">Time</h3>
+<p>July 1, 2025</p>
+<p>10:00 AM - 11:00 AM ET</p>
+</section>
+<section id="venue" class="level3">
+<h3 class="anchored" data-anchor-id="venue">Venue</h3>
+<p>Online via zoom. Please register <a href="https://umich.zoom.us/webinar/register/WN_xaD85ZZvTDSdMf_dWosjgw">here</a>.</p>
+</section>
+</section>
+<section id="about" class="level2">
+<h2 class="anchored" data-anchor-id="about">About</h2>
+<p>This session will focus on “Supply Chains in Energy Systems.” We will explore how macro-energy systems analysis can better capture critical supply chain risks, such as mineral constraints and geopolitics, and what modeling practices can best inform policy for a resilient energy transition.</p>
+</section>
+<section id="moderator" class="level2">
+<h2 class="anchored" data-anchor-id="moderator">Moderator</h2>
+<div id="listing-moderator" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-categories="RGlyZWN0b3I=">
+<a href="https://drganghe.github.io" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./research/clean-energy-supply-chains/featured.jpeg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="https://drganghe.github.io/files/profile/gang-he-cuny-profile.jpg" class="thumbnail-image card-img" style="height: 180px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Clean Energy Supply Chains
+Gang HE
 </h5>
-<div class="card-text listing-description delink">
-<p>Ensuring sustainable, resilient, and just global clean energy supply chains to achieve climate goals.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1750707814966" data-listing-reading-time-sort="1" data-listing-word-count-sort="78">
-<a href="./research/power-systems-decarbonization/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/power-systems-decarbonization/featured.jpeg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Power Systems Decarbonization
-</h5>
-<div class="card-text listing-description delink">
-<p>Exploring the pathways, technology, market, impacts, and implications of clean power transition</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1743177381449" data-listing-reading-time-sort="1" data-listing-word-count-sort="45">
-<a href="./research/climate-impact-energy-systems/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/climate-impact-energy-systems/featured.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Climate Impact on Energy Systems
-</h5>
-<div class="card-text listing-description delink">
-<p>Enhancing the adaptation of energy systems to climate change.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1750707814966" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
-<a href="./research/energy-nexus-research/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/energy-nexus-research/featured.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Energy Nexus Research
-</h5>
-<div class="card-text listing-description delink">
-<p>Exploring the complex nexus of energy, water, carbon, and integrated natural and social systems.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1750707814966" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
-<a href="./research/energy-climate-justice/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/energy-climate-justice/featured.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Energy and Climate Justice
-</h5>
-<div class="card-text listing-description delink">
-<p>Ensuring a just clean energy transition.</p>
+<div class="card-subtitle listing-subtitle">
+Assistant Professor, CUNY Baruch College
 </div>
 </div>
 </div></a>
@@ -374,38 +375,70 @@ Energy and Climate Justice
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
-<section id="initiatives" class="level2">
-<h2 class="anchored" data-anchor-id="initiatives">Initiatives</h2>
-<div id="listing-initiatives" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1750707814966" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
-<a href="./research/china-carbon-neutrality-initiative/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
+<section id="panelists" class="level2">
+<h2 class="anchored" data-anchor-id="panelists">Panelists</h2>
+<div id="listing-panelists" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0">
+<a href="https://www.karanbhuwalka.com/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./research/china-carbon-neutrality-initiative/featured.png" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="../../files/headshots/karan-bhuwalka.png" class="thumbnail-image card-img" style="height: 180px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-China Carbon Neutrality Initiative
+Karan BHUWALKA
 </h5>
-<div class="card-text listing-description delink">
-<p>Facilitating the transition to a low-carbon economy in China.</p>
+<div class="card-subtitle listing-subtitle">
+Research Scientist, Stanford University
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1747954941267" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
-<a href="./research/new-york-climate-initiative/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
+<div class="g-col-1" data-index="1">
+<a href="https://gps.ucsd.edu/faculty-directory/michael-davidson.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./research/new-york-climate-initiative/featured.JPG" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="../../files/headshots/michael-davidson.jpg" class="thumbnail-image card-img" style="height: 180px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-New York Climate Initiative
+Michael DAVIDSON
 </h5>
-<div class="card-text listing-description delink">
-<p>Facilitating the implementation of the New York State Climate Action Plan.</p>
+<div class="card-subtitle listing-subtitle">
+Assistant Professor, University of California, San Diego
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2">
+<a href="https://www.jhelvy.com/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../../files/headshots/john-helveston.png" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+John HELVESTON
+</h5>
+<div class="card-subtitle listing-subtitle">
+Assistant Professor, George Washington University
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3">
+<a href="https://www.rff.org/people/beia-spiller/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../../files/headshots/beia-spiller.webp" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Beia SPILLER
+</h5>
+<div class="card-subtitle listing-subtitle">
+Fellow; Director, Transportation Program, Resources for the Future (RFF)
 </div>
 </div>
 </div></a>
@@ -413,17 +446,21 @@ New York Climate Initiative
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<!--Please delete or replace with your own clarity-->
+</section>
+<section id="acknowledgment" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgment">Acknowledgment</h2>
+<p>This program is part of the <a href="https://www.macroenergysystems.org/events">Macro-Energy Systems Speaker Series</a>. We thank the Macro Energy Systems Steering Committee for sponsoring this event.</p>
+<p>Flyer designed and organization facilitated by Haochi Wu.</p>
+<!--Include social share buttons-->
 <!-- 
-https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
 -->
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "ktfar1v3c9");
-</script>
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
 
 
 
