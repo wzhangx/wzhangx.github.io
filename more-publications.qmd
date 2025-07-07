@@ -12,10 +12,12 @@ listing:
 - id: more-publications
   sort: "date desc"
   type: table
-  fields: [image, title, subtitle, description, date]
+  fields: [image, title, subtitle, description, date, fulltext]
   field-display-names: 
       subtitle: "Journal"
       date: "Year"
+      description: "Summary"
+      fulltext: "Fulltext"
   grid-item-align: left
   grid-columns: 3
   image-height: 30px

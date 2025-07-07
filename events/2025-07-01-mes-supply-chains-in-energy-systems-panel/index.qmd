@@ -1,5 +1,5 @@
 ---
-title: "Macro-Energy Systems Series: Supply Chains in Energy Systems"
+title: "Macro-Energy Systems Speaker Series: Supply Chains in Energy Systems"
 description: "Join us to discuss how macro-energy systems analysis can better capture critical supply chain risks."
 image: flyer-small.png
 author: "Macro-Energy Systems"
