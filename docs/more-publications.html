@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description','listing-date','listing-fulltext',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-date','listing-description','listing-fulltext',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
       searchColumns: ["listing-image","listing-title","listing-subtitle","listing-description","listing-date","listing-fulltext","listing-categories"],
     };
@@ -236,7 +236,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(21)</span></div><div class="category" data-category="Y2hpbmE=">china <span class="quarto-category-count">(11)</span></div><div class="category" data-category="Y2xpbWF0ZS1pbXBhY3Q=">climate-impact <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29hbA==">coal <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZW5lcmd5LW5leHVz">energy-nexus <span class="quarto-category-count">(5)</span></div><div class="category" data-category="ZmVhdHVyZWQ=">featured <span class="quarto-category-count">(12)</span></div><div class="category" data-category="anVzdC10cmFuc2l0aW9u">just-transition <span class="quarto-category-count">(4)</span></div><div class="category" data-category="cG93ZXItc3lzdGVt">power-system <span class="quarto-category-count">(7)</span></div><div class="category" data-category="c3VwcGx5LWNoYWlu">supply-chain <span class="quarto-category-count">(3)</span></div><div class="category" data-category="d2F0ZXI=">water <span class="quarto-category-count">(3)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(22)</span></div><div class="category" data-category="Y2hpbmE=">china <span class="quarto-category-count">(12)</span></div><div class="category" data-category="Y2xpbWF0ZS1pbXBhY3Q=">climate-impact <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29hbA==">coal <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZW5lcmd5LW5leHVz">energy-nexus <span class="quarto-category-count">(5)</span></div><div class="category" data-category="ZmVhdHVyZWQ=">featured <span class="quarto-category-count">(12)</span></div><div class="category" data-category="anVzdC10cmFuc2l0aW9u">just-transition <span class="quarto-category-count">(4)</span></div><div class="category" data-category="cG93ZXItc3lzdGVt">power-system <span class="quarto-category-count">(8)</span></div><div class="category" data-category="c3VwcGx5LWNoYWlu">supply-chain <span class="quarto-category-count">(3)</span></div><div class="category" data-category="d2F0ZXI=">water <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -314,11 +314,11 @@ https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
 </th>
 
 <th>
-Summary
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Year</a>
 </th>
 
 <th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Year</a>
+Summary
 </th>
 
 <th>
@@ -329,7 +329,29 @@ Fulltext
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmE=" data-listing-date-sort="1741924800000" data-listing-title-sort="Cost-effectiveness of removing the last 10-20% emissions of China's power sector">
+<tr data-index="0" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmE=" data-listing-date-sort="1751947200000" data-listing-title-sort="Role of pumped hydro storage in China’s power system decarbonization">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/the-electricity-journal-logo.jpg" style="height: 30px;"></span>
+</td>
+<td>
+<a href="https://doi.org/10.1016/j.tej.2025.107487" class="title listing-title">Role of pumped hydro storage in China’s power system decarbonization</a>
+</td>
+<td>
+<span class="listing-subtitle"><em>The Electricity Journal</em></span>
+</td>
+<td>
+<span class="listing-date">2025</span>
+</td>
+<td>
+<span class="listing-description">Our findings indicate that building excessive PHS may not be the most cost-effective path to achieve zero-carbon power system, if there is no major cost reduction of PHS.</span>
+</td>
+<td>
+<span class="listing-fulltext"><a href="https://www.sciencedirect.com/science/article/pii/S1040619025000326/pdfft?md5=b4d917468b239ff9496538b66df8c1f5&amp;pid=1-s2.0-S1040619025000326-main.pdf">pdf</a></span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmE=" data-listing-date-sort="1741924800000" data-listing-title-sort="Cost-effectiveness of removing the last 10-20% emissions of China's power sector">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/erl.png" style="height: 30px;"></span>
 </td>
@@ -340,10 +362,10 @@ Fulltext
 <span class="listing-subtitle"><em>Environmental Research Letters</em></span>
 </td>
 <td>
-<span class="listing-description">Eliminating the last 10–20% of CO2 emissions create net climate and health benefits with only slightly increased costs.</span>
+<span class="listing-date">2025</span>
 </td>
 <td>
-<span class="listing-date">2025</span>
+<span class="listing-description">Eliminating the last 10–20% of CO2 emissions create net climate and health benefits with only slightly increased costs.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://iopscience.iop.org/article/10.1088/1748-9326/adc0b3/pdf">pdf</a></span>
@@ -351,7 +373,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="1" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2p1c3QtdHJhbnNpdGlvbiUyQ2NvYWw=" data-listing-date-sort="1730782800000" data-listing-title-sort="Fewer than 15% of coal power plant workers in China can easily shift to green jobs by 2060">
+<tr data-index="2" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2p1c3QtdHJhbnNpdGlvbiUyQ2NvYWw=" data-listing-date-sort="1730782800000" data-listing-title-sort="Fewer than 15% of coal power plant workers in China can easily shift to green jobs by 2060">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/one-earth-logo.jpg" style="height: 30px;"></span>
 </td>
@@ -362,10 +384,10 @@ Fulltext
 <span class="listing-subtitle"><em>One Earth</em></span>
 </td>
 <td>
-<span class="listing-description">A coal power worker needs to travel 194 (178–242) km on average to access a green job. Only 11%–14% of existing coal power workers will transition to green jobs by 2060.</span>
+<span class="listing-date">2024</span>
 </td>
 <td>
-<span class="listing-date">2024</span>
+<span class="listing-description">A coal power worker needs to travel 194 (178–242) km on average to access a green job. Only 11%–14% of existing coal power workers will transition to green jobs by 2060.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://www.cell.com/action/showPdf?pii=S2590-3322%2824%2900530-X">pdf</a></span>
@@ -373,7 +395,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="2" data-categories="anVzdC10cmFuc2l0aW9uJTJDZW5lcmd5LW5leHVz" data-listing-date-sort="1713758400000" data-listing-title-sort="Regional disparities in health and employment outcomes of China's transition to a low-carbon electricity system">
+<tr data-index="3" data-categories="anVzdC10cmFuc2l0aW9uJTJDZW5lcmd5LW5leHVz" data-listing-date-sort="1713758400000" data-listing-title-sort="Regional disparities in health and employment outcomes of China's transition to a low-carbon electricity system">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/IOP-logo.jpg" style="height: 30px;"></span>
 </td>
@@ -384,10 +406,10 @@ Fulltext
 <span class="listing-subtitle"><em>Environmental Research: Energy</em></span>
 </td>
 <td>
-<span class="listing-description">Although disparities in health impacts across provinces narrow as fossil fuels phase out, disparities in labor compensation widen with wealthier East Coast provinces gaining the most in labor compensation.</span>
+<span class="listing-date">2024</span>
 </td>
 <td>
-<span class="listing-date">2024</span>
+<span class="listing-description">Although disparities in health impacts across provinces narrow as fossil fuels phase out, disparities in labor compensation widen with wealthier East Coast provinces gaining the most in labor compensation.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://iopscience.iop.org/article/10.1088/2753-3751/ad3bb8/pdf">pdf</a></span>
@@ -395,7 +417,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="3" data-categories="c3VwcGx5LWNoYWluJTJDanVzdC10cmFuc2l0aW9u" data-listing-date-sort="1701752400000" data-listing-title-sort="Advancing a just, resilient, and sustainable clean energy supply chain">
+<tr data-index="4" data-categories="c3VwcGx5LWNoYWluJTJDanVzdC10cmFuc2l0aW9u" data-listing-date-sort="1701752400000" data-listing-title-sort="Advancing a just, resilient, and sustainable clean energy supply chain">
 <td>
 <span class="listing-image"><img loading="lazy" src="https://www.climateworks.org/wp-content/uploads/2023/12/Sustainable-clean-energy-supply-chain-blog-thumbnail_12.5.23.png" style="height: 30px;"></span>
 </td>
@@ -406,10 +428,10 @@ Fulltext
 <span class="listing-subtitle"><em>ClimateWorks Blog</em></span>
 </td>
 <td>
-<span class="listing-description">In addressing the challenges and maximizing the benefits, there is a pressing need for a commonly agreed framework for a just, resilient, and sustainable clean energy supply chain.</span>
+<span class="listing-date">2023</span>
 </td>
 <td>
-<span class="listing-date">2023</span>
+<span class="listing-description">In addressing the challenges and maximizing the benefits, there is a pressing need for a commonly agreed framework for a just, resilient, and sustainable clean energy supply chain.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://drganghe.github.io/posts/2023-12-just-resilient-sustainable-clean-energy-supply-chains/index.html">link</a></span>
@@ -417,7 +439,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="4" data-categories="ZmVhdHVyZWQlMkNzdXBwbHktY2hhaW4=" data-listing-date-sort="1696996800000" data-listing-title-sort="Deploying solar photovoltaic energy first in carbon-intensive regions brings gigatons more carbon mitigations to 2060">
+<tr data-index="5" data-categories="ZmVhdHVyZWQlMkNzdXBwbHktY2hhaW4=" data-listing-date-sort="1696996800000" data-listing-title-sort="Deploying solar photovoltaic energy first in carbon-intensive regions brings gigatons more carbon mitigations to 2060">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/commsearth.jpg" style="height: 30px;"></span>
 </td>
@@ -428,10 +450,10 @@ Fulltext
 <span class="listing-subtitle"><em>Communications Earth &amp; Environment</em></span>
 </td>
 <td>
-<span class="listing-description">A net GHG mitigation of 1.29 Gt CO2-equivalent from 2009–2019, achieved by 1.97 Gt of mitigation from installation minus 0.68 Gt of emissions from manufacturing.</span>
+<span class="listing-date">2023</span>
 </td>
 <td>
-<span class="listing-date">2023</span>
+<span class="listing-description">A net GHG mitigation of 1.29 Gt CO2-equivalent from 2009–2019, achieved by 1.97 Gt of mitigation from installation minus 0.68 Gt of emissions from manufacturing.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://www.nature.com/articles/s43247-023-01006-x.pdf">pdf</a></span>
@@ -439,7 +461,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="5" data-categories="ZW5lcmd5LW5leHVzJTJDY2hpbmE=" data-listing-date-sort="1695614400000" data-listing-title-sort="Accelerating China's power sector decarbonization can save lives: integrating public health goals into power sector planning decisions">
+<tr data-index="6" data-categories="ZW5lcmd5LW5leHVzJTJDY2hpbmE=" data-listing-date-sort="1695614400000" data-listing-title-sort="Accelerating China's power sector decarbonization can save lives: integrating public health goals into power sector planning decisions">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/erl.png" style="height: 30px;"></span>
 </td>
@@ -450,10 +472,10 @@ Fulltext
 <span class="listing-subtitle"><em>Environmental Research Letters</em></span>
 </td>
 <td>
-<span class="listing-description">The value of climate and health benefits would exceed the additional costs, leading to $824 billion net benefits from 2021 to 2050.</span>
+<span class="listing-date">2023</span>
 </td>
 <td>
-<span class="listing-date">2023</span>
+<span class="listing-description">The value of climate and health benefits would exceed the additional costs, leading to $824 billion net benefits from 2021 to 2050.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://iopscience.iop.org/article/10.1088/1748-9326/acf84b/pdf">pdf</a></span>
@@ -461,7 +483,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="6" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0lMkNjaGluYQ==" data-listing-date-sort="1691726400000" data-listing-title-sort="Heterogeneous effects of battery storage deployment strategies on decarbonization of provincial power systems in China">
+<tr data-index="7" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0lMkNjaGluYQ==" data-listing-date-sort="1691726400000" data-listing-title-sort="Heterogeneous effects of battery storage deployment strategies on decarbonization of provincial power systems in China">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/nature-comms.png" style="height: 30px;"></span>
 </td>
@@ -472,10 +494,10 @@ Fulltext
 <span class="listing-subtitle"><em>Nature Communications</em></span>
 </td>
 <td>
-<span class="listing-description">We find heterogeneous strategy provides the lowest system costs, however, carbon emissions depend on carbon prices.</span>
+<span class="listing-date">2023</span>
 </td>
 <td>
-<span class="listing-date">2023</span>
+<span class="listing-description">We find heterogeneous strategy provides the lowest system costs, however, carbon emissions depend on carbon prices.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://www.nature.com/articles/s41467-023-40337-3.pdf">pdf</a></span>
@@ -483,7 +505,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="7" data-categories="ZmVhdHVyZWQlMkNlbmVyZ3ktbmV4dXMlMkN3YXRlcg==" data-listing-date-sort="1691380800000" data-listing-title-sort="Global assessment of the carbon–water tradeoff of dry cooling for thermal power generation">
+<tr data-index="8" data-categories="ZmVhdHVyZWQlMkNlbmVyZ3ktbmV4dXMlMkN3YXRlcg==" data-listing-date-sort="1691380800000" data-listing-title-sort="Global assessment of the carbon–water tradeoff of dry cooling for thermal power generation">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/nature-water.jpg" style="height: 30px;"></span>
 </td>
@@ -494,10 +516,10 @@ Fulltext
 <span class="listing-subtitle"><em>Nature Water</em></span>
 </td>
 <td>
-<span class="listing-description">We build a global unit-level framework to investigate the CO2 emission and energy penalty due to the deployment of dry cooling.</span>
+<span class="listing-date">2023</span>
 </td>
 <td>
-<span class="listing-date">2023</span>
+<span class="listing-description">We build a global unit-level framework to investigate the CO2 emission and energy penalty due to the deployment of dry cooling.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://rdcu.be/diKmv">SharedIt</a></span>
@@ -505,7 +527,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="8" data-categories="ZmVhdHVyZWQlMkNjbGltYXRlLWltcGFjdA==" data-listing-date-sort="1690171200000" data-listing-title-sort="Climate change impacts on planned supply–demand match in global wind and solar energy systems">
+<tr data-index="9" data-categories="ZmVhdHVyZWQlMkNjbGltYXRlLWltcGFjdA==" data-listing-date-sort="1690171200000" data-listing-title-sort="Climate change impacts on planned supply–demand match in global wind and solar energy systems">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/nature-energy.jpg" style="height: 30px;"></span>
 </td>
@@ -516,10 +538,10 @@ Fulltext
 <span class="listing-subtitle"><em>Nature Energy</em></span>
 </td>
 <td>
-<span class="listing-description">Up to 32% or 44% of non-Antarctic land areas for wind or solar, respectively, are projected to experience supply demand match reductions by the end of this century under an intermediate emission scenario.</span>
+<span class="listing-date">2023</span>
 </td>
 <td>
-<span class="listing-date">2023</span>
+<span class="listing-description">Up to 32% or 44% of non-Antarctic land areas for wind or solar, respectively, are projected to experience supply demand match reductions by the end of this century under an intermediate emission scenario.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://www.nature.com/articles/s41560-023-01304-w.pdf">pdf</a></span>
@@ -527,7 +549,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="9" data-categories="ZmVhdHVyZWQlMkNzdXBwbHktY2hhaW4=" data-listing-date-sort="1666756800000" data-listing-title-sort="Quantifying the cost savings of global solar photovoltaic supply chains">
+<tr data-index="10" data-categories="ZmVhdHVyZWQlMkNzdXBwbHktY2hhaW4=" data-listing-date-sort="1666756800000" data-listing-title-sort="Quantifying the cost savings of global solar photovoltaic supply chains">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/nature.avif" style="height: 30px;"></span>
 </td>
@@ -538,10 +560,10 @@ Fulltext
 <span class="listing-subtitle"><em>Nature</em></span>
 </td>
 <td>
-<span class="listing-description">Globalized supply chain has saved solar installers in the U.S., Germany, and China $67B 2008-2020, and solar prices will be 20-30% higher in 2030 if countries move to produce domestically.</span>
+<span class="listing-date">2022</span>
 </td>
 <td>
-<span class="listing-date">2022</span>
+<span class="listing-description">Globalized supply chain has saved solar installers in the U.S., Germany, and China $67B 2008-2020, and solar prices will be 20-30% higher in 2030 if countries move to produce domestically.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://rdcu.be/enuBz">SharedIt</a></span>
@@ -549,7 +571,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="10" data-categories="cG93ZXItc3lzdGVt" data-listing-date-sort="1649995200000" data-listing-title-sort="Modeling Integrated Power and Transportation Systems: Impacts of Power-to-Gas on the Deep Decarbonization">
+<tr data-index="11" data-categories="cG93ZXItc3lzdGVt" data-listing-date-sort="1649995200000" data-listing-title-sort="Modeling Integrated Power and Transportation Systems: Impacts of Power-to-Gas on the Deep Decarbonization">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/ieee-ias-logo.webp" style="height: 30px;"></span>
 </td>
@@ -560,10 +582,10 @@ Fulltext
 <span class="listing-subtitle"><em>IEEE Transactions on Industry Applications</em></span>
 </td>
 <td>
-<span class="listing-description">Hydrogen could link power and transport systems and reduce costs of deep decarbonization for both sectors.</span>
+<span class="listing-date">2022</span>
 </td>
 <td>
-<span class="listing-date">2022</span>
+<span class="listing-description">Hydrogen could link power and transport systems and reduce costs of deep decarbonization for both sectors.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://drganghe.github.io/files/papers/2022-IEEE-ModelingIntegratedPowerAndTransportationSystems.pdf">pdf</a></span>
@@ -571,7 +593,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="11" data-categories="ZmVhdHVyZWQlMkNjaGluYQ==" data-listing-date-sort="1646110800000" data-listing-title-sort="Challenges and opportunities for carbon neutrality in China">
+<tr data-index="12" data-categories="ZmVhdHVyZWQlMkNjaGluYQ==" data-listing-date-sort="1646110800000" data-listing-title-sort="Challenges and opportunities for carbon neutrality in China">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/nature-reviews-earth.jpg" style="height: 30px;"></span>
 </td>
@@ -582,10 +604,10 @@ Fulltext
 <span class="listing-subtitle"><em>Nature Reviews Earth &amp; Environment</em></span>
 </td>
 <td>
-<span class="listing-description">In this Perspective, we summarize the key features of China’s CO2 emissions, its reduction processes and successes in meeting climate targets.</span>
+<span class="listing-date">2022</span>
 </td>
 <td>
-<span class="listing-date">2022</span>
+<span class="listing-description">In this Perspective, we summarize the key features of China’s CO2 emissions, its reduction processes and successes in meeting climate targets.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://rdcu.be/enuBK">SharedIt</a></span>
@@ -593,7 +615,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="12" data-categories="cG93ZXItc3lzdGVt" data-listing-date-sort="1645160400000" data-listing-title-sort="Large balancing areas and dispersed renewable investment enhance grid flexibility in a renewable-dominant power system in China">
+<tr data-index="13" data-categories="cG93ZXItc3lzdGVt" data-listing-date-sort="1645160400000" data-listing-title-sort="Large balancing areas and dispersed renewable investment enhance grid flexibility in a renewable-dominant power system in China">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/iscience-logo.jpg" style="height: 30px;"></span>
 </td>
@@ -604,10 +626,10 @@ Fulltext
 <span class="listing-subtitle"><em>iScience</em></span>
 </td>
 <td>
-<span class="listing-description">Regional balancing could reduce the renewable curtailment rate by 5–7%, compared with a provincial balancing strategy.</span>
+<span class="listing-date">2022</span>
 </td>
 <td>
-<span class="listing-date">2022</span>
+<span class="listing-description">Regional balancing could reduce the renewable curtailment rate by 5–7%, compared with a provincial balancing strategy.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://www.cell.com/action/showPdf?pii=S2589-0042%2822%2900019-0">pdf</a></span>
@@ -615,7 +637,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="13" data-categories="ZW5lcmd5LW5leHVzJTJDcG93ZXItc3lzdGVtJTJDd2F0ZXI=" data-listing-date-sort="1639976400000" data-listing-title-sort="Long-term transition of China’s power sector under carbon neutrality target and water withdrawal constraint">
+<tr data-index="14" data-categories="ZW5lcmd5LW5leHVzJTJDcG93ZXItc3lzdGVtJTJDd2F0ZXI=" data-listing-date-sort="1639976400000" data-listing-title-sort="Long-term transition of China’s power sector under carbon neutrality target and water withdrawal constraint">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/jcp-logo.jpg" style="height: 30px;"></span>
 </td>
@@ -626,10 +648,10 @@ Fulltext
 <span class="listing-subtitle"><em>Journal of Cleaner Production</em></span>
 </td>
 <td>
-<span class="listing-description">Low cost renewables reduced the need for CCS by 80%, and water constraints nearly squeeze CCS out.</span>
+<span class="listing-date">2021</span>
 </td>
 <td>
-<span class="listing-date">2021</span>
+<span class="listing-description">Low cost renewables reduced the need for CCS by 80%, and water constraints nearly squeeze CCS out.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://drganghe.github.io/files/papers/2021-JCP-ChinaPowerCarbonWaterNexus.pdf">pdf</a></span>
@@ -637,7 +659,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="14" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2NvYWwlMkNqdXN0LXRyYW5zaXRpb24=" data-listing-date-sort="1597982400000" data-listing-title-sort="Enabling a Rapid and Just Transition away from Coal in China">
+<tr data-index="15" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2NvYWwlMkNqdXN0LXRyYW5zaXRpb24=" data-listing-date-sort="1597982400000" data-listing-title-sort="Enabling a Rapid and Just Transition away from Coal in China">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/one-earth-logo.jpg" style="height: 30px;"></span>
 </td>
@@ -648,10 +670,10 @@ Fulltext
 <span class="listing-subtitle"><em>One Earth</em></span>
 </td>
 <td>
-<span class="listing-description">Aggressive coal-transition pathway is needed to achieve carbon nutrality goal while achieving water saving, avoiding premature death.</span>
+<span class="listing-date">2020</span>
 </td>
 <td>
-<span class="listing-date">2020</span>
+<span class="listing-description">Aggressive coal-transition pathway is needed to achieve carbon nutrality goal while achieving water saving, avoiding premature death.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://www.cell.com/action/showPdf?pii=S2590-3322%2820%2930356-0">pdf</a></span>
@@ -659,7 +681,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="15" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0lMkNjaGluYQ==" data-listing-date-sort="1589860800000" data-listing-title-sort="Rapid cost decrease of renewables and storage accelerates the decarbonization of China’s power system">
+<tr data-index="16" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0lMkNjaGluYQ==" data-listing-date-sort="1589860800000" data-listing-title-sort="Rapid cost decrease of renewables and storage accelerates the decarbonization of China’s power system">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/nature-comms.png" style="height: 30px;"></span>
 </td>
@@ -670,10 +692,10 @@ Fulltext
 <span class="listing-subtitle"><em>Nature Communications</em></span>
 </td>
 <td>
-<span class="listing-description">A renewable dominant pathway is not just technogical sound, but also cost effective.</span>
+<span class="listing-date">2020</span>
 </td>
 <td>
-<span class="listing-date">2020</span>
+<span class="listing-description">A renewable dominant pathway is not just technogical sound, but also cost effective.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://www.nature.com/articles/s41467-020-16184-x.pdf">pdf</a></span>
@@ -681,7 +703,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="16" data-categories="ZmVhdHVyZWQlMkNjaGluYQ==" data-listing-date-sort="1498881600000" data-listing-title-sort="Experiences and lessons from China’s success in providing electricity for all">
+<tr data-index="17" data-categories="ZmVhdHVyZWQlMkNjaGluYQ==" data-listing-date-sort="1498881600000" data-listing-title-sort="Experiences and lessons from China’s success in providing electricity for all">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/rcr-logo.jpg" style="height: 30px;"></span>
 </td>
@@ -692,10 +714,10 @@ Fulltext
 <span class="listing-subtitle"><em>Resources, Conservation and Recycling</em></span>
 </td>
 <td>
-<span class="listing-description">Key experiences and lessons to be learned from China’s successful program to provide electricity for all.</span>
+<span class="listing-date">2017</span>
 </td>
 <td>
-<span class="listing-date">2017</span>
+<span class="listing-description">Key experiences and lessons to be learned from China’s successful program to provide electricity for all.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://drganghe.github.io/files/papers/2017-china-electricity-for-all.pdf">pdf</a></span>
@@ -703,7 +725,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="17" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0lMkNjaGluYQ==" data-listing-date-sort="1462680000000" data-listing-title-sort="SWITCH-China: A Systems Approach to Decarbonizing China’s Power System">
+<tr data-index="18" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0lMkNjaGluYQ==" data-listing-date-sort="1462680000000" data-listing-title-sort="SWITCH-China: A Systems Approach to Decarbonizing China’s Power System">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/est-50-11-cover-crop.jpg" style="height: 30px;"></span>
 </td>
@@ -714,10 +736,10 @@ Fulltext
 <span class="listing-subtitle"><em>Environmental Science &amp; Technology</em></span>
 </td>
 <td>
-<span class="listing-description">SWITCH-China, an integrated model for power sector decarbonization.</span>
+<span class="listing-date">2016</span>
 </td>
 <td>
-<span class="listing-date">2016</span>
+<span class="listing-description">SWITCH-China, an integrated model for power sector decarbonization.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://drganghe.github.io/files/papers/2016-EST-SWITCH-China.pdf">pdf</a></span>
@@ -725,7 +747,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="18" data-categories="ZW5lcmd5LW5leHVzJTJDd2F0ZXI=" data-listing-date-sort="1426478400000" data-listing-title-sort="Assessing the impacts of nuclear desalination and geoengineering to address China's water shortages">
+<tr data-index="19" data-categories="ZW5lcmd5LW5leHVzJTJDd2F0ZXI=" data-listing-date-sort="1426478400000" data-listing-title-sort="Assessing the impacts of nuclear desalination and geoengineering to address China's water shortages">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/desalination-logo.jpg" style="height: 30px;"></span>
 </td>
@@ -736,10 +758,10 @@ Fulltext
 <span class="listing-subtitle"><em>Desalination</em></span>
 </td>
 <td>
-<span class="listing-description">We compare both coal and nuclear desalination with the currently planned South–North Water Transfer Mega-Project and show that, while the short-run cost of water diversion is lower, critical vulnerabilities and future resource demands favor nuclear desalination.</span>
+<span class="listing-date">2015</span>
 </td>
 <td>
-<span class="listing-date">2015</span>
+<span class="listing-description">We compare both coal and nuclear desalination with the currently planned South–North Water Transfer Mega-Project and show that, while the short-run cost of water diversion is lower, critical vulnerabilities and future resource demands favor nuclear desalination.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://drganghe.github.io/files/papers/2015-DESAL-Nuclear-desalination-and-water-shortages-in-China.pdf">pdf</a></span>
@@ -747,7 +769,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="19" data-categories="Y2hpbmE=" data-listing-date-sort="1421298000000" data-listing-title-sort="ELITE cities: A low-carbon eco-city evaluation tool for China">
+<tr data-index="20" data-categories="Y2hpbmE=" data-listing-date-sort="1421298000000" data-listing-title-sort="ELITE cities: A low-carbon eco-city evaluation tool for China">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/ecological-indicators-logo.jpg" style="height: 30px;"></span>
 </td>
@@ -758,10 +780,10 @@ Fulltext
 <span class="listing-subtitle"><em>Ecological Indicators</em></span>
 </td>
 <td>
-<span class="listing-description">ELITE Cities is an Excel-based tool that measures city low-carbon development progress on 33 key indicators.</span>
+<span class="listing-date">2015</span>
 </td>
 <td>
-<span class="listing-date">2015</span>
+<span class="listing-description">ELITE Cities is an Excel-based tool that measures city low-carbon development progress on 33 key indicators.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://drganghe.github.io/files/papers/2015-EI-ELITE-Cities.pdf">pdf</a></span>
@@ -769,7 +791,7 @@ Fulltext
 
 </tr>
 
-<tr data-index="20" data-categories="ZmVhdHVyZWQlMkNjaGluYQ==" data-listing-date-sort="1387083600000" data-listing-title-sort="Addressing carbon Offsetters’ Paradox: Lessons from Chinese wind CDM">
+<tr data-index="21" data-categories="ZmVhdHVyZWQlMkNjaGluYQ==" data-listing-date-sort="1387083600000" data-listing-title-sort="Addressing carbon Offsetters’ Paradox: Lessons from Chinese wind CDM">
 <td>
 <span class="listing-image"><img loading="lazy" src="./files/images/journal/energy-policy-logo.jpg" style="height: 30px;"></span>
 </td>
@@ -780,10 +802,10 @@ Fulltext
 <span class="listing-subtitle"><em>Energy Policy</em></span>
 </td>
 <td>
-<span class="listing-description">The paper examines the application of additionality in the Chinese wind power market and draws implications for the design of effective global carbon offset policy.</span>
+<span class="listing-date">2013</span>
 </td>
 <td>
-<span class="listing-date">2013</span>
+<span class="listing-description">The paper examines the application of additionality in the Chinese wind power market and draws implications for the design of effective global carbon offset policy.</span>
 </td>
 <td>
 <span class="listing-fulltext"><a href="https://drganghe.github.io/files/papers/2013-EP-ChinaWindCDM.pdf">pdf</a></span>

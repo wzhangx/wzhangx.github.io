@@ -12,7 +12,7 @@ listing:
 - id: more-publications
   sort: "date desc"
   type: table
-  fields: [image, title, subtitle, description, date, fulltext]
+  fields: [image, title, subtitle, date, description, fulltext]
   field-display-names: 
       subtitle: "Journal"
       date: "Year"

@@ -1,3 +1,13 @@
+    - path: https://doi.org/10.1016/j.tej.2025.107487
+      image: /files/images/journal/the-electricity-journal-logo.jpg
+      title: "Role of pumped hydro storage in China’s power system decarbonization"
+#      author: 
+      subtitle: "*The Electricity Journal*"
+      description: "Our findings indicate that building excessive PHS may not be the most cost-effective path to achieve zero-carbon power system, if there is no major cost reduction of PHS."
+      date: "2025-07-08"
+      fulltext: "[pdf](https://www.sciencedirect.com/science/article/pii/S1040619025000326/pdfft?md5=b4d917468b239ff9496538b66df8c1f5&pid=1-s2.0-S1040619025000326-main.pdf)"
+      categories: [power-system, china] 
+
     - path: https://iopscience.iop.org/article/10.1088/1748-9326/adc0b3
       image: /files/images/journal/erl.png
       title: "Cost-effectiveness of removing the last 10-20% emissions of China's power sector"
