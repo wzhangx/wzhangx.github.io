@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-07-28">
+<meta name="description" content="Comment published in Nature shows escalating construction expenses threaten to derail global progress on atomic energy. China offers lessons on how to rein in costs.">
 
-<title>Deep Policy Lab</title>
+<title>Nature Comment: Can China Break the ‘Cost Curse’ of Nuclear Power? – Deep Policy Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,30 +22,50 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-169af918da36ef8da63e8c390ac41721.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-169af918da36ef8da63e8c390ac41721.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,20 +95,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-research .list');
+    const listingTargetEl = window.document.querySelector('#listing-coauthors .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-research'] = new List('listing-research', options);
+    window['quarto-listings']['listing-coauthors'] = new List('listing-coauthors', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -101,21 +123,20 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-publications .list');
+    const listingTargetEl = window.document.querySelector('#listing-releases .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 3,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-description","listing-date","listing-fulltext","listing-categories"],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-author","listing-description","listing-date"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-publications'] = new List('listing-publications', options);
+    window['quarto-listings']['listing-releases'] = new List('listing-releases', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -168,17 +189,14 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="./custom.css">
-<meta property="og:title" content="Deep Policy Lab">
-<meta property="og:image" content="http://deeppolicylab.github.io/files/images/cover.png">
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Nature Comment: Can China Break the ‘Cost Curse’ of Nuclear Power? – Deep Policy Lab">
+<meta property="og:description" content="Comment published in Nature shows escalating construction expenses threaten to derail global progress on atomic energy. China offers lessons on how to rein in costs.">
+<meta property="og:image" content="http://deeppolicylab.github.io/files/images/Taishan_Nuclear_Power_Plant.jpg">
 <meta property="og:site_name" content="Deep Policy Lab">
-<meta property="og:image:height" content="1024">
-<meta property="og:image:width" content="1792">
-<meta name="twitter:title" content="Deep Policy Lab">
-<meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/cover.png">
-<meta name="twitter:image-height" content="1024">
-<meta name="twitter:image-width" content="1792">
+<meta name="twitter:title" content="Nature Comment: Can China Break the ‘Cost Curse’ of Nuclear Power? – Deep Policy Lab">
+<meta name="twitter:description" content="Comment published in Nature shows escalating construction expenses threaten to derail global progress on atomic energy. China offers lessons on how to rein in costs.">
+<meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/Taishan_Nuclear_Power_Plant.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -189,7 +207,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Deep Policy Lab</span>
     </a>
   </div>
@@ -200,43 +218,43 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
+    <a class="nav-link" href="../news.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./events.html"> 
+    <a class="nav-link" href="../events.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
+    <a class="nav-link" href="../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
+    <a class="nav-link" href="../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./support.html"> 
+    <a class="nav-link" href="../support.html"> 
 <span class="menu-text">Support</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cn.html"> 
+    <a class="nav-link" href="../cn.html"> 
 <span class="menu-text">中文</span></a>
   </li>  
 </ul>
@@ -263,15 +281,54 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#authors" id="toc-authors" class="nav-link active" data-scroll-target="#authors">Authors</a></li>
+  <li><a href="#release" id="toc-release" class="nav-link" data-scroll-target="#release">Release</a></li>
+  <li><a href="#institutional-releases" id="toc-institutional-releases" class="nav-link" data-scroll-target="#institutional-releases">Institutional Releases</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Nature Comment: Can China Break the ‘Cost Curse’ of Nuclear Power?</h1>
+</div>
+
+<div>
+  <div class="description">
+    Comment published in Nature shows escalating construction expenses threaten to derail global progress on atomic energy. China offers lessons on how to rein in costs.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 28, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
-<!--Please delete or replace with your own clarity-->
+</header>
+
+
+<!--This is my personal clarity, please delete or replace with your own clarity-->
 <!-- 
 https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
 -->
@@ -282,201 +339,77 @@ https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "ktfar1v3c9");
 </script>
-<div class="background-frame">
-<div class="content-block">
-<div class="grid">
-<div class="g-col-12 g-col-md-7">
-<p align="center" style="font-size:30px; font-weight:bold;">
-Welcome to Deep Energy and Climate Policy Lab
-</p>
-<p align="center" style="font-size:24px;">
-Data-driven, Evidence-based, Energy and Climate Solutions
-</p>
-<p align="center" style="font-size:24px;">
-Deep analysis, Deep insights, for Deep decarbonization
-</p>
-<div class="button">
-<p><a href="./about.html" class="btn-action-primary btn-action btn btn-success btn-lg" role="button" style="margin-top: 1em;">Learn more</a></p>
-</div>
-</div>
-<div class="g-col-12 g-col-md-5">
-<p><a href="./about.html" data-fig-align="center"><img src="./files/images/cover.png" class="img-fluid"></a></p>
-</div>
-</div>
-</div>
-</div>
-<div class="background-frame alt-background">
-<div class="content-block">
-<p align="center" style="font-size:36px; font-weight:bold;">
-What we do
-</p>
-<div id="listing-research" class="quarto-listing quarto-listing-container-grid">
+<!--
+![Taishan Nuclear Power Plant](/files/images/Taishan_Nuclear_Power_Plant.jpg)
+-->
+<p>Publication: <em>Nature</em><br>
+Date: July 28, 2025<br>
+Paper <a href="https://www.nature.com/articles/d41586-025-02341-z">link</a><br>
+SharedIt <a href="https://rdcu.be/eyaXW">fulltext</a></p>
+<section id="authors" class="level2">
+<h2 class="anchored" data-anchor-id="authors">Authors</h2>
+<div id="listing-coauthors" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1752921811430" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
-<a href="./research/clean-energy-supply-chains/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
+<div class="g-col-1" data-index="0">
+<a href="https://www.belfercenter.org/people/shangwei-liu" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./research/clean-energy-supply-chains/featured.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../files/headshots/shangwei-liu.webp" class="thumbnail-image card-img" style="height: 180px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Clean Energy Supply Chains
-</h5>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1750707814966" data-listing-reading-time-sort="1" data-listing-word-count-sort="78">
-<a href="./research/power-systems-decarbonization/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/power-systems-decarbonization/featured.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Power Systems Decarbonization
-</h5>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1743177381449" data-listing-reading-time-sort="1" data-listing-word-count-sort="45">
-<a href="./research/climate-impact-energy-systems/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/climate-impact-energy-systems/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Climate Impact on Energy Systems
-</h5>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1750707814966" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
-<a href="./research/energy-nexus-research/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/energy-nexus-research/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Energy Nexus Research
-</h5>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1750707814966" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
-<a href="./research/energy-climate-justice/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/energy-climate-justice/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Energy and Climate Justice
-</h5>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1750707814966" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
-<a href="./research/china-carbon-neutrality-initiative/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/china-carbon-neutrality-initiative/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-China Carbon Neutrality Initiative
-</h5>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1747954941267" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
-<a href="./research/new-york-climate-initiative/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/new-york-climate-initiative/featured.JPG" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New York Climate Initiative
-</h5>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<div class="button">
-<p><a href="./research.html" class="btn-action-primary btn-action btn btn-success btn-lg" role="button" style="margin-top: 0em;">Explore more</a></p>
-</div>
-</div>
-</div>
-<div class="background-frame">
-<div class="content-block">
-<p align="center" style="font-size:36px; font-weight:bold;">
-Read our work
-</p>
-<div id="listing-publications" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmElMkNzdXBwbHktY2hhaW4lMkNmZWF0dXJlZCUyQ251Y2xlYXI=" data-listing-date-sort="1753934400000">
-<a href="https://doi.org/10.1038/d41586-025-02341-z" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/nature.avif" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Can China break the ‘cost curse’ of nuclear power?
+Shangwei LIU
 </h5>
 <div class="card-subtitle listing-subtitle">
-<em>Nature</em>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jul 31, 2025
-</div>
+Postdoctoral Researcher, Harvard University
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmElMkNzdG9yYWdl" data-listing-date-sort="1751947200000">
-<a href="https://doi.org/10.1016/j.tej.2025.107487" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
+<div class="g-col-1" data-index="1" data-categories="RGlyZWN0b3I=">
+<a href="https://drganghe.github.io" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/the-electricity-journal-logo.jpg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="https://drganghe.github.io/files/profile/gang-he-cuny-profile.jpg" class="thumbnail-image card-img" style="height: 180px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Role of pumped hydro storage in China’s power system decarbonization
+Gang HE
 </h5>
 <div class="card-subtitle listing-subtitle">
-<em>The Electricity Journal</em>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jul 8, 2025
-</div>
+Assistant Professor, CUNY Baruch College
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmE=" data-listing-date-sort="1741924800000">
-<a href="https://iopscience.iop.org/article/10.1088/1748-9326/adc0b3" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
+<div class="g-col-1" data-index="2">
+<a href="https://mhqiu.github.io/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/erl.png" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="../files/headshots/minghao-qiu.jpg" class="thumbnail-image card-img" style="height: 180px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Cost-effectiveness of removing the last 10-20% emissions of China’s power sector
+Minghao QIU
 </h5>
 <div class="card-subtitle listing-subtitle">
-<em>Environmental Research Letters</em>
+Assistant Professor, Stony Brook University
 </div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Mar 14, 2025
 </div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3">
+<a href="https://bdp.jhu.edu/bd-professors/daniel-kammen/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="../files/headshots/daniel-kammen.jpg" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Daniel M. KAMMEN
+</h5>
+<div class="card-subtitle listing-subtitle">
+Bloomberg Distinguished Professor of Just Energy Transition, Johns Hopkins University
 </div>
 </div>
 </div></a>
@@ -484,16 +417,101 @@ Mar 14, 2025
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<div class="button">
-<p><a href="./more-publications.html" class="btn-action-primary btn-action btn btn-success btn-lg" role="button" style="margin-top: 0em;">Read more</a></p>
+</section>
+<section id="release" class="level2">
+<h2 class="anchored" data-anchor-id="release">Release</h2>
+<p><strong>Nuclear Renaissance? China’s Strategy Offers Lessons to Curb Soaring Construction Costs</strong></p>
+<p>New Nature Comment article shows how China’s energy policy and industrial approach have brought nuclear construction costs down, offering insights for global clean energy transition.</p>
+<p>July 28, 2025 — As countries race to scale up nuclear power to meet climate goals and power data centers, a longstanding problem persists: nuclear plants are notoriously expensive to build. But a new article in Nature Comment article reveals that China is reversing this global trend—offering lessons for how to rein in costs.</p>
+<p>In the article, researchers from Harvard, CUNY, Stony Brook, and Johns Hopkins analyze newly compiled, plant-level data to show how China has managed to reduce nuclear construction costs over time. The authors credit China’s approach to a combination of standardized designs, strategic indigenization of components, and coordinated industrial policy.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.nature.com/articles/d41586-025-02341-z"><img src="../files/images/Nuclear-Costs.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></a></p>
+</figure>
+</div>
+<figcaption>Chart shows that China has reined in the expenses associated with commercial nuclear units, while costs rose in the U.S. and France. <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></figcaption>
+</figure>
+</div>
+<p>“Historically, in most countries, the more nuclear we build, the more expensive it gets, a phenomenon often called the nuclear cost curse,” said Shangwei Liu, lead author and researcher at the Belfer Center at Harvard Kennedy School. “China is the only country that has substantially expanded its nuclear fleet over the two past decades, but no comprehensive cost data was available. Here, we compile that data for the first time and find, somewhat surprisingly, that costs have been declining.”</p>
+<p>The authors caution that nuclear power is still not “cheap,” but argue that China’s experience offers a valuable lessons for other countries aiming to deploy nuclear energy affordably and at scale. In particular, the article highlights the importance of coordinated regulation, staged indigenization of manufacturing, and long-term planning.</p>
+<p>“Substituting expensive imports with domestically produced components substantially lowered costs,” said Gang He, assistant professor at the Marxe School of Public and International Affairs at CUNY Baruch College and Doctoral Faculty at the CUNY Graduate Center. “Strategic indigenization may be the key not only for nuclear, but also for other clean technologies in countries seeking to scale up rapidly.”</p>
+<p>The authors also call on researchers, policymakers, and industry leaders to avoid repeating past mistakes—such as abandoning standardized designs or rushing to localize complex systems before domestic capabilities are ready. They argue for deeper component-level cost analysis and greater alignment between safety and cost control in regulatory systems.</p>
+<p>“Countries that export nuclear technology should collaborate with importing ones,” said Minghao Qiu, assistant professor at Stony Brook University, “identify components that can be locally manufactured and train the workforce.”</p>
+<p>As interest in small modular reactors (SMRs) grows and new nations enter the nuclear arena, the authors urge decision-makers to learn from both success stories and setbacks. “China shows that nuclear costs don’t have to rise with scale,” said Daniel Kammen, Bloomberg Distinguished Professor of Just Energy Transition at Johns Hopkins University. “But breaking the cost curse will take more than technology—it will take a smart and strategic approach.”</p>
+</section>
+<section id="institutional-releases" class="level2">
+<h2 class="anchored" data-anchor-id="institutional-releases">Institutional Releases</h2>
+<div id="listing-releases" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1753675200000">
+<a href="https://www.gc.cuny.edu/news/chinas-nuclear-power-development-strategy-holds-key-lower-costs" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../files/images/university/cuny.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+China’s Nuclear Power Development Strategy Holds Key to Lower Costs
+</h5>
+<div class="card-subtitle listing-subtitle">
+CUNY Graduate Center
 </div>
 </div>
+</div></a>
 </div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1753675200000">
+<a href="https://hub.jhu.edu/2025/07/28/curbing-nuclear-power-plant-costs/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../files/images/university/jhu.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Nuclear plants too expensive? China shows low-cost construction possible
+</h5>
+<div class="card-subtitle listing-subtitle">
+Johns Hopkins University
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<p><strong>Citation</strong></p>
+<ul>
+<li>Liu, Shangwei, Gang He, Minghao Qiu, and Daniel Kammen. 2025. “Can China break the ‘cost curse’ of nuclear power?” <em>Nature</em>, 643: 1186-1188. <a href="https://doi.org/10.1038/d41586-025-02341-z" class="uri">https://doi.org/10.1038/d41586-025-02341-z</a>.</li>
+</ul>
+<p>Learn <a href="https://drganghe.github.io/posts/2025-07-nature-breaking-the-cost-curse-of-nuclear-power/index.html">more</a> about the research.</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
 
 
 
 
+</section>
 
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-rothwellProjectedElectricityCosts2022" class="csl-entry" role="listitem">
+Rothwell, Geoffrey. 2022. <span>“Projected Electricity Costs in International Nuclear Power Markets.”</span> <em>Energy Policy</em> 164 (May): 112905. <a href="https://doi.org/10.1016/j.enpol.2022.112905">https://doi.org/10.1016/j.enpol.2022.112905</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><strong>Clarification regarding Flamanville 3 cost estimates</strong>: At the time of our data collection, Flamanville 3 was still under construction, with published overnight cost estimates ranging from $4.013/W to $8.62/W <span class="citation" data-cites="rothwellProjectedElectricityCosts2022">(see <a href="#ref-rothwellProjectedElectricityCosts2022" role="doc-biblioref">Rothwell 2022</a>, Table 2)</span>. In our original figure (now included as <a href="https://media.nature.com/original/magazine-assets/d41586-025-02341-z/51274736">Supplementary Figure S1</a>), we used the lower bound estimate of $4/W and denoted it as “&gt; $4/W” to reflect the uncertainty and acknowledge that this conservative value already illustrates the magnitude of cost escalation in France’s recent nuclear construction. Subsequently, the <a href="https://www.ccomptes.fr/fr/publications/la-filiere-epr-une-dynamique-nouvelle-des-risques-persistants">2025 French Court of Auditors’ review</a> placed the overnight construction cost at over $10/W. We note that the “&gt;” symbol was inadvertently omitted from the final published figure, and we apologize for this oversight.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

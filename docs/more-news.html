@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Featured Publications – Deep Policy Lab</title>
+<title>News – Deep Policy Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,20 +73,48 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-publications .list');
+    const listingTargetEl = window.document.querySelector('#listing-release .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-description","listing-date","listing-fulltext","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-publications'] = new List('listing-publications', options);
+    window['quarto-listings']['listing-release'] = new List('listing-release', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-news .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-author','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-author","listing-description","listing-date"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-news'] = new List('listing-news', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -140,13 +168,13 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Featured Publications – Deep Policy Lab">
-<meta property="og:description" content="Featured papers and articles">
-<meta property="og:image" content="http://deeppolicylab.github.io/files/images/journal/est-50-11-cover-crop.jpg">
+<meta property="og:title" content="News – Deep Policy Lab">
+<meta property="og:description" content="What’s new &amp; In the news">
+<meta property="og:image" content="http://deeppolicylab.github.io/research/clean-energy-supply-chains/featured.jpeg">
 <meta property="og:site_name" content="Deep Policy Lab">
-<meta name="twitter:title" content="Featured Publications – Deep Policy Lab">
-<meta name="twitter:description" content="Featured papers and articles">
-<meta name="twitter:image" content="http://deeppolicylab.github.io/files/images/journal/est-50-11-cover-crop.jpg">
+<meta name="twitter:title" content="News – Deep Policy Lab">
+<meta name="twitter:description" content="What’s new &amp; In the news">
+<meta name="twitter:image" content="http://deeppolicylab.github.io/research/clean-energy-supply-chains/featured.jpeg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -192,7 +220,7 @@ window.Quarto = {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./publications.html" aria-current="page"> 
+    <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
@@ -234,16 +262,14 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Featured Publications</h1>
-<p class="subtitle lead">Featured papers and articles</p>
+<h1 class="title">News</h1>
+<p class="subtitle lead">What’s new &amp; In the news</p>
 </div>
 
 
@@ -260,35 +286,23 @@ window.Quarto = {
 </header>
 
 
-<!--Please delete or replace with your own clarity-->
-<!-- 
-https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
--->
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "ktfar1v3c9");
-</script>
-<div id="listing-publications" class="quarto-listing quarto-listing-container-grid">
+<section id="release" class="level2">
+<h2 class="anchored" data-anchor-id="release">Release</h2>
+<div id="listing-release" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-publications-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-publications'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+    <select id="listing-release-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-release'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
       <option value="" disabled="" selected="" hidden="">Order By</option>
       <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-subtitle" data-direction="asc">
-        Journal
-      </option>
       <option value="listing-date-sort" data-direction="asc">
-        Year - Oldest
+        Date - Oldest
       </option>
       <option value="listing-date-sort" data-direction="desc">
-        Year - Newest
+        Date - Newest
+      </option>
+      <option value="listing-title-sort" data-direction="asc">
+        Title
       </option>
     </select>
   </div>
@@ -297,301 +311,515 @@ https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmElMkNzdXBwbHktY2hhaW4lMkNmZWF0dXJlZCUyQ251Y2xlYXI=" data-listing-date-sort="1753934400000">
-<a href="https://doi.org/10.1038/d41586-025-02341-z" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/nature.avif" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Can China break the ‘cost curse’ of nuclear power?
-</h5>
-<div class="card-subtitle listing-subtitle">
-<em>Nature</em>
-</div>
-<div class="card-text listing-description delink">
-<p>Escalating construction expenses threaten to derail global progress on atomic energy. China offers lessons on how to rein in costs.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jul 31, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2p1c3QtdHJhbnNpdGlvbiUyQ2NvYWw=" data-listing-date-sort="1730782800000">
-<a href="https://doi.org/10.1016/j.oneear.2024.10.006" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/one-earth-logo.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Fewer than 15% of coal power plant workers in China can easily shift to green jobs by 2060
-</h5>
-<div class="card-subtitle listing-subtitle">
-<em>One Earth</em>
-</div>
-<div class="card-text listing-description delink">
-<p>A coal power worker needs to travel 194 (178–242) km on average to access a green job. Only 11%–14% of existing coal power workers will transition to green jobs by 2060.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Nov 5, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="ZmVhdHVyZWQlMkNzdXBwbHktY2hhaW4lMkNjYXJib24lMkNzb2xhcg==" data-listing-date-sort="1696996800000">
-<a href="https://www.nature.com/articles/s43247-023-01006-x" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/commsearth.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Deploying solar photovoltaic energy first in carbon-intensive regions brings gigatons more carbon mitigations to 2060
-</h5>
-<div class="card-subtitle listing-subtitle">
-<em>Communications Earth &amp; Environment</em>
-</div>
-<div class="card-text listing-description delink">
-<p>A net GHG mitigation of 1.29 Gt CO2-equivalent from 2009–2019, achieved by 1.97 Gt of mitigation from installation minus 0.68 Gt of emissions from manufacturing.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 11, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0lMkNjaGluYSUyQ3N0b3JhZ2U=" data-listing-date-sort="1691726400000">
-<a href="https://www.nature.com/articles/s41467-023-40337-3" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/nature-comms.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Heterogeneous effects of battery storage deployment strategies on decarbonization of provincial power systems in China
-</h5>
-<div class="card-subtitle listing-subtitle">
-<em>Nature Communications</em>
-</div>
-<div class="card-text listing-description delink">
-<p>We find heterogeneous strategy provides the lowest system costs, however, carbon emissions depend on carbon prices.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 11, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="ZmVhdHVyZWQlMkNlbmVyZ3ktbmV4dXMlMkN3YXRlciUyQ2NhcmJvbg==" data-listing-date-sort="1691380800000">
-<a href="https://www.nature.com/articles/s44221-023-00120-6" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/nature-water.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Global assessment of the carbon–water tradeoff of dry cooling for thermal power generation
-</h5>
-<div class="card-subtitle listing-subtitle">
-<em>Nature Water</em>
-</div>
-<div class="card-text listing-description delink">
-<p>We build a global unit-level framework to investigate the CO2 emission and energy penalty due to the deployment of dry cooling.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 7, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="ZmVhdHVyZWQlMkNjbGltYXRlLWltcGFjdCUyQ3NvbGFyJTJDd2luZA==" data-listing-date-sort="1690171200000">
-<a href="https://www.nature.com/articles/s41560-023-01304-w" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/nature-energy.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Climate change impacts on planned supply–demand match in global wind and solar energy systems
-</h5>
-<div class="card-subtitle listing-subtitle">
-<em>Nature Energy</em>
-</div>
-<div class="card-text listing-description delink">
-<p>Up to 32% or 44% of non-Antarctic land areas for wind or solar, respectively, are projected to experience supply demand match reductions by the end of this century under an…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jul 24, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="ZmVhdHVyZWQlMkNzdXBwbHktY2hhaW4lMkNzb2xhcg==" data-listing-date-sort="1666756800000">
-<a href="https://www.nature.com/articles/s41586-022-05316-6" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/nature.avif" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Quantifying the cost savings of global solar photovoltaic supply chains
-</h5>
-<div class="card-subtitle listing-subtitle">
-<em>Nature</em>
-</div>
-<div class="card-text listing-description delink">
-<p>Globalized supply chain has saved solar installers in the U.S., Germany, and China $67B 2008-2020, and solar prices will be 20-30% higher in 2030 if countries move to…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 26, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2NhcmJvbg==" data-listing-date-sort="1646110800000">
-<a href="https://www.nature.com/articles/s43017-021-00244-x" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/nature-reviews-earth.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Challenges and opportunities for carbon neutrality in China
-</h5>
-<div class="card-subtitle listing-subtitle">
-<em>Nature Reviews Earth &amp; Environment</em>
-</div>
-<div class="card-text listing-description delink">
-<p>In this Perspective, we summarize the key features of China’s CO2 emissions, its reduction processes and successes in meeting climate targets.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Mar 1, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="ZmVhdHVyZWQlMkNjaGluYSUyQ2NvYWwlMkNqdXN0LXRyYW5zaXRpb24=" data-listing-date-sort="1597982400000">
-<a href="https://doi.org/10.1016/j.oneear.2020.07.012" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/one-earth-logo.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Enabling a Rapid and Just Transition away from Coal in China
-</h5>
-<div class="card-subtitle listing-subtitle">
-<em>One Earth</em>
-</div>
-<div class="card-text listing-description delink">
-<p>Aggressive coal-transition pathway is needed to achieve carbon nutrality goal while achieving water saving, avoiding premature death.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 21, 2020
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0lMkNjaGluYQ==" data-listing-date-sort="1589860800000">
-<a href="https://www.nature.com/articles/s41467-020-16184-x" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/nature-comms.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Rapid cost decrease of renewables and storage accelerates the decarbonization of China’s power system
-</h5>
-<div class="card-subtitle listing-subtitle">
-<em>Nature Communications</em>
-</div>
-<div class="card-text listing-description delink">
-<p>A renewable dominant pathway is not just technogical sound, but also cost effective.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 19, 2020
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="10" data-categories="ZmVhdHVyZWQlMkNjaGluYQ==" data-listing-date-sort="1498881600000">
-<a href="https://doi.org/10.1016/j.resconrec.2017.03.011" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/rcr-logo.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Experiences and lessons from China’s success in providing electricity for all
-</h5>
-<div class="card-subtitle listing-subtitle">
-<em>Resources, Conservation and Recycling</em>
-</div>
-<div class="card-text listing-description delink">
-<p>Key experiences and lessons to be learned from China’s successful program to provide electricity for all.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jul 1, 2017
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="11" data-categories="ZmVhdHVyZWQlMkNwb3dlci1zeXN0ZW0lMkNjaGluYQ==" data-listing-date-sort="1462680000000">
-<a href="https://pubs.acs.org/doi/10.1021/acs.est.6b01345" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/journal/est-50-11-cover-crop.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-SWITCH-China: A Systems Approach to Decarbonizing China’s Power System
-</h5>
-<div class="card-subtitle listing-subtitle">
-<em>Environmental Science &amp; Technology</em>
-</div>
-<div class="card-text listing-description delink">
-<p>SWITCH-China, an integrated model for power sector decarbonization.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 8, 2016
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+ 
+</th>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+
+<th>
+Description
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-date-sort="1753675200000" data-listing-file-modified-sort="1754076337288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="676" data-listing-title-sort="Nature Comment: Can China Break the ‘Cost Curse’ of Nuclear Power?" data-listing-filename-sort="2025-07-28-nature-comment-nuclear-costs.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/Taishan_Nuclear_Power_Plant.jpg" style="height: 20px;"></span>
+</td>
+<td>
+<a href="./news/2025-07-28-nature-comment-nuclear-costs.html" class="title listing-title">Nature Comment: Can China Break the ‘Cost Curse’ of Nuclear Power?</a>
+</td>
+<td>
+<span class="listing-date">2025-07-28</span>
+</td>
+<td>
+<span class="listing-description">Comment published in Nature shows escalating construction expenses threaten to derail global progress on atomic energy. China offers lessons on how to rein in costs.</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-date-sort="1730869200000" data-listing-file-modified-sort="1731590779103" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="462" data-listing-title-sort="New Study Shows Fewer Than 15% of China’s Coal Power Plant Workers Can Easily Transition to Green Jobs by 2060" data-listing-filename-sort="2024-11-06-one-earth-coal-jobs-transition.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/coal-power.JPG" style="height: 20px;"></span>
+</td>
+<td>
+<a href="./news/2024-11-06-one-earth-coal-jobs-transition.html" class="title listing-title">New Study Shows Fewer Than 15% of China’s Coal Power Plant Workers Can Easily Transition to Green Jobs by 2060</a>
+</td>
+<td>
+<span class="listing-date">2024-11-06</span>
+</td>
+<td>
+<span class="listing-description">Study published in One Earth shows less than 15% of China’s coal power plant workforce will find it easy to shift into green jobs, a coal power worker needs to travel 194 (178–242) km on average to access a green job.</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-listing-date-sort="1730433600000" data-listing-title-sort="New Grant: Exploring Energy Burden Among the Older Adults and People with Disabilities in New York City Public Housing Communities">
+<td>
+<span class="listing-image"><img loading="lazy" src="https://drganghe.github.io/files/images/nyc-mid-town.webp" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://deeppolicylab.github.io/projects/2024-ssa-energy-burden-older-adults-people-with-disabilities-nyc.html" class="title listing-title">New Grant: Exploring Energy Burden Among the Older Adults and People with Disabilities in New York City Public Housing Communities</a>
+</td>
+<td>
+<span class="listing-date">2024-11-01</span>
+</td>
+<td>
+<span class="listing-description">Gang He, Kaifang Luo, Hilary Botein, and Frank Heiland were awarded a SSA grant</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-listing-date-sort="1729569600000" data-listing-title-sort="Baruch College Faculty Included in World’s Top Scientist List">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/baruch-college.webp" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://newscenter.baruch.cuny.edu/news/baruch-college-faculty-included-in-worlds-top-scientist-list/" class="title listing-title">Baruch College Faculty Included in World’s Top Scientist List</a>
+</td>
+<td>
+<span class="listing-date">2024-10-22</span>
+</td>
+<td>
+<span class="listing-description">Dr.&nbsp;Gang He is included in Stanford University and Elsevier’s “World’s Top 2% Scientists” list for 2024</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-listing-date-sort="1691553600000" data-listing-title-sort="Taking a Global Look at Dry and Alternative Water Cooling of Power Plants">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/dry-cooling.webp" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://news.stonybrook.edu/newsroom/taking-a-global-look-at-dry-and-alternative-water-cooling-of-power-plants/" class="title listing-title">Taking a Global Look at Dry and Alternative Water Cooling of Power Plants</a>
+</td>
+<td>
+<span class="listing-date">2023-08-09</span>
+</td>
+<td>
+<span class="listing-description">Study published in Nature Water suggests integrating planning may reduce carbon emissions in the future</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-listing-date-sort="1603684800000" data-listing-title-sort="Global Collaboration is Key to Saving Billions for Solar Module Production">
+<td>
+<span class="listing-image"><img loading="lazy" src="./research/clean-energy-supply-chains/featured.jpeg" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://news.stonybrook.edu/newsroom/global-collaboration-is-key-to-saving-billions-for-solar-module-production/" class="title listing-title">Global Collaboration is Key to Saving Billions for Solar Module Production</a>
+</td>
+<td>
+<span class="listing-date">2020-10-26</span>
+</td>
+<td>
+<span class="listing-description">Study published in Nature quantifies for the first time past and future country cost savings to the solar industry from globalized supply chains.</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-listing-date-sort="1597982400000" data-listing-title-sort="Energy Transition Away from Coal in China Will Yield Benefits">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/coal-transfer-hub.jpg" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://news.stonybrook.edu/newsroom/energy-transition-away-from-coal-in-china-will-yield-benefits/" class="title listing-title">Energy Transition Away from Coal in China Will Yield Benefits</a>
+</td>
+<td>
+<span class="listing-date">2020-08-21</span>
+</td>
+<td>
+<span class="listing-description">In a perspective paper published in One Earth, an international scientific team contends that China needs to transition away from coal to help the world achieve global decarbonization and improve the nation’s environmental and human health.</span>
+</td>
+
+</tr>
+
+<tr data-index="7" data-listing-date-sort="1590984000000" data-listing-title-sort="Study Shows Decrease in Renewable Energy Costs May Serve as an Accelerator for Clean Energy Expansion">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/wind-farm.jpg" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://news.stonybrook.edu/newsroom/study-shows-decrease-in-renewable-energy-costs-may-serve-as-an-accelerator-for-clean-energy-expansion/" class="title listing-title">Study Shows Decrease in Renewable Energy Costs May Serve as an Accelerator for Clean Energy Expansion</a>
+</td>
+<td>
+<span class="listing-date">2020-06-01</span>
+</td>
+<td>
+<span class="listing-description">The study reveals fast decarbonization is both technically feasible and economically beneficial, which offers the prospect of large emissions mitigation with a global environmental impact.</span>
+</td>
+
+</tr>
+
+<tr data-index="8" data-listing-date-sort="1579410000000" data-listing-title-sort="NSF Wokshop on Data Science Across the Undergraduate Curriculum">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/NSF-Workshop.jpg" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://news.stonybrook.edu/homespotlight/stony-brook-university-hosts-nsf-funded-data-science-workshop/" class="title listing-title">NSF Wokshop on Data Science Across the Undergraduate Curriculum</a>
+</td>
+<td>
+<span class="listing-date">2020-01-19</span>
+</td>
+<td>
+<span class="listing-description">On January 9-10, 2020, we hosted the NSF funded workshop entitled “Data Science Across the Undergraduate Curriculum: University-Industry Online Case Studies on Applications of Data Science.” </span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<p align="right">
-<a href="./more-publications.html">More Publications »</a>
-</p>
+</section>
+<section id="media" class="level2">
+<h2 class="anchored" data-anchor-id="media">Media</h2>
+<div id="listing-news" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-news-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-news'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-image" data-direction="asc">
+      </option>
+      <option value="listing-title-sort" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-subtitle" data-direction="asc">
+        Media
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Author
+      </option>
+      <option value="listing-description" data-direction="asc">
+        Description
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-image" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;"> </a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-subtitle" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Media</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-description" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Description</a>
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-date-sort="1700110800000" data-listing-title-sort="What the U.S.-China Agreement Means for Greenhouse Gas Emissions">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/media/scientific-american.webp" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://www.scientificamerican.com/article/what-the-u-s-china-agreement-means-for-greenhouse-gas-emissions/" class="title listing-title">What the U.S.-China Agreement Means for Greenhouse Gas Emissions</a>
+</td>
+<td>
+<span class="listing-subtitle">Scientific American</span>
+</td>
+<td>
+<span class="listing-author">Benjamin Storrow, Sara Schonhardt</span>
+</td>
+<td>
+<span class="listing-date">2023-11-16</span>
+</td>
+<td>
+<span class="listing-description">The two nations announced limited steps to address climate change. But even a modest agreement could have far-reaching effects.</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-date-sort="1695268800000" data-listing-title-sort="Can the U.S. and China Cooperate on Green Technology Again?">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/media/foreign-policy.webp" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://foreignpolicy.com/2023/09/21/us-china-climate-cooperation-trade-ira-green-technology/" class="title listing-title">Can the U.S. and China Cooperate on Green Technology Again?</a>
+</td>
+<td>
+<span class="listing-subtitle">Foreign Policy</span>
+</td>
+<td>
+<span class="listing-author">Lili Pike</span>
+</td>
+<td>
+<span class="listing-date">2023-09-21</span>
+</td>
+<td>
+<span class="listing-description">A study published in Nature last year found that if the United States, Germany, and China all decided to shift to fully domestic solar production starting in 2020, by 2030 global solar costs would be 20 percent to 30 percent higher.</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-listing-date-sort="1666843200000" data-listing-title-sort="How Biden’s made-in-America solar strategy may backfire">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/media/ee-news.png" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://www.eenews.net/articles/how-bidens-made-in-america-solar-strategy-may-backfire/" class="title listing-title">How Biden’s made-in-America solar strategy may backfire</a>
+</td>
+<td>
+<span class="listing-subtitle">E&amp;E News</span>
+</td>
+<td>
+<span class="listing-author">David Iaconangelo</span>
+</td>
+<td>
+<span class="listing-date">2022-10-27</span>
+</td>
+<td>
+<span class="listing-description">A new study in <em>Nature</em> concludes that policies similar to ones the administration is considering could make solar panels 30 percent more expensive by the end of the decade.</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-listing-date-sort="1645074000000" data-listing-title-sort="New energy transition guidance; Five coal plants approved; Energy-efficiency targets raised">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/media/carbon-brief.webp" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://www.carbonbrief.org/china-briefing-17-february-2022-new-energy-transition-guidance-five-coal-plants-approved-energy-efficiency-targets-raised/" class="title listing-title">New energy transition guidance; Five coal plants approved; Energy-efficiency targets raised</a>
+</td>
+<td>
+<span class="listing-subtitle">Carbon Brief</span>
+</td>
+<td>
+<span class="listing-author">Carbon Brief Staff</span>
+</td>
+<td>
+<span class="listing-date">2022-02-17</span>
+</td>
+<td>
+<span class="listing-description">Gang He told Carbon Brief: “There are other and better options: renewables are achieving grid parity which could accelerate a renewable-dominant pathway. Such a pathway is both technically feasible and economically beneficial to China’s development.”</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-listing-date-sort="1637557200000" data-listing-title-sort="China creates vast research infrastructure to support ambitious climate goals">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/media/nature.webp" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://www.nature.com/articles/d41586-021-03491-6" class="title listing-title">China creates vast research infrastructure to support ambitious climate goals</a>
+</td>
+<td>
+<span class="listing-subtitle">Nature</span>
+</td>
+<td>
+<span class="listing-author">Smriti Mallapaty</span>
+</td>
+<td>
+<span class="listing-date">2021-11-22</span>
+</td>
+<td>
+<span class="listing-description">Carbon-neutrality institutes, and other initiatives to support a pledge to achieve net zero by 2060, are popping up like mushrooms across China.</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-listing-date-sort="1603080000000" data-listing-title-sort="How China could be carbon neutral by mid-century">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/media/nature.webp" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://www.nature.com/articles/d41586-020-02927-9" class="title listing-title">How China could be carbon neutral by mid-century</a>
+</td>
+<td>
+<span class="listing-subtitle">Nature</span>
+</td>
+<td>
+<span class="listing-author">Smriti Mallapaty</span>
+</td>
+<td>
+<span class="listing-date">2020-10-19</span>
+</td>
+<td>
+<span class="listing-description">Nature special report examines the role of renewables, nuclear power and carbon capture in reaching this ambitious goal.</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-listing-date-sort="1600833600000" data-listing-title-sort="China Says It Will Stop Releasing CO2 within 40 Years">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/media/scientific-american.webp" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://www.scientificamerican.com/article/china-says-it-will-stop-releasing-co2-within-40-years/" class="title listing-title">China Says It Will Stop Releasing CO2 within 40 Years</a>
+</td>
+<td>
+<span class="listing-subtitle">Scientific American</span>
+</td>
+<td>
+<span class="listing-author">Jean Chemnick, Benjamin Storrow</span>
+</td>
+<td>
+<span class="listing-date">2020-09-23</span>
+</td>
+<td>
+<span class="listing-description">The surprise announcement vaults the country ahead of U.S. climate ambitions and could encourage developing countries to follow suit.</span>
+</td>
+
+</tr>
+
+<tr data-index="7" data-listing-date-sort="1597032000000" data-listing-title-sort="Plummeting Renewable Energy, Battery Prices Mean China Could Hit 62% Clean Power And Cut Costs 11% By 2030">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/media/forbes.png" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://www.forbes.com/sites/energyinnovation/2020/08/10/plummeting-renewable-energy-battery-prices-mean-china-could-hit-62-clean-power-and-cut-costs-11-by-2030/" class="title listing-title">Plummeting Renewable Energy, Battery Prices Mean China Could Hit 62% Clean Power And Cut Costs 11% By 2030</a>
+</td>
+<td>
+<span class="listing-subtitle">Forbes</span>
+</td>
+<td>
+<span class="listing-author">Energy Innovation</span>
+</td>
+<td>
+<span class="listing-date">2020-08-10</span>
+</td>
+<td>
+<span class="listing-description">New research shows plummeting clean energy prices mean China could reliably run its grids on at least 62% non-fossil electricity generation by 2030, while cutting costs 11% compared to a business-as-usual approach. Once again, it’s cheaper to save the climate than destroy it.</span>
+</td>
+
+</tr>
+
+<tr data-index="8" data-listing-date-sort="1591675200000" data-listing-title-sort="Surging coal use in China threatens global CO2 goals">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/media/ee-news.png" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://subscriber.politicopro.com/article/eenews/1063354565" class="title listing-title">Surging coal use in China threatens global CO2 goals</a>
+</td>
+<td>
+<span class="listing-subtitle">E&amp;E News</span>
+</td>
+<td>
+<span class="listing-author">Benjamin Storrow</span>
+</td>
+<td>
+<span class="listing-date">2020-06-09</span>
+</td>
+<td>
+<span class="listing-description">The fast decrease in the cost of solar, wind and storage, and technological innovation has fundamentally changed the economics of renewables, said Gang He, our analysis shows that such a fast decarbonization and clean power transition is both technically feasible and economicallybeneficial.</span>
+</td>
+
+</tr>
+
+<tr data-index="9" data-listing-date-sort="1591243200000" data-listing-title-sort="China's Path to Clean Energy May Be Smoother than We Previously Thought">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/media/inside-climate-news.png" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://insideclimatenews.org/news/04062020/inside-clean-energy-arkansas-rooftop-solar/" class="title listing-title">China’s Path to Clean Energy May Be Smoother than We Previously Thought</a>
+</td>
+<td>
+<span class="listing-subtitle">Inside Climate News</span>
+</td>
+<td>
+<span class="listing-author">Dan Gearino</span>
+</td>
+<td>
+<span class="listing-date">2020-06-04</span>
+</td>
+<td>
+<span class="listing-description">A new paper in the journal <em>Nature Communications</em> says the probable reality is much better than we previously thought, largely because of falling costs of wind, solar and battery storage.</span>
+</td>
+
+</tr>
+
+<tr data-index="10" data-listing-date-sort="1550466000000" data-listing-title-sort="Bill Calls For An Emissions-Free NY By 2050">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/media/wshu-public-radio.png" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://www.wshu.org/government/2019-02-18/bill-calls-for-an-emissions-free-ny-by-2050" class="title listing-title">Bill Calls For An Emissions-Free NY By 2050</a>
+</td>
+<td>
+<span class="listing-subtitle">WSHU Public Radio</span>
+</td>
+<td>
+<span class="listing-author">Jay Shah</span>
+</td>
+<td>
+<span class="listing-date">2019-02-18</span>
+</td>
+<td>
+<span class="listing-description">In addition to policy, technology, there are also behavior components to that. How we incentivize people to change their behavior and their lifestyle.</span>
+</td>
+
+</tr>
+
+<tr data-index="11" data-listing-date-sort="1427947200000" data-listing-title-sort="Where is the world's greenest city?">
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/media/the-guardian.webp" style="height: 20px;"></span>
+</td>
+<td>
+<a href="https://www.theguardian.com/cities/2015/apr/02/where-is-the-worlds-greenest-city-ecofriendly" class="title listing-title">Where is the world’s greenest city?</a>
+</td>
+<td>
+<span class="listing-subtitle">The Guardian</span>
+</td>
+<td>
+<span class="listing-author">Hayley Birch</span>
+</td>
+<td>
+<span class="listing-date">2015-04-02</span>
+</td>
+<td>
+<span class="listing-description">In a 2015 study published in the journal Ecological Indicators, scientists based at the Lawrence Berkeley National Laboratory in California have fine-tuned a potential method for assessing Chinese “eco-cities” using 33 key indicators. </span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 <!--Include social share buttons-->
 <!-- 
 AddToAny check more: https://www.addtoany.com/buttons/for/website 
@@ -605,6 +833,7 @@ https://quarto.org/docs/authoring/includes.html
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

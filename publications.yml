@@ -1,3 +1,13 @@
+    - path: https://doi.org/10.1038/d41586-025-02341-z
+      image: /files/images/journal/nature.avif
+      title: "Can China break the ‘cost curse’ of nuclear power?"
+#      author: 
+      subtitle: "*Nature*"
+      description: "Escalating construction expenses threaten to derail global progress on atomic energy. China offers lessons on how to rein in costs."
+      date: "2025-07-31"
+      fulltext: "[SharedIt](https://rdcu.be/eyaXW)"
+      categories: [power-system, china, supply-chain, featured, nuclear] 
+
     - path: https://doi.org/10.1016/j.tej.2025.107487
       image: /files/images/journal/the-electricity-journal-logo.jpg
       title: "Role of pumped hydro storage in China’s power system decarbonization"
@@ -6,7 +16,7 @@
       description: "Our findings indicate that building excessive PHS may not be the most cost-effective path to achieve zero-carbon power system, if there is no major cost reduction of PHS."
       date: "2025-07-08"
       fulltext: "[pdf](https://www.sciencedirect.com/science/article/pii/S1040619025000326/pdfft?md5=b4d917468b239ff9496538b66df8c1f5&pid=1-s2.0-S1040619025000326-main.pdf)"
-      categories: [power-system, china] 
+      categories: [power-system, china, storage] 
 
     - path: https://iopscience.iop.org/article/10.1088/1748-9326/adc0b3
       image: /files/images/journal/erl.png
@@ -57,7 +67,7 @@
       description: "A net GHG mitigation of 1.29 Gt CO2-equivalent from 2009–2019, achieved by 1.97 Gt of mitigation from installation minus 0.68 Gt of emissions from manufacturing."
       date: "2023-10-11"
       fulltext: "[pdf](https://www.nature.com/articles/s43247-023-01006-x.pdf)"
-      categories: [featured, supply-chain] 
+      categories: [featured, supply-chain, carbon, solar] 
 
     - path: https://iopscience.iop.org/article/10.1088/1748-9326/acf84b
       image: /files/images/journal/erl.png
@@ -77,7 +87,7 @@
       description: "We build a global unit-level framework to investigate the CO2 emission and energy penalty due to the deployment of dry cooling."
       date: "2023-08-07"
       fulltext: "[SharedIt](https://rdcu.be/diKmv)"
-      categories: [featured, energy-nexus, water] 
+      categories: [featured, energy-nexus, water, carbon] 
 
     - path: https://www.nature.com/articles/s41560-023-01304-w
       image: /files/images/journal/nature-energy.jpg
@@ -87,7 +97,7 @@
       description: "Up to 32% or 44% of non-Antarctic land areas for wind or solar, respectively, are projected to experience supply demand match reductions by the end of this century under an intermediate emission scenario."
       date: "2023-07-24"
       fulltext: "[pdf](https://www.nature.com/articles/s41560-023-01304-w.pdf)"
-      categories: [featured, climate-impact] 
+      categories: [featured, climate-impact, solar, wind] 
 
     - path: https://www.nature.com/articles/s41467-023-40337-3
       image: /files/images/journal/nature-comms.png
@@ -97,7 +107,7 @@
       description: "We find heterogeneous strategy provides the lowest system costs, however, carbon emissions depend on carbon prices."
       date: "2023-08-11"
       fulltext: "[pdf](https://www.nature.com/articles/s41467-023-40337-3.pdf)"
-      categories: [featured, power-system, china] 
+      categories: [featured, power-system, china, storage] 
 
     - path: https://www.nature.com/articles/s41586-022-05316-6
       image: /files/images/journal/nature.avif
@@ -107,7 +117,7 @@
       description: "Globalized supply chain has saved solar installers in the U.S., Germany, and China $67B 2008-2020, and solar prices will be 20-30% higher in 2030 if countries move to produce domestically."
       date: "2022-10-26"
       fulltext: "[SharedIt](https://rdcu.be/enuBz)"
-      categories: [featured, supply-chain] 
+      categories: [featured, supply-chain, solar] 
 
     - path: https://doi.org/10.1109/TIA.2021.3116916
       image: /files/images/journal/ieee-ias-logo.webp
@@ -117,7 +127,7 @@
       description: "Hydrogen could link power and transport systems and reduce costs of deep decarbonization for both sectors."
       date: "2022-04-15"
       fulltext: "[pdf](https://drganghe.github.io/files/papers/2022-IEEE-ModelingIntegratedPowerAndTransportationSystems.pdf)"
-      categories: [power-system] 
+      categories: [power-system, hydrogen, transport] 
 
     - path: https://www.nature.com/articles/s43017-021-00244-x
       image: /files/images/journal/nature-reviews-earth.jpg
@@ -127,7 +137,7 @@
       description: "In this Perspective, we summarize the key features of China’s CO2 emissions, its reduction processes and successes in meeting climate targets."
       date: "2022-03-01"
       fulltext: "[SharedIt](https://rdcu.be/enuBK)"
-      categories: [featured, china] 
+      categories: [featured, china, carbon] 
 
     - path: https://doi.org/10.1016/j.isci.2022.103749
       image: /files/images/journal/iscience-logo.jpg
@@ -197,7 +207,7 @@
       description: "We compare both coal and nuclear desalination with the currently planned South–North Water Transfer Mega-Project and show that, while the short-run cost of water diversion is lower, critical vulnerabilities and future resource demands favor nuclear desalination."
       date: "2015-03-16"
       fulltext: "[pdf](https://drganghe.github.io/files/papers/2015-DESAL-Nuclear-desalination-and-water-shortages-in-China.pdf)"
-      categories: [energy-nexus, water] 
+      categories: [energy-nexus, water, nuclear] 
 
     - path: https://doi.org/10.1016/j.ecolind.2014.09.018
       image: /files/images/journal/ecological-indicators-logo.jpg
@@ -207,7 +217,7 @@
       description: "ELITE Cities is an Excel-based tool that measures city low-carbon development progress on 33 key indicators."
       date: "2015-01-15"
       fulltext: "[pdf](https://drganghe.github.io/files/papers/2015-EI-ELITE-Cities.pdf)"
-      categories: [china] 
+      categories: [china, city] 
 
     - path: https://doi.org/10.1016/j.enpol.2013.09.021
       image: /files/images/journal/energy-policy-logo.jpg
@@ -217,4 +227,4 @@
       description: "The paper examines the application of additionality in the Chinese wind power market and draws implications for the design of effective global carbon offset policy."
       date: "2013-12-15"
       fulltext: "[pdf](https://drganghe.github.io/files/papers/2013-EP-ChinaWindCDM.pdf)"
-      categories: [featured, china] 
+      categories: [featured, china, carbon] 

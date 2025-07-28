@@ -69,9 +69,7 @@ Global clean energy supply chains stand at a critical intersection of integratio
 :::{#featured-publications}
 :::
 
-<!--
-<p align="right">[More Publications »](/more-publications.qmd)</p>
--->
+<p align="right">[More Publications »](/more-publications.qmd#category=supply-chain)</p>
 
 ## Featured events
 

@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-subtitle','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-description","listing-date","listing-categories"],
+      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-description","listing-date","listing-fulltext","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -339,7 +339,31 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="featured-publications">Featured publications</h2>
 <div id="listing-featured-publications" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="c3VwcGx5LWNoYWluJTJDanVzdC10cmFuc2l0aW9u" data-listing-date-sort="1701752400000">
+<div class="g-col-1" data-index="0" data-categories="cG93ZXItc3lzdGVtJTJDY2hpbmElMkNzdXBwbHktY2hhaW4lMkNmZWF0dXJlZCUyQ251Y2xlYXI=" data-listing-date-sort="1753934400000">
+<a href="https://doi.org/10.1038/d41586-025-02341-z" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../../files/images/journal/nature.avif" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Can China break the ‘cost curse’ of nuclear power?
+</h5>
+<div class="card-subtitle listing-subtitle">
+<em>Nature</em>
+</div>
+<div class="card-text listing-description delink">
+<p>Escalating construction expenses threaten to derail global progress on atomic energy. China offers lessons on how to rein in costs.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jul 31, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="c3VwcGx5LWNoYWluJTJDanVzdC10cmFuc2l0aW9u" data-listing-date-sort="1701752400000">
 <a href="https://www.climateworks.org/blog/advancing-a-just-resilient-and-sustainable-clean-energy-supply-chain/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -363,7 +387,7 @@ Dec 5, 2023
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="ZmVhdHVyZWQlMkNzdXBwbHktY2hhaW4=" data-listing-date-sort="1696996800000">
+<div class="g-col-1" data-index="2" data-categories="ZmVhdHVyZWQlMkNzdXBwbHktY2hhaW4lMkNjYXJib24lMkNzb2xhcg==" data-listing-date-sort="1696996800000">
 <a href="https://www.nature.com/articles/s43247-023-01006-x" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -387,7 +411,7 @@ Oct 11, 2023
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="ZmVhdHVyZWQlMkNzdXBwbHktY2hhaW4=" data-listing-date-sort="1666756800000">
+<div class="g-col-1" data-index="3" data-categories="ZmVhdHVyZWQlMkNzdXBwbHktY2hhaW4lMkNzb2xhcg==" data-listing-date-sort="1666756800000">
 <a href="https://www.nature.com/articles/s41586-022-05316-6" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -414,15 +438,15 @@ Oct 26, 2022
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<!--
-<p align="right">[More Publications »](/more-publications.qmd)</p>
--->
+<p align="right">
+<a href="../../more-publications.html#category=supply-chain">More Publications »</a>
+</p>
 </section>
 <section id="featured-events" class="level2">
 <h2 class="anchored" data-anchor-id="featured-events">Featured events</h2>
 <div id="listing-featured-events" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="c3VwcGx5LWNoYWlu" data-listing-date-sort="1751342400000" data-listing-file-modified-sort="1750964028036" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
+<div class="g-col-1" data-index="0" data-categories="c3VwcGx5LWNoYWlu" data-listing-date-sort="1751342400000" data-listing-file-modified-sort="1751810924212" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
 <a href="../../events/2025-07-01-mes-supply-chains-in-energy-systems-panel/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -430,7 +454,7 @@ Oct 26, 2022
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Macro-Energy Systems Series: Supply Chains in Energy Systems
+Macro-Energy Systems Speaker Series: Supply Chains in Energy Systems
 </h5>
 <div class="card-text listing-description delink">
 <p>Join us to discuss how macro-energy systems analysis can better capture critical supply chain risks.</p>

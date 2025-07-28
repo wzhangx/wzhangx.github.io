@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "Featured Publications"
 subtitle: "Featured papers and articles"
 page-layout: full
 #author: "DEEP Lab"
