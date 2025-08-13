@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.7.33">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>People – Deep Policy Lab</title>
+<title>Team – Wei ZHANG’s Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,12 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-169af918da36ef8da63e8c390ac41721.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-e5133887fe676199a9ab1512a77576ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-lab-member .list');
+    const listingTargetEl = window.document.querySelector('#listing-phd .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -82,11 +80,39 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-started","listing-ended"],
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-started","listing-ended","listing-subtitle","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-lab-member'] = new List('listing-lab-member', options);
+    window['quarto-listings']['listing-phd'] = new List('listing-phd', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-master .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-started","listing-ended","listing-subtitle","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-master'] = new List('listing-master', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -168,13 +194,13 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="People – Deep Policy Lab">
+<meta property="og:title" content="Team – Wei ZHANG’s Lab">
 <meta property="og:description" content="Who we are">
-<meta property="og:image" content="http://deeppolicylab.github.io/files/headshots/arielle-canate.jpg">
-<meta property="og:site_name" content="Deep Policy Lab">
-<meta name="twitter:title" content="People – Deep Policy Lab">
+<meta property="og:image" content="http://wzhangx.github.io/files/headshots/profile2.jpg">
+<meta property="og:site_name" content="Wei ZHANG's Lab">
+<meta name="twitter:title" content="Team – Wei ZHANG’s Lab">
 <meta name="twitter:description" content="Who we are">
-<meta name="twitter:image" content="http://deeppolicylab.github.io/files/headshots/arielle-canate.jpg">
+<meta name="twitter:image" content="http://wzhangx.github.io/files/headshots/profile2.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -186,7 +212,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Deep Policy Lab</span>
+    <span class="navbar-title">Wei ZHANG’s Lab</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -197,55 +223,34 @@ window.Quarto = {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
-<span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./events.html"> 
-<span class="menu-text">Events</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./people.html" aria-current="page"> 
-<span class="menu-text">People</span></a>
+<span class="menu-text">About PI</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects</span></a>
+    <a class="nav-link active" href="./people.html" aria-current="page"> 
+<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./news.html"> 
+<span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./resources.html"> 
-<span class="menu-text">Resources</span></a>
+<span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./support.html"> 
-<span class="menu-text">Support</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./cn.html"> 
-<span class="menu-text">中文</span></a>
+    <a class="nav-link" href="./vacancies.html"> 
+<span class="menu-text">Vacancies</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/deeppolicylab"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app/profile/deeppolicylab.bsky.social" target="_blank"> 
-<span class="menu-text"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -263,13 +268,13 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(14)</span></div><div class="category" data-category="RGlyZWN0b3I=">Director <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SGlnaHNjaG9vbCUyMFN0dWRlbnQ=">Highschool Student <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFzdGVyJ3MlMjBTdHVkZW50">Master's Student <span class="quarto-category-count">(7)</span></div><div class="category" data-category="UGhEJTIwU3R1ZGVudA==">PhD Student <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UG9zdGRvY3RvcmFsJTIwUmVzZWFyY2hlcg==">Postdoctoral Researcher <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VW5kZXJncmFkdWF0ZQ==">Undergraduate <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VmlzaXRpbmclMjBTY2hvbGFy">Visiting Scholar <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmlzaXRpbmclMjBTdHVkZW50">Visiting Student <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="UA==">P <span class="quarto-category-count">(9)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">People</h1>
+<h1 class="title">Team</h1>
 <p class="subtitle lead">Who we are</p>
 </div>
 
@@ -298,134 +303,104 @@ https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "ktfar1v3c9");
 </script>
-<section id="team" class="level2">
-<h2 class="anchored" data-anchor-id="team">Team</h2>
-<div id="listing-lab-member" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50">
-<a href="https://www.linkedin.com/in/arielle-ca%C3%B1ate/" class="quarto-grid-link">
+<section id="ph.d-students" class="level2">
+<h2 class="anchored" data-anchor-id="ph.d-students">Ph.D Students</h2>
+<div id="listing-phd" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="UA==">
+<a href="https://" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/arielle-canate.jpg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/headshots/profile2.jpg" class="thumbnail-image card-img" style="height: 300px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Arielle CANATE
 </h5>
 <div class="card-subtitle listing-subtitle">
-QMSS Master’s Student, CUNY Graduate Center
+
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50">
-<a href="https://xinyang-che.github.io" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-categories="UA==">
+<a href="https://" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/xinyang-che.jpg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/headshots/profile3.jpg" class="thumbnail-image card-img" style="height: 300px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Xinyang CHE
 </h5>
 <div class="card-subtitle listing-subtitle">
-Research Assistant/ M.S., Xi’an Jiaotong University
+
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="VmlzaXRpbmclMjBTY2hvbGFy">
-<a href="https://udayton.edu/directory/engineering/mechanical_and_aerospace/choi_jun-ki.php" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-categories="UA==">
+<a href="https://" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/junki-choi.jpg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/headshots/profile4.jpg" class="thumbnail-image card-img" style="height: 300px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Jun-Ki CHOI
 </h5>
 <div class="card-subtitle listing-subtitle">
-Anderson Endowed Chair Professor, University of Dayton
+
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50">
-<a href="https://www.linkedin.com/in/mariah-galindo12101/" class="quarto-grid-link">
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="master-students" class="level2">
+<h2 class="anchored" data-anchor-id="master-students">Master Students</h2>
+<div id="listing-master" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="UA==">
+<a href="https://" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/mariah-galindo.jpeg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/headshots/profile2.jpg" class="thumbnail-image card-img" style="height: 300px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Mariah GALINDO
 </h5>
 <div class="card-subtitle listing-subtitle">
-Marxe Assistant/ MIA Student, CUNY Baruch College
+
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="RGlyZWN0b3I=">
-<a href="https://drganghe.github.io" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-categories="UA==">
+<a href="https://" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="https://drganghe.github.io/files/profile/gang-he-cuny-profile.jpg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/headshots/profile3.jpg" class="thumbnail-image card-img" style="height: 300px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Gang HE
 </h5>
 <div class="card-subtitle listing-subtitle">
-Assistant Professor, CUNY Baruch College
+
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50">
-<a href="https://www.linkedin.com/in/tiffany-hugh-90878b237" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-categories="UA==">
+<a href="https://" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/headshots/tiffany-hugh.jpeg" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/headshots/profile4.jpg" class="thumbnail-image card-img" style="height: 300px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Tiffany HUGH
 </h5>
 <div class="card-subtitle listing-subtitle">
-QMSS Master’s Student, CUNY Graduate Center
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="UG9zdGRvY3RvcmFsJTIwUmVzZWFyY2hlcg==">
-<a href="https://kaifangluo.com" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/headshots/kaifang-luo.jpeg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Kaifang LUO
-</h5>
-<div class="card-subtitle listing-subtitle">
-Postdoctoral Researcher, CUNY Baruch College
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="SGlnaHNjaG9vbCUyMFN0dWRlbnQ=">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/headshots/oliver-niedbala.webp" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Oliver NIEDBALA
-</h5>
-<div class="card-subtitle listing-subtitle">
-Student, Saint Francis Preparatory School
+
 </div>
 </div>
 </div></a>
@@ -492,116 +467,59 @@ Student, Saint Francis Preparatory School
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-title-sort="Nicolo ANTONUCCI">
+<tr data-index="0" data-categories="UA==" data-listing-title-sort=" ">
 <td>
-<span class="listing-image"><img loading="lazy" src="./files/headshots/nicolo-antonucci.jpeg" style="height: 25px;"></span>
+<span class="listing-image"><img loading="lazy" src="./files/headshots/profile2.jpg" style="height: 25px;"></span>
 </td>
 <td>
-<a href="https://www.linkedin.com/in/nicolo-antonucci-73a89a216" class="title listing-title">Nicolo ANTONUCCI</a>
+<a href="https://" class="title listing-title"> </a>
 </td>
 <td>
-<span class="listing-subtitle">Research Assistant/MIA Student, CUNY Baruch College</span>
+<span class="listing-subtitle"> </span>
 </td>
 <td>
-<span class="listing-started">Sep 2023</span>
+<span class="listing-started"> </span>
 </td>
 <td>
-<span class="listing-ended">Dec 2023</span>
-</td>
-
-</tr>
-
-<tr data-index="1" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-title-sort="Kately ARRIAGE">
-<td>
-<span class="listing-image"><img loading="lazy" src="./files/headshots/kately-arriage.jpeg" style="height: 25px;"></span>
-</td>
-<td>
-<a href="https://www.linkedin.com/in/kately-arriaga?trk=public_profile_browsemap-profile" class="title listing-title">Kately ARRIAGE</a>
-</td>
-<td>
-<span class="listing-subtitle">Research Assistant/MPA Student, CUNY Baruch College</span>
-</td>
-<td>
-<span class="listing-started">Sep 2023</span>
-</td>
-<td>
-<span class="listing-ended">Dec 2023</span>
+<span class="listing-ended">&nbsp;</span>
 </td>
 
 </tr>
 
-<tr data-index="2" data-categories="TWFzdGVyJ3MlMjBTdHVkZW50" data-listing-title-sort="Yun LI">
+<tr data-index="1" data-categories="UA==" data-listing-title-sort=" ">
 <td>
-<span class="listing-image"><img loading="lazy" src="./files/images/we-need-you.png" style="height: 25px;"></span>
+<span class="listing-image"><img loading="lazy" src="./files/headshots/profile3.jpg" style="height: 25px;"></span>
 </td>
 <td>
-<a href="https://www.linkedin.com/in/yun-li-0b96041b2/" class="title listing-title">Yun LI</a>
+<a href="https://" class="title listing-title"> </a>
 </td>
 <td>
-<span class="listing-subtitle">Research Assistant/M.S., KU Leuven</span>
+<span class="listing-subtitle"> </span>
 </td>
 <td>
-<span class="listing-started">Jul 2023</span>
+<span class="listing-started"> </span>
 </td>
 <td>
-<span class="listing-ended">Aug 2024</span>
-</td>
-
-</tr>
-
-<tr data-index="3" data-categories="VmlzaXRpbmclMjBTdHVkZW50JTJDUGhEJTIwU3R1ZGVudA==" data-listing-title-sort="Wenge RAO">
-<td>
-<span class="listing-image"><img loading="lazy" src="https://giselle1119.github.io/images/WengeRao.png" style="height: 25px;"></span>
-</td>
-<td>
-<a href="https://giselle1119.github.io/" class="title listing-title">Wenge RAO</a>
-</td>
-<td>
-<span class="listing-subtitle">Visiting Student/Ph.D.&nbsp;Candidate, Peking University</span>
-</td>
-<td>
-<span class="listing-started">Dec 2024</span>
-</td>
-<td>
-<span class="listing-ended">June 2025</span>
+<span class="listing-ended">&nbsp;</span>
 </td>
 
 </tr>
 
-<tr data-index="4" data-categories="VW5kZXJncmFkdWF0ZQ==" data-listing-title-sort="Tenzin SINON">
+<tr data-index="2" data-categories="UA==" data-listing-title-sort=" ">
 <td>
-<span class="listing-image"><img loading="lazy" src="./files/headshots/tenzin-sinon.jpg" style="height: 25px;"></span>
+<span class="listing-image"><img loading="lazy" src="./files/headshots/profile4.jpg" style="height: 25px;"></span>
 </td>
 <td>
-<a href="https://www.linkedin.com/in/10sinon/" class="title listing-title">Tenzin SINON</a>
+<a href="https://" class="title listing-title"> </a>
 </td>
 <td>
-<span class="listing-subtitle">CUNY Undergraduate Climate Scholar, Hunter College</span>
+<span class="listing-subtitle"> </span>
 </td>
 <td>
-<span class="listing-started">Sep 2024</span>
+<span class="listing-started"> </span>
 </td>
 <td>
-<span class="listing-ended">Dec 2024</span>
-</td>
-
-</tr>
-
-<tr data-index="5" data-categories="VW5kZXJncmFkdWF0ZQ==" data-listing-title-sort="Tamara VALDERRAMA">
-<td>
-<span class="listing-image"><img loading="lazy" src="./files/headshots/tamara-valderrama.jpg" style="height: 25px;"></span>
-</td>
-<td>
-<a href="https://cl.linkedin.com/in/tamara-valderrama-242289207" class="title listing-title">Tamara VALDERRAMA</a>
-</td>
-<td>
-<span class="listing-subtitle">CUNY Undergraduate Climate Scholar, City College</span>
-</td>
-<td>
-<span class="listing-started">Sep 2024</span>
-</td>
-<td>
-<span class="listing-ended">Dec 2024</span>
+<span class="listing-ended">&nbsp;</span>
 </td>
 
 </tr>
@@ -703,7 +621,7 @@ We are fortunate to have collaborated with many researchers and practitioners. P
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("http:\/\/deeppolicylab\.github\.io");
+        var filterRegex = new RegExp("http:\/\/wzhangx\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -1039,26 +957,14 @@ We are fortunate to have collaborated with many researchers and practitioners. P
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<a href="http://deeppolicylab.github.io">Deep Policy Lab</a> ©
+<a href="http://wzhangx.github.io">Wei ZHANG’s Lab</a> ©
 <script>document.write(new Date().getFullYear())</script>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/deeppolicylab">
-      <i class="bi bi-github" role="img">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app/profile/deeppolicylab.bsky.social" target="_blank">
-<p><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></p>
-</a>
-  </li>  
-</ul>
+      &nbsp;
     </div>
   </div>
 </footer>

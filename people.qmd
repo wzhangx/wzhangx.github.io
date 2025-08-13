@@ -1,30 +1,43 @@
 ---
-title: "People"
+title: "Team"
 subtitle: "Who we are"
 #image: files/group.jpeg
 page-layout: full
 listing:  #an example of listing external links
 #  template: item-default-external.ejs
-- id: lab-member
-  sort: "lastname asc"
+  
+- id: phd
+  #sort: "lastname asc"
   type: grid
   fields: [image, title, subtitle]
   grid-item-align: center
-  grid-columns: 4
-  image-height: 200px
+  grid-columns: 3
+  image-height: 300px
   categories: true
 #  sort-ui: true
 #  filter-ui: true
   contents: 
 #    - labmembers.yml
-    - /people/gang-he.yml
-    - /people/kaifang-luo.yml
-    - /people/mariah-galindo.yml
-    - /people/arielle-canate.yml
-    - /people/tiffany-hugh.yml
-    - /people/oliver-niedbala.yml    
-    - /people/junki-choi.yml
-    - /people/xinyang-che.yml
+    - /people/profile2.yml
+    - /people/profile3.yml
+    - /people/profile4.yml
+
+- id: master
+  #sort: "lastname asc"
+  type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: center
+  grid-columns: 3
+  image-height: 300px
+  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents: 
+#    - labmembers.yml
+    - /people/profile2.yml
+    - /people/profile3.yml
+    - /people/profile4.yml
+
 
 - id: lab-alumni
   sort: "lastname asc"
@@ -38,16 +51,11 @@ listing:  #an example of listing external links
       subtitle: "Role/Affiliation"
       started: "Started"
       ended: "Ended"
-#  categories: true
-#  sort-ui: true
-#  filter-ui: true
   contents: 
-    - /people/yun-li.yml
-    - /people/nicolo-antonucci.yml
-    - /people/kately-arriage.yml 
-    - /people/tamara-valderrama.yml
-    - /people/tenzin-sinon.yml       
-    - /people/wenge-rao.yml
+    - /people/profile2.yml
+    - /people/profile3.yml
+    - /people/profile4.yml 
+    
 
 page-navigation: false
 title-block-banner: false
@@ -61,9 +69,16 @@ format:
 <!--Please delete or replace with your own clarity-->
 {{< include /files/includes/_msclarity.qmd >}}
 
-## Team
+## Ph.D Students
+ 
 
-:::{#lab-member}
+:::{#phd}
+:::
+
+## Master Students
+
+
+:::{#master}
 :::
 
 

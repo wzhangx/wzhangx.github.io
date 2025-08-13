@@ -3,59 +3,46 @@ project:
   output-dir: docs
 
 website:
-  title: "Deep Policy Lab"
-  image: "/files/images/deeplab.png"
-  description: "Deep Energy and Climate Policy Lab: Data Driven, Evidence based, Energy, Environmental, and Climate Policy; Deep analysis, Deep insights, for Deep decarbonization. Alias: DEEP Lab, DEEP Energy Lab, DEEP Climate Lab. Key words: Deep energy systems, Deep decarbonization, Deep modeling, Deep policy, Energy and climate policy, Energy Systems, Energy policy, Climate policy, Energy transition."
+  title: "Wei ZHANG's Lab"
+  image: "/files/images/Wei-lab.png"
+  description: "Wei Zhang'Lab: Heterogeneous Catalysis toward a Sustainable Carbon Future."
  
   navbar:
     background: "#05336B"
     foreground: "#FFFFFF"
     left:
-      - text: About
+      - text: About PI
         href: about.qmd
-      - text: News
-        href: news.qmd
-      - text: Events
-        href: events.qmd
-      - text: People
-        href: people.qmd
       - text: Research
         href: research.qmd
-      - text: Projects
-        href: projects.qmd 
+      - text: People
+        href: people.qmd
       - text: Publications
         href: publications.qmd
-      - text: Resources
+      - text: News
+        href: news.qmd
+      - text: Gallery
         href: resources.qmd
-      - text: Support
-        href: support.qmd  
-      - text: 中文
-        href: cn.qmd        
+      - text: Vacancies
+        href: vacancies.qmd        
     right:
       - icon: github
-        href: https://github.com/deeppolicylab
-      - text: "{{< fa brands bluesky >}}" 
-        href: https://bsky.app/profile/deeppolicylab.bsky.social
         target: _blank
   page-navigation: true
   page-footer: 
-    left: "[Deep Policy Lab](http://deeppolicylab.github.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    right:  
-      - icon: github
-        href: https://github.com/deeppolicylab
-      - text: "{{< fa brands bluesky >}}" 
-        href: https://bsky.app/profile/deeppolicylab.bsky.social
-        target: _blank
+    left: "[Wei ZHANG's Lab](http://wzhangx.github.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
+
+  
   search:
     location: navbar
     type: textbox
   reader-mode: true
-  repo-url: https://github.com/deeppolicylab/deeppolicylab.github.io
+  repo-url: https://github.com/wzhangx/dwzhangx.github.io
 #  repo-actions: [edit, issue, source]
   open-graph: true
   twitter-card: true 
 #  card-style: summary      
-  site-url: "http://deeppolicylab.github.io"
+  site-url: "http://wzhangx.github.io"
   google-analytics:
     tracking-id: "G-TEC97F8RGK"
     anonymize-ip: true 
@@ -69,6 +56,3 @@ format:
     toc: true
     link-external-icon: false
     link-external-newwindow: true 
-
-
-

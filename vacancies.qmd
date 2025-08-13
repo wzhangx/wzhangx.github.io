@@ -1,0 +1,98 @@
+---
+title: "Vacancies"
+subtitle: "Join Us!"
+title-block-banner: false
+page-layout: full
+toc: true
+---
+
+<!--Please delete or replace with your own clarity-->
+{{< include /files/includes/_msclarity.qmd >}}
+
+## Acknowledgment
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-8}
+
+We are always eager to work with committed researchers who are passionate about advancing interdisciplinary research in heterogeneous catalysis and sustainable chemistry.
+
+- Plastic waste upcycling
+- C1 chemistry (CO2/CO/CH4 conversion)
+- Catalyst design and synthesis
+- In-situ/operando characterization
+- Computational modeling
+- Mechanistic Study 
+- Cracking
+- Alkylation
+
+:::
+
+
+::: {.g-col-12 .g-col-md-4}
+
+![ ](/files/headshots/we-need-you.png){fig-align="center"}
+
+:::
+
+:::
+
+
+
+## Opportunities
+
+We are always eager to work with committed researchers who are passionate about advancing interdisciplinary research in catalysis and energy.
+
+
+###  Graduate Students: 
+We have a few openings available for highly qualified and motivated graduate students.
+
+We welcome highly motivated students with a strong interest in interdisciplinary chemistry and materials research to join our team. 
+
+### Undergraduate Students: 
+We welcome motivated undergraduate students to get involved in our research projects. 
+
+### Visiting Ph.D. Students and Scholars: 
+We are open to hosting motivated visiting Ph.D. students and scholars from around the world. To apply, please provide the following documents for consideration: 
+
+- CV
+- Research plan
+- Language proficiency certificate (if applicable)
+- One reference letter (if available)
+
+
+
+## Contact us
+
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+
+<center>
+
+**Dr. Wei Zhang**
+
+E-mail: <wzhangx@chem.ecnu.edu.cn>
+
+
+</center>
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+<center>
+
+**Address**
+
+Address: [Chemistry bldg., No. 3663, North Zhongshan Road, Shanghai 200062, China](https://maps.app.goo.gl/KeXZ9rVFT6VeR8PN6)
+
+(地址：华东师范大学普陀校区化学馆 | 上海市中山北路3663号| 邮编200062)
+
+---
+</center>
+
+:::
+
+:::

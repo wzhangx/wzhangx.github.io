@@ -1,40 +1,26 @@
 ---
-title: "Research & Initiatives"
+title: "Research"
 subtitle: "What we do"
 toc: false
 listing:
 - id: research
   contents: 
-    - research/clean-energy-supply-chains
-    - research/power-systems-decarbonization
-    - research/climate-impact-energy-systems
-    - research/energy-nexus-research
-    - research/energy-climate-justice
+    - research/plastic-waste-to-energy
+    - research/CO2-converion
+    - research/h2o-energy-nexus-research
+    - research/biomass-energy-climate-justice
   sort: false
   type: grid
-  grid-columns: 3
-  image-height: 200px
+  grid-columns: 2
+  image-height: 300px
   fields: [image, title, description]
+  grid-item-align: center
   page-size: 25
   categories: false
   sort-ui: false
   filter-ui: false
   feed: false
 
-- id: initiatives
-  contents: 
-    - research/china-carbon-neutrality-initiative    
-    - research/new-york-climate-initiative
-  sort: false
-  type: grid
-  grid-columns: 3
-  image-height: 200px
-  fields: [image, title, description]
-  page-size: 25
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  feed: false
 
 page-layout: full
 page-navigation: true
@@ -44,11 +30,3 @@ title-block-banner: false
 ## Research
 :::{#research}
 :::
-
-## Initiatives
-:::{#initiatives}
-:::
-
-
-<!--Please delete or replace with your own clarity-->
-{{< include /files/includes/_msclarity.qmd >}}

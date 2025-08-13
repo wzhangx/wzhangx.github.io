@@ -1,37 +1,18 @@
 ---
 title: "News"
-subtitle: "Recent releases and media coverage"
+subtitle: "Recent releases"
 page-layout: full
-toc: false
-#author: "DEEP Lab"
-#date: "2023-03-20"
-#categories: [news, job]
-#image: "featured.jpeg"
-#css: /custom.css
 listing: 
-- id: release
-  sort: "date desc"
-  type: grid
-  fields: [image, title, subtitle, description, date]
-  grid-item-align: left
-  grid-columns: 3
-  max-items: 6
-  image-height: 200px
-#  categories: true
-#  sort-ui: true
-#  filter-ui: true
-  contents: 
-    - /news/
-    - release.yml
-
 - id: news
   sort: "date desc"
-  type: grid
-  fields: [image, title, subtitle, description, date]
+  type: table
+  fields: [date, image, title] 
+  field-display-names: 
+    subtitle: " "
   grid-item-align: left
-  grid-columns: 3
-  max-items: 6
-  image-height: 200px
+#  grid-columns: 3
+  max-items: 10
+  image-height: 70px
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
@@ -39,20 +20,11 @@ listing:
 ---
 
 
-## Release
-
-:::{#release}
-:::
-
-<p align="right">[More Releases »](/more-news.qmd#release)</p>
-
-## Media
+##  
 
 :::{#news}
 :::
 
-<p align="right">[More Coverage »](/more-news.qmd#media)</p>
+<p align="right">[More news »](/more-news.qmd#media)</p>
 
-<!--Include social share buttons-->
 
-{{< include /files/includes/_socialshare.qmd >}}

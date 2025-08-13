@@ -1,0 +1,10 @@
+    - path: https://
+      image: /files/headshots/profile3.jpg
+      title: " "
+      lastname: " "
+      started: " "
+      ended: ""       
+#      author: 
+      subtitle: " "
+#      date: "2024-03-12"
+      categories: [P] 

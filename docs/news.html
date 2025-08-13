@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.7.33">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>News – Deep Policy Lab</title>
+<title>News – Wei ZHANG’s Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,12 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-169af918da36ef8da63e8c390ac41721.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-e5133887fe676199a9ab1512a77576ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,34 +71,6 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-release .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-release'] = new List('listing-release', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-news .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -108,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-subtitle","listing-author","listing-description","listing-date"],
+      searchColumns: ["listing-image","listing-title","listing-date"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -168,13 +138,17 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="News – Deep Policy Lab">
-<meta property="og:description" content="Recent releases and media coverage">
-<meta property="og:image" content="http://deeppolicylab.github.io/research/clean-energy-supply-chains/featured.jpeg">
-<meta property="og:site_name" content="Deep Policy Lab">
-<meta name="twitter:title" content="News – Deep Policy Lab">
-<meta name="twitter:description" content="Recent releases and media coverage">
-<meta name="twitter:image" content="http://deeppolicylab.github.io/research/clean-energy-supply-chains/featured.jpeg">
+<meta property="og:title" content="News – Wei ZHANG’s Lab">
+<meta property="og:description" content="Recent releases">
+<meta property="og:image" content="http://wzhangx.github.io/files/images/journal/science.png">
+<meta property="og:site_name" content="Wei ZHANG's Lab">
+<meta property="og:image:height" content="225">
+<meta property="og:image:width" content="225">
+<meta name="twitter:title" content="News – Wei ZHANG’s Lab">
+<meta name="twitter:description" content="Recent releases">
+<meta name="twitter:image" content="http://wzhangx.github.io/files/images/journal/science.png">
+<meta name="twitter:image-height" content="225">
+<meta name="twitter:image-width" content="225">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -186,7 +160,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Deep Policy Lab</span>
+    <span class="navbar-title">Wei ZHANG’s Lab</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -197,55 +171,34 @@ window.Quarto = {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./news.html" aria-current="page"> 
-<span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./events.html"> 
-<span class="menu-text">Events</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
-<span class="menu-text">People</span></a>
+<span class="menu-text">About PI</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="./people.html"> 
+<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link active" href="./news.html" aria-current="page"> 
+<span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./resources.html"> 
-<span class="menu-text">Resources</span></a>
+<span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./support.html"> 
-<span class="menu-text">Support</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./cn.html"> 
-<span class="menu-text">中文</span></a>
+    <a class="nav-link" href="./vacancies.html"> 
+<span class="menu-text">Vacancies</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/deeppolicylab"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app/profile/deeppolicylab.bsky.social" target="_blank"> 
-<span class="menu-text"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -262,19 +215,27 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">News</h1>
-<p class="subtitle lead">Recent releases and media coverage</p>
+<p class="subtitle lead">Recent releases</p>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -286,307 +247,125 @@ window.Quarto = {
 </header>
 
 
-<section id="release" class="level2">
-<h2 class="anchored" data-anchor-id="release">Release</h2>
-<div id="listing-release" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1753675200000" data-listing-file-modified-sort="1754395481226" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="696">
-<a href="./news/2025-07-28-nature-comment-nuclear-costs.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/Taishan_Nuclear_Power_Plant.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Nature Comment: Can China Break the ‘Cost Curse’ of Nuclear Power?
-</h5>
-<div class="card-text listing-description delink">
-<p>Comment published in Nature shows escalating construction expenses threaten to derail global progress on atomic energy. China offers lessons on how to rein in costs.</p>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+<div id="listing-news" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-news-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-news'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-image" data-direction="asc">
+      </option>
+      <option value="listing-title-sort" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jul 28, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1730869200000" data-listing-file-modified-sort="1731590779103" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="462">
-<a href="./news/2024-11-06-one-earth-coal-jobs-transition.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/coal-power.JPG" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New Study Shows Fewer Than 15% of China’s Coal Power Plant Workers Can Easily Transition to Green Jobs by 2060
-</h5>
-<div class="card-text listing-description delink">
-<p>Study published in One Earth shows less than 15% of China’s coal power plant workforce will find it easy to shift into green jobs, a coal power worker needs to travel 194…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Nov 6, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1730433600000">
-<a href="https://deeppolicylab.github.io/projects/2024-ssa-energy-burden-older-adults-people-with-disabilities-nyc.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://drganghe.github.io/files/images/nyc-mid-town.webp" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New Grant: Exploring Energy Burden Among the Older Adults and People with Disabilities in New York City Public Housing Communities
-</h5>
-<div class="card-text listing-description delink">
-<p>Gang He, Kaifang Luo, Hilary Botein, and Frank Heiland were awarded a SSA grant</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Nov 1, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1729569600000">
-<a href="https://newscenter.baruch.cuny.edu/news/baruch-college-faculty-included-in-worlds-top-scientist-list/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/baruch-college.webp" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Baruch College Faculty Included in World’s Top Scientist List
-</h5>
-<div class="card-text listing-description delink">
-<p>Dr.&nbsp;Gang He is included in Stanford University and Elsevier’s “World’s Top 2% Scientists” list for 2024</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 22, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-date-sort="1691553600000">
-<a href="https://news.stonybrook.edu/newsroom/taking-a-global-look-at-dry-and-alternative-water-cooling-of-power-plants/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/dry-cooling.webp" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Taking a Global Look at Dry and Alternative Water Cooling of Power Plants
-</h5>
-<div class="card-text listing-description delink">
-<p>Study published in Nature Water suggests integrating planning may reduce carbon emissions in the future</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Aug 9, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-date-sort="1603684800000">
-<a href="https://news.stonybrook.edu/newsroom/global-collaboration-is-key-to-saving-billions-for-solar-module-production/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/clean-energy-supply-chains/featured.jpeg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Global Collaboration is Key to Saving Billions for Solar Module Production
-</h5>
-<div class="card-text listing-description delink">
-<p>Study published in Nature quantifies for the first time past and future country cost savings to the solar industry from globalized supply chains.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 26, 2020
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-image" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;"> </a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-date-sort="1753977600000" data-listing-title-sort="Our research paper is published in Science!">
+<td>
+<span class="listing-date">Aug 1, 2025</span>
+</td>
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/science.png" style="height: 70px;"></span>
+</td>
+<td>
+<a href="https://doi.org/10.1126/science.ade" class="title listing-title">Our research paper is published in Science!</a>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-date-sort="1740758400000" data-listing-title-sort="Our research paper is published in Angew. Chem. Int. Ed.!">
+<td>
+<span class="listing-date">Mar 1, 2025</span>
+</td>
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/Angew.png" style="height: 70px;"></span>
+</td>
+<td>
+<a href="https://doi.org/10.1002/anie.202500559" class="title listing-title">Our research paper is published in Angew. Chem. Int. Ed.!</a>
+</td>
+
+</tr>
+
+<tr data-index="2" data-listing-date-sort="1720540800000" data-listing-title-sort="Our research paper is published in Nat. Commun.!">
+<td>
+<span class="listing-date">Jul 10, 2024</span>
+</td>
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/nature-comms.png" style="height: 70px;"></span>
+</td>
+<td>
+<a href="https://doi.org/10.1038/s41467-024-49827-4" class="title listing-title">Our research paper is published in Nat. Commun.!</a>
+</td>
+
+</tr>
+
+<tr data-index="3" data-listing-date-sort="1709395200000" data-listing-title-sort="Our research paper is published in Angew. Chem. Int. Ed.!">
+<td>
+<span class="listing-date">Mar 3, 2024</span>
+</td>
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/Angew.png" style="height: 70px;"></span>
+</td>
+<td>
+<a href="https://doi.org/10.1002/anie.202319580" class="title listing-title">Our research paper is published in Angew. Chem. Int. Ed.!</a>
+</td>
+
+</tr>
+
+<tr data-index="4" data-listing-date-sort="1677081600000" data-listing-title-sort="Our research paper on upcycling of polyolefin waste is published in Science!">
+<td>
+<span class="listing-date">Feb 23, 2023</span>
+</td>
+<td>
+<span class="listing-image"><img loading="lazy" src="./files/images/journal/science.png" style="height: 70px;"></span>
+</td>
+<td>
+<a href="https://doi.org/10.1126/science.ade7485" class="title listing-title">Our research paper on upcycling of polyolefin waste is published in Science!</a>
+</td>
+
+</tr>
+
+</tbody>
+</table>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 <p align="right">
-<a href="./more-news.html#release">More Releases »</a>
+<a href="./more-news.html#media">More news »</a>
 </p>
-</section>
-<section id="media" class="level2">
-<h2 class="anchored" data-anchor-id="media">Media</h2>
-<div id="listing-news" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1700110800000">
-<a href="https://www.scientificamerican.com/article/what-the-u-s-china-agreement-means-for-greenhouse-gas-emissions/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/media/scientific-american.webp" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-What the U.S.-China Agreement Means for Greenhouse Gas Emissions
-</h5>
-<div class="card-subtitle listing-subtitle">
-Scientific American
-</div>
-<div class="card-text listing-description delink">
-<p>The two nations announced limited steps to address climate change. But even a modest agreement could have far-reaching effects.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Nov 16, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1695268800000">
-<a href="https://foreignpolicy.com/2023/09/21/us-china-climate-cooperation-trade-ira-green-technology/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/media/foreign-policy.webp" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Can the U.S. and China Cooperate on Green Technology Again?
-</h5>
-<div class="card-subtitle listing-subtitle">
-Foreign Policy
-</div>
-<div class="card-text listing-description delink">
-<p>A study published in Nature last year found that if the United States, Germany, and China all decided to shift to fully domestic solar production starting in 2020, by 2030…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 21, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1666843200000">
-<a href="https://www.eenews.net/articles/how-bidens-made-in-america-solar-strategy-may-backfire/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/media/ee-news.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-How Biden’s made-in-America solar strategy may backfire
-</h5>
-<div class="card-subtitle listing-subtitle">
-E&amp;E News
-</div>
-<div class="card-text listing-description delink">
-<p>A new study in <em>Nature</em> concludes that policies similar to ones the administration is considering could make solar panels 30 percent more expensive by the end of the decade.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 27, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1645074000000">
-<a href="https://www.carbonbrief.org/china-briefing-17-february-2022-new-energy-transition-guidance-five-coal-plants-approved-energy-efficiency-targets-raised/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/media/carbon-brief.webp" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New energy transition guidance; Five coal plants approved; Energy-efficiency targets raised
-</h5>
-<div class="card-subtitle listing-subtitle">
-Carbon Brief
-</div>
-<div class="card-text listing-description delink">
-<p>Gang He told Carbon Brief: “There are other and better options: renewables are achieving grid parity which could accelerate a renewable-dominant pathway. Such a pathway is…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Feb 17, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-date-sort="1637557200000">
-<a href="https://www.nature.com/articles/d41586-021-03491-6" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/media/nature.webp" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-China creates vast research infrastructure to support ambitious climate goals
-</h5>
-<div class="card-subtitle listing-subtitle">
-Nature
-</div>
-<div class="card-text listing-description delink">
-<p>Carbon-neutrality institutes, and other initiatives to support a pledge to achieve net zero by 2060, are popping up like mushrooms across China.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Nov 22, 2021
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-date-sort="1603080000000">
-<a href="https://www.nature.com/articles/d41586-020-02927-9" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/media/nature.webp" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-How China could be carbon neutral by mid-century
-</h5>
-<div class="card-subtitle listing-subtitle">
-Nature
-</div>
-<div class="card-text listing-description delink">
-<p>Nature special report examines the role of renewables, nuclear power and carbon capture in reaching this ambitious goal.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 19, 2020
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<p align="right">
-<a href="./more-news.html#media">More Coverage »</a>
-</p>
-<!--Include social share buttons-->
-<!-- 
-AddToAny check more: https://www.addtoany.com/buttons/for/website 
-Using includes will make edits easier, will only need to add or remove button here if needed.
-https://quarto.org/docs/authoring/includes.html
--->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
-</div>
-<script async="" src="https://static.addtoany.com/menu/page.js"></script>
 
 
 
@@ -665,7 +444,7 @@ https://quarto.org/docs/authoring/includes.html
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("http:\/\/deeppolicylab\.github\.io");
+        var filterRegex = new RegExp("http:\/\/wzhangx\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -1001,26 +780,14 @@ https://quarto.org/docs/authoring/includes.html
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<a href="http://deeppolicylab.github.io">Deep Policy Lab</a> ©
+<a href="http://wzhangx.github.io">Wei ZHANG’s Lab</a> ©
 <script>document.write(new Date().getFullYear())</script>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/deeppolicylab">
-      <i class="bi bi-github" role="img">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app/profile/deeppolicylab.bsky.social" target="_blank">
-<p><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></p>
-</a>
-  </li>  
-</ul>
+      &nbsp;
     </div>
   </div>
 </footer>

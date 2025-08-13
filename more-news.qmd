@@ -1,6 +1,6 @@
 ---
 title: "News"
-subtitle: "What's new & In the news"
+subtitle: "Wei Zhang's Lab"
 page-layout: full
 date-format: "YYYY-MM-DD"
 toc: false
@@ -10,29 +10,16 @@ toc: false
 #image: "featured.jpeg"
 #css: /custom.css
 listing: 
-- id: release
-  sort: "date desc"
-  type: table
-  fields: [image, title, date, description]
-#  grid-item-align: left
-#  grid-columns: 3
-  image-height: 20px
-#  categories: true
-#  sort-ui: true
-#  filter-ui: true
-  contents: 
-    - /news/
-    - release.yml
 
 - id: news
   sort: "date desc"
   type: table
-  fields: [image, title, subtitle, author, date, description]
+  fields: [date, image, title]
   field-display-names: 
-      subtitle: "Media"
+      subtitle: ""
 #  grid-item-align: left
 #  grid-columns: 3
-  image-height: 20px
+  image-height: 30px
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
@@ -40,16 +27,8 @@ listing:
 ---
 
 
-## Release
+##  
 
 :::{#release}
 :::
 
-## Media
-
-:::{#news}
-:::
-
-<!--Include social share buttons-->
-
-{{< include /files/includes/_socialshare.qmd >}}

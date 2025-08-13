@@ -1,37 +1,37 @@
 ---
-#title: "Deep Policy Lab"
+#title: "Wei ZHANG's Lab"
 css: /custom.css
-#image: files/logo.jpeg
+#image: files/logo.jpg
 page-layout: custom
 #navbar: false
 
 listing:
 - id: research
   contents: 
-    - research/clean-energy-supply-chains
-    - research/power-systems-decarbonization
-    - research/climate-impact-energy-systems
-    - research/energy-nexus-research
-    - research/energy-climate-justice
-    - research/china-carbon-neutrality-initiative    
-    - research/new-york-climate-initiative    
+    - research/plastic-waste-to-energy
+    - research/CO2-converion
+    - research/h2o-energy-nexus-research
+    - research/biomass-energy-climate-justice
+    #- research/china-carbon-neutrality-initiative    
+    #- research/new-york-climate-initiative    
   sort: false
   type: grid
-  grid-columns: 4
-  max-items: 8
-  image-height: 150px
+  grid-columns: 2
+  max-items: 6
+  image-height: 300px
   fields: [image, title]
-  page-size: 8
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  feed: false
+  grid-item-align: center
+  page-size: 25
+  #categories: false
+  #sort-ui: false
+  #filter-ui: false
+  #feed: false
  
 - id: publications
   sort: "date desc"
   type: grid
   fields: [image, title, subtitle, date]
-  grid-item-align: left
+  grid-item-align: center
   grid-columns: 3
   image-height: 200px
 #  categories: true
@@ -49,11 +49,11 @@ listing:
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-7}
+::: {.g-col-12 .g-col-md-8}
 
-<p align="center" style="font-size:30px; font-weight:bold;">Welcome to Deep Energy and Climate Policy Lab</p>
-<p align="center" style="font-size:24px;">Data-driven, Evidence-based, Energy and Climate Solutions</p>
-<p align="center" style="font-size:24px;">Deep analysis, Deep insights, for Deep decarbonization</p>
+<p align="center" style="font-size:30px; font-weight:bold;">Green Carbon Science: Heterogeneous Catalysis toward Carbon Neutrality</p>
+<p align="center" style="font-size:20px;">Catalyst design and synthesis,  In-situ/operando characterization, Computational modeling</p>
+<p align="center" style="font-size:20px;">C1 chemistry, Biomass conversion, Plastic waste upcycling</p>
 
 ::: {.button}
 [Learn more](about.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 1em;"}
@@ -61,8 +61,8 @@ listing:
 
 :::
 
-::: {.g-col-12 .g-col-md-5}
-[![](/files/images/cover.png)](about.qmd){fig-align="center"}
+::: {.g-col-12 .g-col-md-4}
+[![](files/images/Wei-lab.jpg)](about.qmd){fig-align="center"}
 :::
 
 :::
@@ -96,7 +96,7 @@ listing:
 
 
 ::: {.button}
-[Read more](more-publications.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
+[Read more](publications.qmd){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" style="margin-top: 0em;"}
 :::
 
 :::

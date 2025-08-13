@@ -1,0 +1,8 @@
+    - path: https://wzhangx.github.io/about.html
+      image: /files/headshots/wei.jpg
+      title: "Wei Zhang"
+      lastname: "Zhang"
+#      author: 
+      subtitle: "Full Professor, East China Normal University"
+#      date: "2024-03-12"
+      categories: [Director]

@@ -1,0 +1,19 @@
+---
+title: "**Plastic wastes to Energy**"
+description: "Plastic waste derived from crude oil can be potentially serve as an advantageous hydrocarbon feedstock through various chemical recycling processes."
+image: "featured.jpg"
+---
+
+![](featured.jpg)
+
+
+## Overview
+Polyolefin waste is the largest polymer waste stream that could potentially serve as an advantageous hydrocarbon feedstock. Upcycling polyolefins poses significant challenges due to their inherent kinetic and thermodynamic stability. Traditional methods, such as thermal and catalytic cracking, are straightforward but require temperatures exceeding 400 °C for complete conversion because of thermodynamic constraints. 
+The objective of the our work is to provide fundamental insights into low-temperature elementary reactions that can be used to couple C-C bond cleavage in polyolefins with exothermic scav-enging of the fragments formed in a single-stage process and to identify model reactants that can be used to accurately describe the location and rates of C-C cleavage events in polyolefin feedstocks.
+
+## Featured publications
+1.  W. Zhang,*  *et al. * ***Science*** 2025, in press.
+2.  W. Zhang,*  *et al. * ***Science*** 2023, 379, 807–811.
+3.  W. Zhang,*  *et al. * ***Nat. Commun.*** 2024,15, 5785.
+4. W. Zhang, *et al.* ***Angew. Chem. Int. Ed.*** 2024, 63, e202319580.
+5. W. Zhang*, *et al.* ***Angew. Chem. Int. Ed.*** 2025, 64,  e202500559.
