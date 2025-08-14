@@ -1,0 +1,50 @@
+[
+  {
+    "listing": "/research.html",
+    "items": [
+      "/research/plastic-waste-to-energy/index.html",
+      "/research/CO2-converion/index.html",
+      "/research/h2o-energy-nexus-research/index.html",
+      "/research/biomass-energy-climate-justice/index.html"
+    ]
+  },
+  {
+    "listing": "/people.html",
+    "items": []
+  },
+  {
+    "listing": "/more-publications.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/research/plastic-waste-to-energy/index.html",
+      "/research/CO2-converion/index.html",
+      "/research/h2o-energy-nexus-research/index.html",
+      "/research/biomass-energy-climate-justice/index.html"
+    ]
+  },
+  {
+    "listing": "/more-news.html",
+    "items": [
+      "/news/2025-science/index.html",
+      "/news/2024-nat-comm/index.html",
+      "/news/2024-angew/index.html",
+      "/news/2023-science/index.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/news/2025-science/index.html",
+      "/news/2024-nat-comm/index.html",
+      "/news/2024-angew/index.html",
+      "/news/2023-science/index.html"
+    ]
+  },
+  {
+    "listing": "/resources.html",
+    "items": []
+  }
+]
