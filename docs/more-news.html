@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-date','listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-date"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -140,15 +140,11 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="News – Wei ZHANG’s Lab">
 <meta property="og:description" content="Wei Zhang’s Lab">
-<meta property="og:image" content="http://wzhangx.github.io/files/images/journal/science.png">
+<meta property="og:image" content="http://wzhangx.github.io/news/2025-science/featured.jpg">
 <meta property="og:site_name" content="Wei ZHANG's Lab">
-<meta property="og:image:height" content="225">
-<meta property="og:image:width" content="225">
 <meta name="twitter:title" content="News – Wei ZHANG’s Lab">
 <meta name="twitter:description" content="Wei Zhang’s Lab">
-<meta name="twitter:image" content="http://wzhangx.github.io/files/images/journal/science.png">
-<meta name="twitter:image-height" content="225">
-<meta name="twitter:image-width" content="225">
+<meta name="twitter:image" content="http://wzhangx.github.io/news/2025-science/featured.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -196,6 +192,10 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link" href="./vacancies.html"> 
 <span class="menu-text">Vacancies</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cn.html"> 
+<span class="menu-text">中文</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -256,16 +256,14 @@ window.Quarto = {
     <select id="listing-news-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-news'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
       <option value="" disabled="" selected="" hidden="">Order By</option>
       <option value="index" data-direction="asc">Default</option>
-      <option value="listing-image" data-direction="asc">
-      </option>
-      <option value="listing-title-sort" data-direction="asc">
-        Title
-      </option>
       <option value="listing-date-sort" data-direction="asc">
         Date - Oldest
       </option>
       <option value="listing-date-sort" data-direction="desc">
         Date - Newest
+      </option>
+      <option value="listing-title-sort" data-direction="asc">
+        Category
       </option>
     </select>
   </div>
@@ -283,78 +281,81 @@ window.Quarto = {
 </th>
 
 <th>
-<a class="sort" data-sort="listing-image" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;"> </a>
+ 
 </th>
 
 <th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Category</a>
+</th>
+
+<th>
+Details
 </th>
 
 </tr>
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-date-sort="1753977600000" data-listing-title-sort="Our research paper is published in Science!">
+<tr data-index="0" data-listing-date-sort="1755100800000" data-listing-file-modified-sort="1755145338794" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="41" data-listing-title-sort="Research highlights" data-listing-filename-sort="index.qmd">
 <td>
-<span class="listing-date">2025-08-01</span>
+<span class="listing-date">2025-08-14</span>
 </td>
 <td>
-<span class="listing-image"><img loading="lazy" src="./files/images/journal/science.png" style="height: 30px;"></span>
+<span class="listing-image"><img loading="lazy" src="./news/2025-science/featured.jpg" style="height: 30px;"></span>
 </td>
 <td>
-<a href="https://doi.org/10.1126/science.ade" class="title listing-title">Our research paper is published in Science!</a>
-</td>
-
-</tr>
-
-<tr data-index="1" data-listing-date-sort="1740758400000" data-listing-title-sort="Our research paper is published in Angew. Chem. Int. Ed.!">
-<td>
-<span class="listing-date">2025-03-01</span>
+<a href="./news/2025-science/index.html" class="title listing-title">Research highlights</a>
 </td>
 <td>
-<span class="listing-image"><img loading="lazy" src="./files/images/journal/Angew.png" style="height: 30px;"></span>
-</td>
-<td>
-<a href="https://doi.org/10.1002/anie.202500559" class="title listing-title">Our research paper is published in Angew. Chem. Int. Ed.!</a>
+<span class="listing-description">Our study ‘Integrating Low-temperature PVC and Polyolefin Upgrading’ is published in Science!</span>
 </td>
 
 </tr>
 
-<tr data-index="2" data-listing-date-sort="1720540800000" data-listing-title-sort="Our research paper is published in Nat. Commun.!">
+<tr data-index="1" data-listing-date-sort="1720540800000" data-listing-file-modified-sort="1755149735320" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="257" data-listing-title-sort="Research highlights" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">2024-07-10</span>
 </td>
 <td>
-<span class="listing-image"><img loading="lazy" src="./files/images/journal/nature-comms.png" style="height: 30px;"></span>
+<span class="listing-image"><img loading="lazy" src="./news/2024-nat-comm/featured.jpg" style="height: 30px;"></span>
 </td>
 <td>
-<a href="https://doi.org/10.1038/s41467-024-49827-4" class="title listing-title">Our research paper is published in Nat. Commun.!</a>
+<a href="./news/2024-nat-comm/index.html" class="title listing-title">Research highlights</a>
+</td>
+<td>
+<span class="listing-description">Our study ‘Active species in chloroaluminate ionic liquids catalyzing low-temperature polyolefin deconstruction’ is published in Nat. Commun.!</span>
 </td>
 
 </tr>
 
-<tr data-index="3" data-listing-date-sort="1709395200000" data-listing-title-sort="Our research paper is published in Angew. Chem. Int. Ed.!">
+<tr data-index="2" data-listing-date-sort="1709395200000" data-listing-file-modified-sort="1755144756301" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="257" data-listing-title-sort="Research highlights" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">2024-03-03</span>
 </td>
 <td>
-<span class="listing-image"><img loading="lazy" src="./files/images/journal/Angew.png" style="height: 30px;"></span>
+<span class="listing-image"><img loading="lazy" src="./news/2024-angew/featured.jpg" style="height: 30px;"></span>
 </td>
 <td>
-<a href="https://doi.org/10.1002/anie.202319580" class="title listing-title">Our research paper is published in Angew. Chem. Int. Ed.!</a>
+<a href="./news/2024-angew/index.html" class="title listing-title">Research highlights</a>
+</td>
+<td>
+<span class="listing-description">Our study ‘Hydride transfer as key to catalytic upcycling of polyethylene into liquid alkanes’ is published in Angew. Chem. Int. Ed. !</span>
 </td>
 
 </tr>
 
-<tr data-index="4" data-listing-date-sort="1677081600000" data-listing-title-sort="Our research paper on upcycling of polyolefin waste is published in Science!">
+<tr data-index="3" data-listing-date-sort="1677081600000" data-listing-file-modified-sort="1755143764427" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="149" data-listing-title-sort="Research highlights" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">2023-02-23</span>
 </td>
 <td>
-<span class="listing-image"><img loading="lazy" src="./files/images/journal/science.png" style="height: 30px;"></span>
+<span class="listing-image"><img loading="lazy" src="./news/2023-science/featured.jpg" style="height: 30px;"></span>
 </td>
 <td>
-<a href="https://doi.org/10.1126/science.ade7485" class="title listing-title">Our research paper on upcycling of polyolefin waste is published in Science!</a>
+<a href="./news/2023-science/index.html" class="title listing-title">Research highlights</a>
+</td>
+<td>
+<span class="listing-description">Our study ‘Low-temperature upcycling of polyolefins into liquid alkanes via tandem cracking-alkylation’ is published in Science!</span>
 </td>
 
 </tr>

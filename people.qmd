@@ -9,7 +9,7 @@ listing:  #an example of listing external links
 - id: phd
   #sort: "lastname asc"
   type: grid
-  fields: [image, title, subtitle]
+  fields: [image, title, subtitle,description]
   grid-item-align: center
   grid-columns: 3
   image-height: 300px
@@ -18,14 +18,14 @@ listing:  #an example of listing external links
 #  filter-ui: true
   contents: 
 #    - labmembers.yml
-    - /people/profile2.yml
-    - /people/profile3.yml
-    - /people/profile4.yml
+    - /people/bing.yml
+    - /people/jiangtao.yml
+    - /people/wei-wang.yml
 
 - id: master
   #sort: "lastname asc"
   type: grid
-  fields: [image, title, subtitle]
+  fields: [image, title, subtitle, description]
   grid-item-align: center
   grid-columns: 3
   image-height: 300px
@@ -34,10 +34,8 @@ listing:  #an example of listing external links
 #  filter-ui: true
   contents: 
 #    - labmembers.yml
-    - /people/profile2.yml
-    - /people/profile3.yml
-    - /people/profile4.yml
-
+    - /people/jia.yml
+    - /people/fangzhou.yml
 
 - id: lab-alumni
   sort: "lastname asc"
@@ -53,7 +51,6 @@ listing:  #an example of listing external links
       ended: "Ended"
   contents: 
     - /people/profile2.yml
-    - /people/profile3.yml
     - /people/profile4.yml 
     
 

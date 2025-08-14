@@ -13,11 +13,21 @@
   },
   {
     "listing": "/news.html",
-    "items": []
+    "items": [
+      "/news/2025-science/index.html",
+      "/news/2024-nat-comm/index.html",
+      "/news/2024-angew/index.html",
+      "/news/2023-science/index.html"
+    ]
   },
   {
     "listing": "/more-news.html",
-    "items": []
+    "items": [
+      "/news/2025-science/index.html",
+      "/news/2024-nat-comm/index.html",
+      "/news/2024-angew/index.html",
+      "/news/2023-science/index.html"
+    ]
   },
   {
     "listing": "/events.html",
@@ -46,10 +56,6 @@
   },
   {
     "listing": "/more-publications.html",
-    "items": []
-  },
-  {
-    "listing": "/news/2025-07-28-nature-comment-nuclear-costs.html",
     "items": []
   },
   {

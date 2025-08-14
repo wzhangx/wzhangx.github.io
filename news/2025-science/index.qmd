@@ -1,0 +1,18 @@
+---
+title: "Research highlights"
+subtitle: "Science"
+description: "Our study 'Integrating Low-temperature PVC and Polyolefin Upgrading' is published in Science!"
+image: "featured.jpg"
+date: "2025-08-14"
+#categories: [news, job]
+---
+
+![](featured.jpg){width=80% fig-align="center"}
+
+
+## Abstract
+
+
+
+## Cite as
+W. Zhang,* B. Yang, B. Jackson, J. Zhao, H. Shi, D. Camaioni,  S. Kim, H. Wang, J. Szanyi, M. Lee, J. G. Chen and J. A. Lercher*, Integrating Low-temperature PVC and Polyolefin Upgrading. 2025, Science. In press.

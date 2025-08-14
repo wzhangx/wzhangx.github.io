@@ -49,7 +49,7 @@ listing:
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-8}
+::: {.g-col-12 .g-col-md-7}
 
 <p align="center" style="font-size:30px; font-weight:bold;">Green Carbon Science: Heterogeneous Catalysis toward Carbon Neutrality</p>
 <p align="center" style="font-size:20px;">Catalyst design and synthesis,  In-situ/operando characterization, Computational modeling</p>
@@ -61,7 +61,7 @@ listing:
 
 :::
 
-::: {.g-col-12 .g-col-md-4}
+::: {.g-col-12 .g-col-md-5}
 [![](files/images/Wei-lab.jpg)](about.qmd){fig-align="center"}
 :::
 

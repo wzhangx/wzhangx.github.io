@@ -1,6 +1,6 @@
 ---
-title: "张伟-华东师范大学"
-subtitle: "绿色化学与多相催化"
+title: "[张伟-华东师范大学](https://faculty.ecnu.edu.cn/_s34/zw2_26077/main.psp)"
+subtitle: "[绿色化学与多相催化](https://faculty.ecnu.edu.cn/_s34/zw2_26077/main.psp)"
 #image: files/framework.jpeg
 page-layout: full
 ---
@@ -13,26 +13,46 @@ page-layout: full
 ::: {.g-col-12 .g-col-md-7}
 
 :::{style="font-size: 1rem;"}
-[张伟](https://faculty.ecnu.edu.cn/_s34/zw2_26077/main.psp)，华东师范大学研究员，博士生导师，国家高层次青年人才计划入选者。2015年在华东师范大学获得硕士学位；2019年博士毕业于荷兰阿姆斯特丹大学; 2020至2024年，先后在德国慕尼黑工业大学和美国西北太平洋国家实验室从事博士后研究。2025年加入华东师范大学，入选国家级和上海市海外高层次青年人才引进计划，以及华东师范大学紫江优秀青年学者计划。
+**个人概况:**
+
+[张伟](https://faculty.ecnu.edu.cn/_s34/zw2_26077/main.psp)，华东师范大学研究员，博士生导师。2015年在华东师范大学获得硕士学位；2019年博士毕业于荷兰阿姆斯特丹大学; 2020至2024年，先后在德国慕尼黑工业大学和美国西北太平洋国家实验室从事博士后研究。2025年加入华东师范大学，入选国家级和上海市海外高层次青年人才引进计划，以及华东师范大学紫江优秀青年学者计划。
 研究方向聚焦绿色碳科学领域的前沿催化反应，致力于开发新型高效催化体系，通过精准调控催化剂结构和原位光谱技术深入研究表界面催化过程。相关成果以第一作者/通讯作者发表于 ***Science*** (2篇)、***Nat. Commun.***、***Angew. Chem. Int. Ed.***、***ACS Catalysis***等权威期刊。主导美国能源部废塑料降解项目及Chevron公司二氧化碳加氢合成多碳醇燃料项目，着力解决工业催化中碳资源高效利用的关键科学问题，助力可再生能源体系的建设。
 
+- 个人主页：[https://faculty.ecnu.edu.cn/_s34/zw2_26077/main.psp](https://faculty.ecnu.edu.cn/_s34/zw2_26077/main.psp)
 
-主要研究领域：
+- E-mail: <wzhangx@chem.ecnu.edu.cn>
+  
+- 地址：华东师范大学普陀校区化学馆 | 上海市中山北路3663号| 邮编200062
 
-- [可持续、韧性及公正的清洁能源供应链](/research/clean-energy-supply-chains/index.qmd)  
-- [电力系统低碳转型](/research/power-systems-decarbonization/index.qmd)    
-- [气候变化对能源系统的影响](/research/climate-impact-energy-systems/index.qmd)  
-- [能源交叉研究](/research/energy-nexus-research/index.qmd)  
-- [能源与气候公正](/research/energy-climate-justice/index.qmd)
 
-主要行动倡议：
+**主要研究领域：**
 
-- [中国碳中和行动](/research/china-carbon-neutrality-initiative/index.qmd)    
-- [纽约气候行动](/research/new-york-climate-initiative/index.qmd)  
+本课题组依托华东师范大学分子与工程学院、石油化工分子转化与反应工程全国重点实验室以及上海市绿色化学与化工过程绿色化重点实验室等一流科研平台。聚焦绿色碳科学领域的前沿研究方向，致力于开发创新催化技术，推动可持续能源与资源的高效利用。主要研究方向包括：
 
-欢迎关注并支持我们的研究和工作，与深度政策实验室合作。
+- 废弃碳资源(塑料/生物质)增值回收：开发热/光/电及其催化耦合技术，实现废弃塑料和生物质的高效解聚与高值化利用，突破催化剂设计、反应路径优化与产物选择性调控等关键技术。
 
-联系我们：<gang.he@baruch.cuny.edu>
+- 催化重质石蜡烷烃裂化与轻质烷烃烷基化：研发高效催化剂，专注于重质石蜡烷烃的裂化和轻质烷烃的烷基化，推动标准汽油生产技术的创新。
+
+- 碳一分子（CO2/CO等）催化转化：开发高效、稳定的催化材料与反应体系，深入研究动力学及反应机理，以实现高效转化为高密度能量载体，推动低碳能源技术创新。
+
+- 水作为氢源和介质的催化反应及相关体系：研究以水作为氢源和反应介质的催化反应体系，开发新型催化材料与工艺，探索其在可持续能源转化中的应用潜力。
+
+
+**代表性成果：**
+
+[1] W. Zhang,*  et al. Science 2025, DOI: 10.1126/science.adx5285.
+
+[2] W. Zhang,*  et al. Science 2023, 379, 807–811.
+
+[3] W. Zhang,*  et al. Nat. Commun. 2024,15, 5785.
+
+[4] W. Zhang, et al. Angew. Chem. Int. Ed. 2024, 63, e202319580.
+
+[5] W. Zhang*, et al. Angew. Chem. Int. Ed. 2025, 64,  e202500559.
+
+[6] W. Zhang, et al. ACS Catal. 2020, 10, 3958-3967.
+
+[7] W. Zhang, et al. ACS Catal. 2018, 8, 2365-2374.
 
 :::
 
@@ -40,7 +60,7 @@ page-layout: full
 
 ::: {.g-col-12 .g-col-md-5}
 
-![人工智能绘制](/files/images/cover-square.png)
+[![](/files/images/Wei-lab.jpg)](https://faculty.ecnu.edu.cn/_s34/zw2_26077/main.psp)
 
 :::
 

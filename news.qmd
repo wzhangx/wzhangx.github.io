@@ -6,17 +6,29 @@ listing:
 - id: news
   sort: "date desc"
   type: table
-  fields: [date, image, title] 
-  field-display-names: 
-    subtitle: " "
-  grid-item-align: left
+  fields: [date, image, title, description]
 #  grid-columns: 3
   max-items: 10
-  image-height: 70px
+  image-height: 100px
+  field-display-names: 
+      title: "Category"
+      description: "Details"
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
-  contents: news.yml
+  contents: 
+  - news/2023-science
+  - news/2024-angew
+  - news/2024-nat-comm  
+  - news/2025-angew
+  - news/2025-science
+page-navigation: false
+title-block-banner: false
+toc: false
+
+format:
+  html:
+    link-external-newwindow: true
 ---
 
 

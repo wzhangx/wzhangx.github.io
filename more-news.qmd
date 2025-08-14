@@ -14,16 +14,22 @@ listing:
 - id: news
   sort: "date desc"
   type: table
-  fields: [date, image, title]
+  fields: [date, image, title, description]
   field-display-names: 
-      subtitle: ""
+      title: "Category"
+      description: "Details"
 #  grid-item-align: left
 #  grid-columns: 3
   image-height: 30px
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
-  contents: news.yml
+  contents: 
+  - news/2023-science
+  - news/2024-angew
+  - news/2024-nat-comm  
+  - news/2025-angew
+  - news/2025-science
 ---
 
 

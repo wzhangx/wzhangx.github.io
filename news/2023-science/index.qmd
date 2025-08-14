@@ -1,0 +1,18 @@
+---
+title: "Research highlights"
+subtitle: "Science"
+description: "Our study 'Low-temperature upcycling of polyolefins into liquid alkanes via tandem cracking-alkylation' is published in Science!"
+image: "featured.jpg"
+date: "2023-02-23"
+#categories: [news, job]
+---
+
+![](featured.jpg){width=80% fig-align="center"}
+
+
+## Abstract
+Polyolefin waste is the largest polymer waste stream that could potentially serve as an advantageous hydrocarbon feedstock. Upcycling polyolefins poses significant challenges due to their inherent kinetic and thermodynamic stability. Traditional methods, such as thermal and catalytic cracking, are straightforward but require temperatures exceeding 400 °C for complete conversion because of thermodynamic constraints. 
+The objective of the our work is to provide fundamental insights into low-temperature elementary reactions that can be used to couple C-C bond cleavage in polyolefins with exothermic scav-enging of the fragments formed in a single-stage process and to identify model reactants that can be used to accurately describe the location and rates of C-C cleavage events in polyolefin feedstocks.
+
+## Cite as
+W. Zhang,* S. Kim, L. Wahl, R. Khare, L. Hale, J. Hu, D Camaioni, O.Gutiérrez, Y. Liu, J. A. Lercher,* Low-temperature upcycling of polyolefins into liquid alkanes via tandem cracking-alkylation. Science 2023, 379, 807–811.

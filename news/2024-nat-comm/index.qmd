@@ -1,0 +1,17 @@
+---
+title: "Research highlights"
+subtitle: "Nat. Commun."
+description: "Our study 'Active species in chloroaluminate ionic liquids catalyzing low-temperature polyolefin deconstruction' is published in Nat. Commun.!"
+image: "featured.jpg"
+date: "2024-07-10"
+#categories: [news, job]
+---
+
+![](featured.jpg){width=80% fig-align="center"}
+
+
+## Abstract
+ Chloroaluminate ionic liquids selectively transform (waste) polyolefins into gasoline-range alkanes through tandem cracking-alkylation at temperatures below 100°C. Further improvement of this process necessitates a deep understanding of the nature of the catalytically active species and the correlated performance in the catalyzing critical reactions for the tandem polyolefin deconstruction with isoalkanes at low temperatures. Here, we address this requirement by determining the nuclearity of the chloroaluminate ions and their interactions with reaction intermediates, combining in situ 27Al magic-angle spinning nuclear magnetic resonance spectroscopy, in situ Raman spectroscopy, Al K-edge X-ray absorption near edge structure spectroscopy, and catalytic activity measurement.  Cracking and alkylation are facilitated by carbenium ions initiated by AlCl3-tert-butyl chloride (TBC) adducts, which are formed by the dissociation of Al2Cl7− in the presence of TBC. The carbenium ions activate the alkane polymer strands and advance the alkylation cycle through multiple hydride transfer reactions. In situ 1H NMR and operando infrared spectroscopy demonstrate that the cracking and alkylation processes occur synchronously; alkenes formed during cracking are rapidly incorporated into the carbenium ion-mediated alkylation cycle. The conclusions are further supported by ab initio molecular dynamics simulations coupled with an enhanced sampling method, and model experiments using n-hexadecane as a feed.
+
+## Cite as
+W. Zhang,* R. Khare, S. Kim, L. Hale, W. Hu, C. Yuan, Y. Sheng, P. Zhang, L. Wahl, J. Mai, B. Yang, O. Y. Gutiérrez, D. Ray, J. Fulton, D. Camaioni, J. Hu, H. Wang, M. Lee and J. A. Lercher*, Active species in chloroaluminate ionic liquids catalyzing low-temperature polyolefin deconstruction. Nat. Commun. 2024,15, 5785.

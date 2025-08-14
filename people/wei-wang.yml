@@ -1,0 +1,11 @@
+    - path: https://
+      image: /files/headshots/wei-wang.jpg
+      title: "**Wei WANG**"
+      lastname: "Wang"
+      started: "2025-09"
+      ended: ""       
+#      author: 
+      subtitle: "Email:15729591581@163.com"
+      description: ""
+#      date: "2024-03-12"
+      categories: [PhD] 

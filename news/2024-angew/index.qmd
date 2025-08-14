@@ -1,0 +1,17 @@
+---
+title: "Research highlights"
+subtitle: "Angew. Chem. Int. Ed."
+description: "Our study 'Hydride transfer as key to catalytic upcycling of polyethylene into liquid alkanes' is published in Angew. Chem. Int. Ed. !"
+image: "featured.jpg"
+date: "2024-03-03"
+#categories: [news, job]
+---
+
+![](featured.jpg){width=80% fig-align="center"}
+
+
+## Abstract
+Transforming polyolefin waste into liquid alkanes through tandem cracking-alkylation reactions catalyzed by Lewis-acid chlorides offers an efficient route for single-step plastic upcycling. Lewis acids in dichloromethane establish a polar environment that stabilizes carbenium ion intermediates and catalyzes hydride transfer, enabling breaking of polyethylene C−C bonds and forming C−C bonds in alkylation. Here, we show that efficient and selective deconstruction of low-density polyethylene (LDPE) to liquid alkanes is achieved with anhydrous aluminum chloride (AlCl3) and gallium chloride (GaCl3). Already at 60 °C, complete LDPE conversion was achieved, while maintaining the selectivity for gasoline-range liquid alkanes over 70%. AlCl3 showed an exceptional conversion rate of 5000 g_LDPE 〖 mol〗_cat^(-1) 〖 h〗^(-1), surpassing other Lewis acid catalysts by two orders of magnitude. Through kinetic and mechanistic studies, we show that the rates of LDPE conversion do not correlate directly with the intrinsic strength of the Lewis acids or steric constraints that may limit the polymer to access the Lewis acid sites. Instead, the rates for the tandem processes of cracking and alkylation are primarily governed by the rates of initiation of carbenium ions and the subsequent intermolecular hydride transfer. Both jointly control the relative rates of cracking and alkylation, thereby determining the overall conversion and selectivity.
+
+## Cite as
+W. Zhang, H. Yao, R. Khare, P. Zhang, B.  Yang, W. Hu, D. Ray, J. Hu, D. Camaioni, H. Wang, S. Kim, M. Lee, M. Sarazen, J. G. Chen, J. A. Lercher,* Hydride transfer as key to catalytic upcycling of polyethylene into liquid alkanes. Angew. Chem. Int. Ed. 2024, 63, e202319580.

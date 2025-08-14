@@ -13,12 +13,14 @@ page-layout: full
 ::: {.g-col-12 .g-col-md-8}
 
 
-**Wei** received his **BS** from Taiyuan University of Technology in 2012 and **MS** from East China Normal University in 2015, both in the field of Applied Chemistry. He earned his **Ph.D.** in 2019 from the [Van 't Hoff Institute for Molecular Sciences](https://hims.uva.nl/) at the University of Amsterdam, the Netherlands. From 2020 to 2023, he worked as a **postdoctoral researcher** and **senior scientist** with Prof. [Johannes A. Lercher](https://www.ch.nat.tum.de/tc2/group/johannes-lercher/) at the Technical University of Munich, Germany. After that, he joined the Institute of Integrated Catalysis at the [Pacific Northwest National Laboratory](https://www.pnnl.gov/projects/institute-integrated-catalysis), USA. Since 2025, Zhang holds a professorship in the Shanghai Key Laboratory of Green Chemistry & Chemical Processes at East China Normal University. His research focuses on heterogeneous catalysis and sustainable chemistry.
+**Wei** received his **Ph.D.** in 2019 from the [Van 't Hoff Institute for Molecular Sciences](https://hims.uva.nl/) at the University of Amsterdam, the Netherlands. From 2020 to 2023, he worked as a **postdoctoral researcher** and **senior scientist** with Prof. [Johannes A. Lercher](https://www.ch.nat.tum.de/tc2/group/johannes-lercher/) at the Technical University of Munich, Germany. After that, he joined the Institute of Integrated Catalysis at the [Pacific Northwest National Laboratory](https://www.pnnl.gov/projects/institute-integrated-catalysis), USA. Since 2025, Zhang holds a professorship in the Shanghai Key Laboratory of Green Chemistry & Chemical Processes at East China Normal University. His research focuses on heterogeneous catalysis and sustainable chemistry.
+
+- E-mail: <wzhangx@chem.ecnu.edu.cn>
 
 
 ## Work Experience
 
-2025 -  **Professor**, School of Chemistry and Molecular Engineering, East China Normal University, China 
+2025 -     **Professor**, School of Chemistry and Molecular Engineering, East China Normal University, China 
 
 2023 - 2024 **Postdoc RA C**, Institute for Integrated Catalysis, Pacific Northwest National Laboratory, USA
 

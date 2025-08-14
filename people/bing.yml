@@ -1,0 +1,11 @@
+    - path: https://
+      image: /files/headshots/bing.jpg
+      title: "**Bing LIU**"
+      lastname: "Liu"
+      started: "2025-09"
+      ended: ""       
+#      author: 
+      subtitle: "Email:2458840371@qq.com"
+      description: ""
+#      date: "2024-03-12"
+      categories: [PhD] 

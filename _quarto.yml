@@ -24,7 +24,9 @@ website:
       - text: Gallery
         href: resources.qmd
       - text: Vacancies
-        href: vacancies.qmd        
+        href: vacancies.qmd
+      - text: 中文
+        href: cn.qmd          
     right:
       - icon: github
         target: _blank
