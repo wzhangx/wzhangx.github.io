@@ -5,12 +5,8 @@ title-block-banner: false
 page-layout: full
 toc: true
 ---
-
 <!--Please delete or replace with your own clarity-->
 {{< include /files/includes/_msclarity.qmd >}}
-
-## Acknowledgment
-
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-8}
