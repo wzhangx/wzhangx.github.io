@@ -13,8 +13,6 @@ toc: true
 3.  W. Zhang,*  *et al. * ***Nat. Commun.*** 2024,15, 5785.
 4. W. Zhang, *et al.* ***Angew. Chem. Int. Ed.*** 2024, 63, e202319580.
 5. W. Zhang*, *et al.* ***Angew. Chem. Int. Ed.*** 2025, 64,  e202500559.
-6. W. Zhang, *et al.* ***ACS Catal.*** 2020, 10, 3958-3967.
-7. W. Zhang, *et al.* ***ACS Catal.*** 2018, 8, 2365-2374.
 
 
 ## Full list of publications 
