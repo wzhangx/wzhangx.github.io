@@ -1,10 +1,10 @@
-    - path: https://
+    - path: https://doi.org/10.1126/science.adx5285
       image: /files/images/journal/science.png
       title: "Integrating Low-temperature PVC and Polyolefin Upgrading"
 #      author: 
       subtitle: "*Science*"
      # description: "Escalating construction expenses threaten to derail global progress on atomic energy. China offers lessons on how to rein in costs."
-      date: "2025-08"
+      date: "2025-08-14"
       fulltext: "[PDF](https://rdcu.be/eyaXW)"
       categories: [plastic waste] 
 
@@ -14,7 +14,7 @@
 #      author: 
       subtitle: "*Science*"
     # description: "Our findings indicate that building excessive PHS may not be the most cost-effective path to achieve zero-carbon power system, if there is no major cost reduction of PHS."
-      date: "2023-08"
+      date: "2023-02-23"
       fulltext: "[PDF](https://doi.org/10.1126/science.ade7485)"
       categories: [plastic waste] 
 
@@ -24,6 +24,6 @@
 #      author: 
       subtitle: "*Nat. Commun.*"
       #description: "Eliminating the last 10–20% of CO2 emissions create net climate and health benefits with only slightly increased costs."
-      date: "2024-07"
+      date: "2024-07-10"
       fulltext: "[PDF](https://doi.org/10.1038/s41467-024-49827-4)"
       categories: [power-system, china] 
