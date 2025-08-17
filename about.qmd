@@ -1,54 +1,76 @@
 ---
 title: "Wei ZHANG"
-subtitle: "Principal Investigator"
-#image: files/framework.jpeg
+description-meta: ""
+image: files/headshots/Wei.png
+page-navigation: false
+toc: false
 page-layout: full
+
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 70%
+  links:
+    - icon: mailbox
+      text: Homepage
+      href: https://wzhangx.com/
+    - icon: envelope
+      text: Email
+      href: "mailto:wzhangx@chem.ecnu.edu.cn"
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/wzhangx/
+    - icon: book
+      text: Google Scholar
+      href: https://scholar.google.com/citations?hl=en&user=ySqn8GcAAAAJ&view_op=list_works&sortby=pubdate
+    - icon: fingerprint
+      text: ORCID
+      href: https://orcid.org/0000-0003-4506-6583  
+
 ---
 
-<!--Please delete or replace with your own clarity-->
-{{< include /files/includes/_msclarity.qmd >}}
+::: {#hero-heading}
 
-::: {.grid}
+**Wei** received his **Ph.D.** in 2019 from the [Van 't Hoff Institute for Molecular Sciences](https://hims.uva.nl/) at the University of Amsterdam, Netherlands. From 2020 to 2023, he worked as a **postdoctoral researcher** and **senior scientist** with Prof. [Johannes A. Lercher](https://www.ch.nat.tum.de/tc2/group/johannes-lercher/) at the Technical University of Munich, Germany. After that, he joined the Institute of Integrated Catalysis at the [Pacific Northwest National Laboratory](https://www.pnnl.gov/projects/institute-integrated-catalysis), USA. Since 2025, Zhang holds a professorship in the Shanghai Key Laboratory of Green Chemistry & Chemical Processes at East China Normal University. His research focuses on heterogeneous catalysis and sustainable chemistry.
 
-::: {.g-col-12 .g-col-md-8}
+## Work Experience
+2025 -  | **Professor**, School of Chemistry and Molecular Engineering, East China Normal University, China 
 
+2023 - 2024 | **Postdoc RA C**, Institute for Integrated Catalysis, Pacific Northwest National Laboratory, USA
 
-**Wei** received his **Ph.D.** in 2019 from the [Van 't Hoff Institute for Molecular Sciences](https://hims.uva.nl/) at the University of Amsterdam, the Netherlands. From 2020 to 2023, he worked as a **postdoctoral researcher** and **senior scientist** with Prof. [Johannes A. Lercher](https://www.ch.nat.tum.de/tc2/group/johannes-lercher/) at the Technical University of Munich, Germany. After that, he joined the Institute of Integrated Catalysis at the [Pacific Northwest National Laboratory](https://www.pnnl.gov/projects/institute-integrated-catalysis), USA. Since 2025, Zhang holds a professorship in the Shanghai Key Laboratory of Green Chemistry & Chemical Processes at East China Normal University. His research focuses on heterogeneous catalysis and sustainable chemistry.
+2020 - 2023: **Group leader**, Lehrstuhl für Technische Chemie II, Technical University of Munich, Germany
+
+## Education
+2015 - 2019 | **Ph.D.** in Chemical Engineering, University of Amsterdam, The Netherlands
+
+2012 - 2015 | **M.Sc.** in Applied Chemistry, East China Normal University, China
+
+2008 - 2012 | **B.Sc.** in Applied Chemistry, Taiyuan University of Technology, China
 
 - E-mail: <wzhangx@chem.ecnu.edu.cn>
 
-
-## Work Experience
-
-2025 -     **Professor**, School of Chemistry and Molecular Engineering, East China Normal University, China 
-
-2023 - 2024 **Postdoc RA C**, Institute for Integrated Catalysis, Pacific Northwest National Laboratory, USA
-
-2020 - 2023 **Group leader**, Lehrstuhl für Technische Chemie II, Technical University of Munich, Germany
-
-## Education
-
-2015 - 2019 **Ph.D.** in Chemical Engineering, University of Amsterdam, The Netherlands
-
-2012 - 2015 **M.Sc.** in Applied Chemistry, East China Normal University, China
-
-2008 - 2012 **B.Sc.** in Applied Chemistry, Taiyuan University of Technology, China
-
 :::
-
-<!--
-:::{style="font-size: 1rem;"}
-:::
--->
-
-::: {.g-col-12 .g-col-md-4}
-
-![](/files/headshots/Wei.png){fig-align="Justify"}
-
-[![](/files/images/google.png){width=30% fig-align="Left"}](https://scholar.google.com/citations?hl=en&user=ySqn8GcAAAAJ&view_op=list_works&sortby=pubdate)
-[![](/files/images/orcid.png){width=30% fig-align="center"}](https://orcid.org/0000-0003-4506-6583)
-  [![](/files/images/gate.png){width=30% fig-align="Right"}](https://www.researchgate.net/profile/Wei-Zhang-278)
-:::
-
-:::
-
+<table width="100%" align="center">
+    <tr>
+        <td>
+            <a href="https://scholar.google.com/citations?hl=en&user=ySqn8GcAAAAJ&view_op=list_works&sortby=pubdate">
+                <img src="/files/images/google.png" alt="Google Scholar" width="100">
+            </a>
+        </td>
+        <td>
+           <a href="https://orcid.org/0000-0003-4506-6583">
+                <img src="/files/images/orcid.png" alt="ORCID" width="100">
+            </a>
+        </td>
+        <td>
+           <a href="https://www.researchgate.net/profile/Wei-Zhang-278">
+                <img src="/files/images/gate.png" alt="ResearchGate" width="100">
+            </a>
+        </td>
+          <td>
+           <a href="https://www.linkedin.com/in/wzhangx/">
+                <img src="/files/images/link.png" alt="Linkdein" width="100">
+            </a>
+        </td>
+    </tr>
+</table>

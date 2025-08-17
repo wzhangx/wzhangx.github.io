@@ -25,12 +25,13 @@ website:
         href: resources.qmd
       - text: Vacancies
         href: vacancies.qmd
-      - text: 中文
-        href: cn.qmd          
+      
     right:
-      - icon: github
-        target: _blank
-  page-navigation: true
+      - text: 中文
+        href: "https://faculty.ecnu.edu.cn/_s34/zw2_26077/main.psp"
+      - icon: envelope
+        href: "mailto:wzhangx@chem.ecnu.edu.cn"
+
   page-footer: 
     left: "[Wei ZHANG's Lab](http://wzhangx.github.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
 
@@ -49,12 +50,9 @@ website:
     tracking-id: "G-TEC97F8RGK"
     anonymize-ip: true 
 
-bibliography: references.bib
-
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-    link-external-icon: false
-    link-external-newwindow: true 
+    linkcolor: black
