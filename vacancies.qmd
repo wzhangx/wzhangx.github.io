@@ -1,5 +1,5 @@
 ---
-title: "Vacancies"
+title: "🔭 Vacancies"
 subtitle: "Join Us!"
 title-block-banner: false
 page-layout: full

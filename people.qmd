@@ -1,5 +1,5 @@
 ---
-title: "Team"
+title: "🎓 Team"
 subtitle: "Who we are"
 #image: files/group.jpeg
 page-layout: full

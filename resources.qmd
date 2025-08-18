@@ -1,5 +1,5 @@
 ---
-title: "Gallery"
+title: "🍵 Gallery"
 subtitle: "Lab ativities & facilities"
 page-layout: full
 #author: "DEEP Lab"
