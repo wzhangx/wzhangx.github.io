@@ -35,7 +35,7 @@ website:
   page-footer: 
     left: "[Wei ZHANG's Lab](http://wzhangx.github.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
 
-  
+
   search:
     location: navbar
     type: textbox

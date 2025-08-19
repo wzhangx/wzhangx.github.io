@@ -38,7 +38,7 @@ about:
 
 2023 - 2024 | **Postdoc RA C**, Institute for Integrated Catalysis, Pacific Northwest National Laboratory, USA
 
-2020 - 2023: **Group leader**, Lehrstuhl für Technische Chemie II, Technical University of Munich, Germany
+2020 - 2023 | **Postdoc & Group leader**, Lehrstuhl für Technische Chemie II, Technical University of Munich, Germany
 
 ## Education
 2015 - 2019 | **Ph.D.** in Chemical Engineering, University of Amsterdam, The Netherlands
@@ -74,3 +74,6 @@ about:
         </td>
     </tr>
 </table>
+
+
+<a href="https://info.flagcounter.com/fDEK"><img src="https://s05.flagcounter.com/count2/fDEK/bg_FFFFFF/txt_000000/border_CCCCCC/columns_1/maxflags_5/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
