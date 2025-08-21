@@ -64,7 +64,7 @@ format:
 <!--Please delete or replace with your own clarity-->
 {{< include /files/includes/_msclarity.qmd >}}
 
-## Ph.D Students
+## Ph.D. Students
  
 
 :::{#phd}
