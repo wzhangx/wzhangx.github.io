@@ -34,8 +34,12 @@ We are always eager to work with committed researchers who are passionate about 
 :::
 
 
-
 ## Postdoc & Ph.D. researchers
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-8}
+
 We are always eager to work with committed researchers (**Postdoc** and **PhD**) who are passionate about advancing interdisciplinary research in catalysis, energy and environment.
 
 
@@ -46,6 +50,18 @@ We are open to hosting motivated visiting Ph.D. students and scholars from aroun
 - Research plan
 - Language proficiency certificate (if applicable)
 - One reference letter (if available)
+
+:::
+
+
+::: {.g-col-12 .g-col-md-4}
+
+![ ](/files/headshots/cook.jpg){fig-align="center"}
+
+:::
+
+:::
+
 
 
 ## Contact us
