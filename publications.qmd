@@ -7,7 +7,7 @@ page-layout: full
 
 
 ## Selected publications
-1.  W. Zhang,*  *et al. * ***Science*** 2025, DOI: 10.1126/science.adx5285.
+1.  W. Zhang,*  *et al. * ***Science*** 2025, 390, 88-97.
 2.  W. Zhang,*  *et al. * ***Science*** 2023, 379, 807–811.
 3.  W. Zhang,*  *et al. * ***Nat. Commun.*** 2024,15, 5785.
 4. W. Zhang, *et al.* ***Angew. Chem. Int. Ed.*** 2024, 63, e202319580.
@@ -17,9 +17,9 @@ page-layout: full
 ## Full list of publications 
 
 
-[15] **W. Zhang**,* B. Yang, B. Jackson, J. Zhao, H. Shi, D. Camaioni,  S. Kim, H. Wang, J. Szanyi, M. Lee,* J. G. Chen and J. A. Lercher,*  *Integrating Low-temperature PVC and Polyolefin Upgrading*, ***Science***. 2025, DOI: 10.1126/science.adx5285.[PDF](https://doi.org/10.1126/science.adx5285)
+[15] **W. Zhang**,* B. Yang, B. Jackson, J. Zhao, H. Shi, D. Camaioni,  S. Kim, H. Wang, J. Szanyi, M. Lee,* J. G. Chen and J. A. Lercher,*  *Integrating Low-temperature PVC and Polyolefin Upgrading*, ***Science***. 2025, 390, 8-94.[PDF](https://www.science.org/stoken/author-tokens/ST-2941/full)
 
-[14] **Wei Zhang**,* Sungmin Kim, Michele L. Sarazen, Mingyuan He, Jingguang G. Chen and Johannes A. Lercher,* *Advances and Challenges in Low-temperature Upcycling of Waste Polyolefins via Tandem Catalysis*, ***Angew. Chem. Int. Ed*** . 2025, e202500559. [PDF](https://doi.org/10.1002/anie.202500559)
+[14] **Wei Zhang**,* Sungmin Kim, Michele L. Sarazen, Mingyuan He, Jingguang G. Chen and Johannes A. Lercher,* *Advances and Challenges in Low-temperature Upcycling of Waste Polyolefins via Tandem Catalysis*, ***Angew. Chem. Int. Ed*** . 2025, 64, e202500559. [PDF](https://doi.org/10.1002/anie.202500559)
 
 [13] **W. Zhang**,* R. Khare, S. Kim, L. Hale, W. Hu, C. Yuan, Y. Sheng, P. Zhang, L. Wahl, J. Mai, B. Yang, O. Y. Gutiérrez, D. Ray, J. Fulton, D. Camaioni, J. Hu, H. Wang, M. Lee and J. A. Lercher,* *Active species in chloroaluminate ionic liquids catalyzing low-temperature polyolefin deconstruction* , ***Nat. Commun.*** 2024, 15, 5785.(Editor's Highlight paper) [PDF](https://doi.org/10.1038/s41467-024-49827-4)
 
