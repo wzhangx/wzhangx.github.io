@@ -1,8 +1,6 @@
 ---
 title: "**Biomass Conversion to Chemcials**"
-description: "This study investigates catalytic reaction systems that utilize biomass as a renewable feedstock for the production of fuels and value-added chemicals.
-
- conversion."
+description: "This study investigates catalytic reaction systems that utilize biomass as a renewable feedstock for the production of fuels and value-added chemicals."
 image: "featured.jpg"
 ---
 

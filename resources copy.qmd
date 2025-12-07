@@ -5,21 +5,18 @@ toc: false
 listing: 
 
 - id: activities
-  contents: 
-    - lab-activities/20251204
-    
-  sort: false
+  sort: "date desc"
   type: grid
-  grid-columns: 2
-  image-height: 300px
-  fields: [image, title, description]
-  grid-item-align: center
-  page-size: 25
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  feed: false
-
+  fields: [image, title, subtitle, description]
+  grid-item-align: left
+  grid-columns: 3
+  image-height: 325px
+#  categories: true
+#  sort-ui: true
+#  filter-ui: true
+  contents:
+    - lab-activities/20251204
+  
 - id: facilities
   sort: "date desc"
   type: grid
@@ -34,10 +31,6 @@ listing:
     - resources-2.yml
   include: 
     categories: "featured"
-
-page-layout: full
-page-navigation: true
-title-block-banner: false
 ---
 
 

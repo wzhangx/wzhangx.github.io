@@ -1,0 +1,11 @@
+---
+title: "**20251204实验室聚餐**"
+
+
+ 
+image: "featured.jpg"
+---
+
+![](featured.jpg)
+
+
