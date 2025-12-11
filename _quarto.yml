@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Wei ZHANG's Lab"
+  title: "Wei ZHANG Research Group"
   image: "/files/images/Wei-lab.png"
   description: "Wei Zhang'Lab: Heterogeneous Catalysis toward a Sustainable Carbon Future."
  
@@ -33,7 +33,7 @@ website:
         href: "mailto:wzhangx@chem.ecnu.edu.cn"
 
   page-footer: 
-    left: "[Wei ZHANG's Lab](http://wzhangx.github.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    left: "[Wei ZHANG Research Group](http://wzhangx.github.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
 
 
   search:

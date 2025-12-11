@@ -1,5 +1,5 @@
 ---
-#title: "Wei ZHANG's Lab"
+#title: "Wei ZHANG Research Group"
 css: /custom.css
 #image: files/logo.jpg
 page-layout: custom

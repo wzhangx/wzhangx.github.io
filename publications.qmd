@@ -17,7 +17,7 @@ page-layout: full
 ## Full list of publications 
 
 
-[15] **W. Zhang**,* B. Yang, B. Jackson, J. Zhao, H. Shi, D. Camaioni,  S. Kim, H. Wang, J. Szanyi, M. Lee,* J. G. Chen and J. A. Lercher,*  *Integrating Low-temperature PVC and Polyolefin Upgrading*, ***Science***. 2025, 390, 8-94.[PDF](https://www.science.org/stoken/author-tokens/ST-2941/full)
+[15] **W. Zhang**,* B. Yang, B. Jackson, J. Zhao, H. Shi, D. Camaioni,  S. Kim, H. Wang, J. Szanyi, M. Lee,* J. G. Chen and J. A. Lercher,*  *Integrating Low-temperature PVC and Polyolefin Upgrading*, ***Science***. 2025, 390, 88-94.[PDF](https://www.science.org/stoken/author-tokens/ST-2941/full)
 
 [14] **Wei Zhang**,* Sungmin Kim, Michele L. Sarazen, Mingyuan He, Jingguang G. Chen and Johannes A. Lercher,* *Advances and Challenges in Low-temperature Upcycling of Waste Polyolefins via Tandem Catalysis*, ***Angew. Chem. Int. Ed*** . 2025, 64, e202500559. [PDF](https://doi.org/10.1002/anie.202500559)
 
