@@ -35,18 +35,15 @@ listing:  #an example of listing external links
     - /people/jia.yml
     - /people/fangzhou.yml
 
-- id: assistant
-  #sort: "lastname asc"
-  type: grid
-  fields: [image, title, subtitle, description]
-  grid-item-align: center
-  grid-columns: 3
-  image-height: 300px
-  categories: true
-#  sort-ui: true
-#  filter-ui: true
-  contents: 
-    - /people/YeTao.yml
+#- id: assistant
+#  type: grid
+#  fields: [image, title, subtitle, description]
+#  grid-item-align: center
+#  grid-columns: 3
+#  image-height: 300px
+#  categories: true
+#  contents: 
+#- /people/YeTao.yml
   
 - id: lab-alumni
   sort: "lastname asc"
