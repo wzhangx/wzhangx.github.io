@@ -1,5 +1,5 @@
 ---
-title: "Research highlights"
+title: "Research highlight"
 subtitle: "Science"
 description: "Our study 'Low-temperature upcycling of polyolefins into liquid alkanes via tandem cracking-alkylation' is published in **Science**!"
 image: "featured.jpg"
