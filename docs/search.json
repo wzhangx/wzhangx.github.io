@@ -77,46 +77,53 @@
     "text": "Alumni\n\n\n    \n      \n      \n    \n\n\n\n\n\nName\nRole/Affiliation\nStarted\nEnded\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "news/2025-science/index.html#abstract",
-    "href": "news/2025-science/index.html#abstract",
+    "objectID": "news/202603-Gadi Rothenberg/index.html#abstract",
+    "href": "news/202603-Gadi Rothenberg/index.html#abstract",
+    "title": "Guest seminar",
+    "section": "Abstract",
+    "text": "Abstract\nWe were delighted to welcome Prof. Gadi Rothenberg (University of Amsterdam) for a visit to our laboratory. In this seminar, he discussed how scientific discoveries in sustainable chemistry can be translated into successful business ventures. The lecture covered the key principles of sustainable chemistry, innovation strategies, intellectual property and team building, as well as funding pathways for sustainable start-ups."
+  },
+  {
+    "objectID": "news/202603-Gadi Rothenberg/index.html#homepage",
+    "href": "news/202603-Gadi Rothenberg/index.html#homepage",
+    "title": "Guest seminar",
+    "section": "Homepage",
+    "text": "Homepage\nGadi Rothenberg"
+  },
+  {
+    "objectID": "news/2024-nat-comm/index.html#abstract",
+    "href": "news/2024-nat-comm/index.html#abstract",
     "title": "Research highlights",
     "section": "Abstract",
-    "text": "Abstract"
+    "text": "Abstract\nChloroaluminate ionic liquids selectively transform (waste) polyolefins into gasoline-range alkanes through tandem cracking-alkylation at temperatures below 100°C. Further improvement of this process necessitates a deep understanding of the nature of the catalytically active species and the correlated performance in the catalyzing critical reactions for the tandem polyolefin deconstruction with isoalkanes at low temperatures. Here, we address this requirement by determining the nuclearity of the chloroaluminate ions and their interactions with reaction intermediates, combining in situ 27Al magic-angle spinning nuclear magnetic resonance spectroscopy, in situ Raman spectroscopy, Al K-edge X-ray absorption near edge structure spectroscopy, and catalytic activity measurement. Cracking and alkylation are facilitated by carbenium ions initiated by AlCl3-tert-butyl chloride (TBC) adducts, which are formed by the dissociation of Al2Cl7− in the presence of TBC. The carbenium ions activate the alkane polymer strands and advance the alkylation cycle through multiple hydride transfer reactions. In situ 1H NMR and operando infrared spectroscopy demonstrate that the cracking and alkylation processes occur synchronously; alkenes formed during cracking are rapidly incorporated into the carbenium ion-mediated alkylation cycle. The conclusions are further supported by ab initio molecular dynamics simulations coupled with an enhanced sampling method, and model experiments using n-hexadecane as a feed."
   },
   {
-    "objectID": "news/2025-science/index.html#cite-as",
-    "href": "news/2025-science/index.html#cite-as",
+    "objectID": "news/2024-nat-comm/index.html#cite-as",
+    "href": "news/2024-nat-comm/index.html#cite-as",
     "title": "Research highlights",
     "section": "Cite as",
-    "text": "Cite as\nW. Zhang,* B. Yang, B. Jackson, J. Zhao, H. Shi, D. Camaioni, S. Kim, H. Wang, J. Szanyi, M. Lee, J. G. Chen and J. A. Lercher*, Integrating Low-temperature PVC and Polyolefin Upgrading. 2025, Science. In press."
+    "text": "Cite as\nW. Zhang,* R. Khare, S. Kim, L. Hale, W. Hu, C. Yuan, Y. Sheng, P. Zhang, L. Wahl, J. Mai, B. Yang, O. Y. Gutiérrez, D. Ray, J. Fulton, D. Camaioni, J. Hu, H. Wang, M. Lee and J. A. Lercher*, Active species in chloroaluminate ionic liquids catalyzing low-temperature polyolefin deconstruction. Nat. Commun. 2024,15, 5785."
   },
   {
-    "objectID": "news/2024-angew/index.html#abstract",
-    "href": "news/2024-angew/index.html#abstract",
+    "objectID": "news/2023-science/index.html#abstract",
+    "href": "news/2023-science/index.html#abstract",
     "title": "Research highlights",
     "section": "Abstract",
-    "text": "Abstract\nTransforming polyolefin waste into liquid alkanes through tandem cracking-alkylation reactions catalyzed by Lewis-acid chlorides offers an efficient route for single-step plastic upcycling. Lewis acids in dichloromethane establish a polar environment that stabilizes carbenium ion intermediates and catalyzes hydride transfer, enabling breaking of polyethylene C−C bonds and forming C−C bonds in alkylation. Here, we show that efficient and selective deconstruction of low-density polyethylene (LDPE) to liquid alkanes is achieved with anhydrous aluminum chloride (AlCl3) and gallium chloride (GaCl3). Already at 60 °C, complete LDPE conversion was achieved, while maintaining the selectivity for gasoline-range liquid alkanes over 70%. AlCl3 showed an exceptional conversion rate of 5000 g_LDPE 〖 mol〗_cat^(-1) 〖 h〗^(-1), surpassing other Lewis acid catalysts by two orders of magnitude. Through kinetic and mechanistic studies, we show that the rates of LDPE conversion do not correlate directly with the intrinsic strength of the Lewis acids or steric constraints that may limit the polymer to access the Lewis acid sites. Instead, the rates for the tandem processes of cracking and alkylation are primarily governed by the rates of initiation of carbenium ions and the subsequent intermolecular hydride transfer. Both jointly control the relative rates of cracking and alkylation, thereby determining the overall conversion and selectivity."
+    "text": "Abstract\nPolyolefin waste is the largest polymer waste stream that could potentially serve as an advantageous hydrocarbon feedstock. Upcycling polyolefins poses significant challenges due to their inherent kinetic and thermodynamic stability. Traditional methods, such as thermal and catalytic cracking, are straightforward but require temperatures exceeding 400 °C for complete conversion because of thermodynamic constraints. The objective of the our work is to provide fundamental insights into low-temperature elementary reactions that can be used to couple C-C bond cleavage in polyolefins with exothermic scav-enging of the fragments formed in a single-stage process and to identify model reactants that can be used to accurately describe the location and rates of C-C cleavage events in polyolefin feedstocks."
   },
   {
-    "objectID": "news/2024-angew/index.html#cite-as",
-    "href": "news/2024-angew/index.html#cite-as",
+    "objectID": "news/2023-science/index.html#cite-as",
+    "href": "news/2023-science/index.html#cite-as",
     "title": "Research highlights",
     "section": "Cite as",
-    "text": "Cite as\nW. Zhang, H. Yao, R. Khare, P. Zhang, B. Yang, W. Hu, D. Ray, J. Hu, D. Camaioni, H. Wang, S. Kim, M. Lee, M. Sarazen, J. G. Chen, J. A. Lercher,* Hydride transfer as key to catalytic upcycling of polyethylene into liquid alkanes. Angew. Chem. Int. Ed. 2024, 63, e202319580."
+    "text": "Cite as\nW. Zhang,* S. Kim, L. Wahl, R. Khare, L. Hale, J. Hu, D Camaioni, O.Gutiérrez, Y. Liu, J. A. Lercher,* Low-temperature upcycling of polyolefins into liquid alkanes via tandem cracking-alkylation. Science 2023, 379, 807–811."
   },
   {
-    "objectID": "more-publications.html",
-    "href": "more-publications.html",
-    "title": "More Publications",
+    "objectID": "cn.html",
+    "href": "cn.html",
+    "title": "张伟-华东师范大学",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Journal\n      \n      \n        Year - Oldest\n      \n      \n        Year - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nJournal\n\n\n\nYear\n\n\n\nFulltext\n\n\n\n\n\n\n\n\n\n\n\nIntegrating Low-temperature PVC and Polyolefin Upgrading\n\n\nScience\n\n\n2025\n\n\nPDF\n\n\n\n\n\n\n\n\n\nActive species in chloroaluminate ionic liquids catalyzing low-temperature polyolefin deconstruction\n\n\nNat. Commun.\n\n\n2024\n\n\nPDF\n\n\n\n\n\n\n\n\n\nLow-temperature upcycling of polyolefins into liquid alkanes via tandem cracking-alkylation\n\n\nScience\n\n\n2023\n\n\nPDF\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "lab-activities/20260101/index.html",
-    "href": "lab-activities/20260101/index.html",
-    "title": "2025_12_31 Group dinner to celebrate New Year 2026",
-    "section": "",
-    "text": "Let’s ring in 2026 and celebrate our team! Join us for a group dinner filled with great food, conversation, and shared cheer as we welcome the new year together!!!"
+    "text": "个人概况:\n张伟，华东师范大学研究员，博士生导师。2015年在华东师范大学获得硕士学位；2019年博士毕业于荷兰阿姆斯特丹大学; 2020至2024年，先后在德国慕尼黑工业大学和美国西北太平洋国家实验室从事博士后研究。2025年加入华东师范大学，入选国家级和上海市海外高层次青年人才引进计划，以及华东师范大学紫江优秀青年学者计划。 研究方向聚焦绿色碳科学领域的前沿催化反应，致力于开发新型高效催化体系，通过精准调控催化剂结构和原位光谱技术深入研究表界面催化过程。相关成果以第一作者/通讯作者发表于 Science (2篇)、Nat. Commun.、Angew. Chem. Int. Ed.、ACS Catalysis等权威期刊。主导美国能源部废塑料降解项目及Chevron公司二氧化碳加氢合成多碳醇燃料项目，着力解决工业催化中碳资源高效利用的关键科学问题，助力可再生能源体系的建设。\n\n个人主页：https://faculty.ecnu.edu.cn/_s34/zw2_26077/main.psp\nE-mail: wzhangx@chem.ecnu.edu.cn\n地址：华东师范大学普陀校区化学馆 | 上海市中山北路3663号| 邮编200062\n\n主要研究领域：\n本课题组依托华东师范大学分子与工程学院、石油化工分子转化与反应工程全国重点实验室以及上海市绿色化学与化工过程绿色化重点实验室等一流科研平台。聚焦绿色碳科学领域的前沿研究方向，致力于开发创新催化技术，推动可持续能源与资源的高效利用。主要研究方向包括：\n\n废弃碳资源(塑料/生物质)增值回收：开发热/光/电及其催化耦合技术，实现废弃塑料和生物质的高效解聚与高值化利用，突破催化剂设计、反应路径优化与产物选择性调控等关键技术。\n催化重质石蜡烷烃裂化与轻质烷烃烷基化：研发高效催化剂，专注于重质石蜡烷烃的裂化和轻质烷烃的烷基化，推动标准汽油生产技术的创新。\n碳一分子（CO2/CO等）催化转化：开发高效、稳定的催化材料与反应体系，深入研究动力学及反应机理，以实现高效转化为高密度能量载体，推动低碳能源技术创新。\n水作为氢源和介质的催化反应及相关体系：研究以水作为氢源和反应介质的催化反应体系，开发新型催化材料与工艺，探索其在可持续能源转化中的应用潜力。\n\n代表性成果：\n[1] W. Zhang,* et al. Science 2025, 390, 88-94.\n[2] W. Zhang,* et al. Science 2023, 379, 807–811.\n[3] W. Zhang,* et al. Nat. Commun. 2024,15, 5785.\n[4] W. Zhang, et al. Angew. Chem. Int. Ed. 2024, 63, e202319580.\n[5] W. Zhang*, et al. Angew. Chem. Int. Ed. 2025, 64, e202500559.\n[6] W. Zhang, et al. ACS Catal. 2020, 10, 3958-3967.\n[7] W. Zhang, et al. ACS Catal. 2018, 8, 2365-2374."
   },
   {
     "objectID": "about.html",
@@ -140,53 +147,60 @@
     "text": "2015 - 2019 | Ph.D. in Chemical Engineering, University of Amsterdam, The Netherlands\n2012 - 2015 | M.Sc. in Applied Chemistry, East China Normal University, China\n2008 - 2012 | B.Sc. in Applied Chemistry, Taiyuan University of Technology, China\n\nE-mail: wzhangx@chem.ecnu.edu.cn"
   },
   {
-    "objectID": "cn.html",
-    "href": "cn.html",
-    "title": "张伟-华东师范大学",
+    "objectID": "lab-activities/20260101/index.html",
+    "href": "lab-activities/20260101/index.html",
+    "title": "2025_12_31 Group dinner to celebrate New Year 2026",
     "section": "",
-    "text": "个人概况:\n张伟，华东师范大学研究员，博士生导师。2015年在华东师范大学获得硕士学位；2019年博士毕业于荷兰阿姆斯特丹大学; 2020至2024年，先后在德国慕尼黑工业大学和美国西北太平洋国家实验室从事博士后研究。2025年加入华东师范大学，入选国家级和上海市海外高层次青年人才引进计划，以及华东师范大学紫江优秀青年学者计划。 研究方向聚焦绿色碳科学领域的前沿催化反应，致力于开发新型高效催化体系，通过精准调控催化剂结构和原位光谱技术深入研究表界面催化过程。相关成果以第一作者/通讯作者发表于 Science (2篇)、Nat. Commun.、Angew. Chem. Int. Ed.、ACS Catalysis等权威期刊。主导美国能源部废塑料降解项目及Chevron公司二氧化碳加氢合成多碳醇燃料项目，着力解决工业催化中碳资源高效利用的关键科学问题，助力可再生能源体系的建设。\n\n个人主页：https://faculty.ecnu.edu.cn/_s34/zw2_26077/main.psp\nE-mail: wzhangx@chem.ecnu.edu.cn\n地址：华东师范大学普陀校区化学馆 | 上海市中山北路3663号| 邮编200062\n\n主要研究领域：\n本课题组依托华东师范大学分子与工程学院、石油化工分子转化与反应工程全国重点实验室以及上海市绿色化学与化工过程绿色化重点实验室等一流科研平台。聚焦绿色碳科学领域的前沿研究方向，致力于开发创新催化技术，推动可持续能源与资源的高效利用。主要研究方向包括：\n\n废弃碳资源(塑料/生物质)增值回收：开发热/光/电及其催化耦合技术，实现废弃塑料和生物质的高效解聚与高值化利用，突破催化剂设计、反应路径优化与产物选择性调控等关键技术。\n催化重质石蜡烷烃裂化与轻质烷烃烷基化：研发高效催化剂，专注于重质石蜡烷烃的裂化和轻质烷烃的烷基化，推动标准汽油生产技术的创新。\n碳一分子（CO2/CO等）催化转化：开发高效、稳定的催化材料与反应体系，深入研究动力学及反应机理，以实现高效转化为高密度能量载体，推动低碳能源技术创新。\n水作为氢源和介质的催化反应及相关体系：研究以水作为氢源和反应介质的催化反应体系，开发新型催化材料与工艺，探索其在可持续能源转化中的应用潜力。\n\n代表性成果：\n[1] W. Zhang,* et al. Science 2025, 390, 88-94.\n[2] W. Zhang,* et al. Science 2023, 379, 807–811.\n[3] W. Zhang,* et al. Nat. Commun. 2024,15, 5785.\n[4] W. Zhang, et al. Angew. Chem. Int. Ed. 2024, 63, e202319580.\n[5] W. Zhang*, et al. Angew. Chem. Int. Ed. 2025, 64, e202500559.\n[6] W. Zhang, et al. ACS Catal. 2020, 10, 3958-3967.\n[7] W. Zhang, et al. ACS Catal. 2018, 8, 2365-2374."
+    "text": "Let’s ring in 2026 and celebrate our team! Join us for a group dinner filled with great food, conversation, and shared cheer as we welcome the new year together!!!"
   },
   {
-    "objectID": "news/2023-science/index.html#abstract",
-    "href": "news/2023-science/index.html#abstract",
+    "objectID": "more-publications.html",
+    "href": "more-publications.html",
+    "title": "More Publications",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Journal\n      \n      \n        Year - Oldest\n      \n      \n        Year - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nJournal\n\n\n\nYear\n\n\n\nFulltext\n\n\n\n\n\n\n\n\n\n\n\nIntegrating Low-temperature PVC and Polyolefin Upgrading\n\n\nScience\n\n\n2025\n\n\nPDF\n\n\n\n\n\n\n\n\n\nActive species in chloroaluminate ionic liquids catalyzing low-temperature polyolefin deconstruction\n\n\nNat. Commun.\n\n\n2024\n\n\nPDF\n\n\n\n\n\n\n\n\n\nLow-temperature upcycling of polyolefins into liquid alkanes via tandem cracking-alkylation\n\n\nScience\n\n\n2023\n\n\nPDF\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "news/2024-angew/index.html#abstract",
+    "href": "news/2024-angew/index.html#abstract",
     "title": "Research highlights",
     "section": "Abstract",
-    "text": "Abstract\nPolyolefin waste is the largest polymer waste stream that could potentially serve as an advantageous hydrocarbon feedstock. Upcycling polyolefins poses significant challenges due to their inherent kinetic and thermodynamic stability. Traditional methods, such as thermal and catalytic cracking, are straightforward but require temperatures exceeding 400 °C for complete conversion because of thermodynamic constraints. The objective of the our work is to provide fundamental insights into low-temperature elementary reactions that can be used to couple C-C bond cleavage in polyolefins with exothermic scav-enging of the fragments formed in a single-stage process and to identify model reactants that can be used to accurately describe the location and rates of C-C cleavage events in polyolefin feedstocks."
+    "text": "Abstract\nTransforming polyolefin waste into liquid alkanes through tandem cracking-alkylation reactions catalyzed by Lewis-acid chlorides offers an efficient route for single-step plastic upcycling. Lewis acids in dichloromethane establish a polar environment that stabilizes carbenium ion intermediates and catalyzes hydride transfer, enabling breaking of polyethylene C−C bonds and forming C−C bonds in alkylation. Here, we show that efficient and selective deconstruction of low-density polyethylene (LDPE) to liquid alkanes is achieved with anhydrous aluminum chloride (AlCl3) and gallium chloride (GaCl3). Already at 60 °C, complete LDPE conversion was achieved, while maintaining the selectivity for gasoline-range liquid alkanes over 70%. AlCl3 showed an exceptional conversion rate of 5000 g_LDPE 〖 mol〗_cat^(-1) 〖 h〗^(-1), surpassing other Lewis acid catalysts by two orders of magnitude. Through kinetic and mechanistic studies, we show that the rates of LDPE conversion do not correlate directly with the intrinsic strength of the Lewis acids or steric constraints that may limit the polymer to access the Lewis acid sites. Instead, the rates for the tandem processes of cracking and alkylation are primarily governed by the rates of initiation of carbenium ions and the subsequent intermolecular hydride transfer. Both jointly control the relative rates of cracking and alkylation, thereby determining the overall conversion and selectivity."
   },
   {
-    "objectID": "news/2023-science/index.html#cite-as",
-    "href": "news/2023-science/index.html#cite-as",
+    "objectID": "news/2024-angew/index.html#cite-as",
+    "href": "news/2024-angew/index.html#cite-as",
     "title": "Research highlights",
     "section": "Cite as",
-    "text": "Cite as\nW. Zhang,* S. Kim, L. Wahl, R. Khare, L. Hale, J. Hu, D Camaioni, O.Gutiérrez, Y. Liu, J. A. Lercher,* Low-temperature upcycling of polyolefins into liquid alkanes via tandem cracking-alkylation. Science 2023, 379, 807–811."
+    "text": "Cite as\nW. Zhang, H. Yao, R. Khare, P. Zhang, B. Yang, W. Hu, D. Ray, J. Hu, D. Camaioni, H. Wang, S. Kim, M. Lee, M. Sarazen, J. G. Chen, J. A. Lercher,* Hydride transfer as key to catalytic upcycling of polyethylene into liquid alkanes. Angew. Chem. Int. Ed. 2024, 63, e202319580."
   },
   {
-    "objectID": "news/2024-nat-comm/index.html#abstract",
-    "href": "news/2024-nat-comm/index.html#abstract",
+    "objectID": "news/2025-science/index.html#abstract",
+    "href": "news/2025-science/index.html#abstract",
     "title": "Research highlights",
     "section": "Abstract",
-    "text": "Abstract\nChloroaluminate ionic liquids selectively transform (waste) polyolefins into gasoline-range alkanes through tandem cracking-alkylation at temperatures below 100°C. Further improvement of this process necessitates a deep understanding of the nature of the catalytically active species and the correlated performance in the catalyzing critical reactions for the tandem polyolefin deconstruction with isoalkanes at low temperatures. Here, we address this requirement by determining the nuclearity of the chloroaluminate ions and their interactions with reaction intermediates, combining in situ 27Al magic-angle spinning nuclear magnetic resonance spectroscopy, in situ Raman spectroscopy, Al K-edge X-ray absorption near edge structure spectroscopy, and catalytic activity measurement. Cracking and alkylation are facilitated by carbenium ions initiated by AlCl3-tert-butyl chloride (TBC) adducts, which are formed by the dissociation of Al2Cl7− in the presence of TBC. The carbenium ions activate the alkane polymer strands and advance the alkylation cycle through multiple hydride transfer reactions. In situ 1H NMR and operando infrared spectroscopy demonstrate that the cracking and alkylation processes occur synchronously; alkenes formed during cracking are rapidly incorporated into the carbenium ion-mediated alkylation cycle. The conclusions are further supported by ab initio molecular dynamics simulations coupled with an enhanced sampling method, and model experiments using n-hexadecane as a feed."
+    "text": "Abstract"
   },
   {
-    "objectID": "news/2024-nat-comm/index.html#cite-as",
-    "href": "news/2024-nat-comm/index.html#cite-as",
+    "objectID": "news/2025-science/index.html#cite-as",
+    "href": "news/2025-science/index.html#cite-as",
     "title": "Research highlights",
     "section": "Cite as",
-    "text": "Cite as\nW. Zhang,* R. Khare, S. Kim, L. Hale, W. Hu, C. Yuan, Y. Sheng, P. Zhang, L. Wahl, J. Mai, B. Yang, O. Y. Gutiérrez, D. Ray, J. Fulton, D. Camaioni, J. Hu, H. Wang, M. Lee and J. A. Lercher*, Active species in chloroaluminate ionic liquids catalyzing low-temperature polyolefin deconstruction. Nat. Commun. 2024,15, 5785."
+    "text": "Cite as\nW. Zhang,* B. Yang, B. Jackson, J. Zhao, H. Shi, D. Camaioni, S. Kim, H. Wang, J. Szanyi, M. Lee, J. G. Chen and J. A. Lercher*, Integrating Low-temperature PVC and Polyolefin Upgrading. 2025, Science. In press."
   },
   {
     "objectID": "news.html",
     "href": "news.html",
     "title": "📣 News",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Category\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\n \n\n\n\nCategory\n\n\n\nDetails\n\n\n\n\n\n\n\n\nAug 14, 2025\n\n\n\n\n\nResearch highlights\n\n\nOur study ‘Integrating Low-temperature PVC and Polyolefin Upgrading’ is published in Science!\n\n\n\n\n\n\nJul 10, 2024\n\n\n\n\n\nResearch highlights\n\n\nOur study ‘Active species in chloroaluminate ionic liquids catalyzing low-temperature polyolefin deconstruction’ is published in Nat. Commun.!\n\n\n\n\n\n\nMar 3, 2024\n\n\n\n\n\nResearch highlights\n\n\nOur study ‘Hydride transfer as key to catalytic upcycling of polyethylene into liquid alkanes’ is published in Angew. Chem. Int. Ed. !\n\n\n\n\n\n\nFeb 23, 2023\n\n\n\n\n\nResearch highlights\n\n\nOur study ‘Low-temperature upcycling of polyolefins into liquid alkanes via tandem cracking-alkylation’ is published in Science!\n\n\n\n\n\n\nNo matching items\n\n\nMore news »"
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Category\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\n \n\n\n\nCategory\n\n\n\nDetails\n\n\n\n\n\n\n\n\nMar 13, 2026\n\n\n\n\n\nGuest seminar\n\n\nWe are delighted to welcome Prof. Gadi Rothenberg from the University of Amsterdam for a visit to our laboratory!\n\n\n\n\n\n\nAug 14, 2025\n\n\n\n\n\nResearch highlights\n\n\nOur study ‘Integrating Low-temperature PVC and Polyolefin Upgrading’ is published in Science!\n\n\n\n\n\n\nJul 10, 2024\n\n\n\n\n\nResearch highlights\n\n\nOur study ‘Active species in chloroaluminate ionic liquids catalyzing low-temperature polyolefin deconstruction’ is published in Nat. Commun.!\n\n\n\n\n\n\nMar 3, 2024\n\n\n\n\n\nResearch highlights\n\n\nOur study ‘Hydride transfer as key to catalytic upcycling of polyethylene into liquid alkanes’ is published in Angew. Chem. Int. Ed.!\n\n\n\n\n\n\nFeb 23, 2023\n\n\n\n\n\nResearch highlights\n\n\nOur study ‘Low-temperature upcycling of polyolefins into liquid alkanes via tandem cracking-alkylation’ is published in Science!\n\n\n\n\n\n\nNo matching items\n\n\nMore news »"
   },
   {
     "objectID": "news.html#section",
     "href": "news.html#section",
     "title": "📣 News",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Category\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\n \n\n\n\nCategory\n\n\n\nDetails\n\n\n\n\n\n\n\n\nAug 14, 2025\n\n\n\n\n\nResearch highlights\n\n\nOur study ‘Integrating Low-temperature PVC and Polyolefin Upgrading’ is published in Science!\n\n\n\n\n\n\nJul 10, 2024\n\n\n\n\n\nResearch highlights\n\n\nOur study ‘Active species in chloroaluminate ionic liquids catalyzing low-temperature polyolefin deconstruction’ is published in Nat. Commun.!\n\n\n\n\n\n\nMar 3, 2024\n\n\n\n\n\nResearch highlights\n\n\nOur study ‘Hydride transfer as key to catalytic upcycling of polyethylene into liquid alkanes’ is published in Angew. Chem. Int. Ed. !\n\n\n\n\n\n\nFeb 23, 2023\n\n\n\n\n\nResearch highlights\n\n\nOur study ‘Low-temperature upcycling of polyolefins into liquid alkanes via tandem cracking-alkylation’ is published in Science!\n\n\n\n\n\n\nNo matching items\n\n\nMore news »"
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Category\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\n \n\n\n\nCategory\n\n\n\nDetails\n\n\n\n\n\n\n\n\nMar 13, 2026\n\n\n\n\n\nGuest seminar\n\n\nWe are delighted to welcome Prof. Gadi Rothenberg from the University of Amsterdam for a visit to our laboratory!\n\n\n\n\n\n\nAug 14, 2025\n\n\n\n\n\nResearch highlights\n\n\nOur study ‘Integrating Low-temperature PVC and Polyolefin Upgrading’ is published in Science!\n\n\n\n\n\n\nJul 10, 2024\n\n\n\n\n\nResearch highlights\n\n\nOur study ‘Active species in chloroaluminate ionic liquids catalyzing low-temperature polyolefin deconstruction’ is published in Nat. Commun.!\n\n\n\n\n\n\nMar 3, 2024\n\n\n\n\n\nResearch highlights\n\n\nOur study ‘Hydride transfer as key to catalytic upcycling of polyethylene into liquid alkanes’ is published in Angew. Chem. Int. Ed.!\n\n\n\n\n\n\nFeb 23, 2023\n\n\n\n\n\nResearch highlights\n\n\nOur study ‘Low-temperature upcycling of polyolefins into liquid alkanes via tandem cracking-alkylation’ is published in Science!\n\n\n\n\n\n\nNo matching items\n\n\nMore news »"
   },
   {
     "objectID": "publications.html",

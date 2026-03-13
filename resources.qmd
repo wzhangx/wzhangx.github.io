@@ -6,8 +6,8 @@ listing:
 
 - id: activities
   contents: 
-    - lab-activities/20251204
     - lab-activities/20260101
+    - lab-activities/20251204
   sort: false
   type: grid
   grid-columns: 2

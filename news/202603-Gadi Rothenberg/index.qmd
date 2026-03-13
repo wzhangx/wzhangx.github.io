@@ -1,0 +1,18 @@
+---
+title: "Guest seminar"
+subtitle: "Seminar"
+description: "We are delighted to welcome **Prof. Gadi Rothenberg** from the University of Amsterdam for a visit to our laboratory!"
+image: "featured1.jpg"
+date: "2026-03-13"
+#categories: [news, Seminar]
+---
+
+![](featured1.jpg){width=80% fig-align="center"}
+
+
+## Abstract
+We were delighted to welcome Prof. Gadi Rothenberg (University of Amsterdam) for a visit to our laboratory. In this  seminar, he discussed how scientific discoveries in sustainable chemistry can be translated into successful business ventures. The lecture covered the key principles of sustainable chemistry, innovation strategies, intellectual property and team building, as well as funding pathways for sustainable start-ups.
+
+
+## Homepage
+[Gadi Rothenberg](https://hims.uva.nl/profile/r/o/g.rothenberg/g.rothenberg.html#Research-Interests--Philosophy) 

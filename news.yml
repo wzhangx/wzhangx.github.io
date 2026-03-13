@@ -3,7 +3,6 @@
       title: "Our research paper is published in Science!"
       date: "2025-08"
  #     categories: [Scientific American, E&E News]  
-
     - path: https://doi.org/10.1002/anie.202500559
       image: /files/images/journal/Angew.png
       title: "Our research paper is published in Angew. Chem. Int. Ed.!"
