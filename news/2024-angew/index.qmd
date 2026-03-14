@@ -1,5 +1,5 @@
 ---
-title: "Research highlights"
+title: "Research highlight"
 subtitle: "Angew. Chem. Int. Ed."
 description: "Our study 'Hydride transfer as key to catalytic upcycling of polyethylene into liquid alkanes' is published in **Angew. Chem. Int. Ed.**!"
 image: "featured.jpg"

@@ -1,5 +1,5 @@
 ---
-title: "Research highlights"
+title: "Research highlight"
 subtitle: "Science"
 description: "Our study 'Integrating Low-temperature PVC and Polyolefin Upgrading' is published in **Science**!"
 image: "featured.jpg"

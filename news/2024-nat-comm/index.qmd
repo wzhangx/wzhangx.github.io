@@ -1,5 +1,5 @@
 ---
-title: "Research highlights"
+title: "Research highlight"
 subtitle: "Nat. Commun."
 description: "Our study 'Active species in chloroaluminate ionic liquids catalyzing low-temperature polyolefin deconstruction' is published in **Nat. Commun.**!"
 image: "featured.jpg"
