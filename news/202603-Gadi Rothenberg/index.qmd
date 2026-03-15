@@ -7,7 +7,7 @@ date: "2026-03-13"
 #categories: [news, Seminar]
 ---
 
-![](featured.jpg){width=80% fig-align="center"}
+![](featured1.jpg){width=80% fig-align="center"}
 
 
 ## Abstract
