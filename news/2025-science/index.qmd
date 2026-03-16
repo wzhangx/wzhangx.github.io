@@ -1,7 +1,7 @@
 ---
 title: "Research highlight"
 subtitle: "Science"
-description: "Our study 'Integrating Low-temperature PVC and Polyolefin Upgrading' is published in **Science**!"
+description: "[Our study '*Integrating Low-temperature PVC and Polyolefin Upgrading*' is published in **Science**](https://wzhangx.com/news/2025-science/index.html)!"
 image: "featured.jpg"
 date: "2025-08-14"
 #categories: [news, job]

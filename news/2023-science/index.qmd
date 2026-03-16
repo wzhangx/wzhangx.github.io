@@ -1,7 +1,7 @@
 ---
 title: "Research highlight"
 subtitle: "Science"
-description: "Our study 'Low-temperature upcycling of polyolefins into liquid alkanes via tandem cracking-alkylation' is published in **Science**!"
+description: "[Our study '*Low-temperature upcycling of polyolefins into liquid alkanes via tandem cracking-alkylation*' is published in **Science**](https://wzhangx.com/news/2023-science/index.html)!"
 image: "featured.jpg"
 date: "2023-02-23"
 #categories: [news, job]

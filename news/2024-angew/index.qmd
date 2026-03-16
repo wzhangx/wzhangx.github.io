@@ -1,7 +1,7 @@
 ---
 title: "Research highlight"
 subtitle: "Angew. Chem. Int. Ed."
-description: "Our study 'Hydride transfer as key to catalytic upcycling of polyethylene into liquid alkanes' is published in **Angew. Chem. Int. Ed.**!"
+description: "[Our study '*Hydride transfer as key to catalytic upcycling of polyethylene into liquid alkanes*' is published in **Angew. Chem. Int. Ed.**](https://wzhangx.com/news/2024-angew/index.html)!"
 image: "featured.jpg"
 date: "2024-03-03"
 #categories: [news, job]

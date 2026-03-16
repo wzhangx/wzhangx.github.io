@@ -1,7 +1,7 @@
 ---
 title: "Guest  seminar"
 subtitle: "Seminar"
-description: "We are delighted to welcome **Prof. Gadi Rothenberg** from the University of Amsterdam for a visit to our laboratory!"
+description: "[We are delighted to welcome **Prof. Gadi Rothenberg** from the University of Amsterdam for a visit to our laboratory](https://wzhangx.com/news/202603-Gadi%20Rothenberg/index.html)!"
 image: "featured1.jpg"
 date: "2026-03-13"
 #categories: [news, Seminar]
@@ -11,8 +11,13 @@ date: "2026-03-13"
 
 
 ## Abstract
-We were delighted to welcome **Prof. Gadi Rothenberg (University of Amsterdam)** to visit our laboratory. Prof. Rothenberg, who is also my **PhD supervisor**, delivered a seminar on how scientific discoveries in **sustainable chemistry** can be translated into successful business ventures. The lecture covered key principles of sustainable chemistry, innovation strategies, intellectual property and team formation, as well as funding pathways for sustainable start-ups.
+We were delighted to welcome [**Prof.Gadi Rothenberg** from the University of Amsterdam](https://hims.uva.nl/content/research-groups/heterogeneous-catalysis-and-sustainable-chemistry/heterogeneous-catalysis-and-sustainable-chemistry.html) to our laboratory! Prof. Rothenberg, who is also my PhD supervisor, delivered a seminar entitled "Innovation Management in Sustainable Chemistry." The seminar connects science with business and is aimed at science and engineering students who wish to learn how to turn their scientific discoveries into successful business ventures.
 
+First, he provided a short overview of the key principles and drivers of sustainable chemistry and their connection to sustainable development. He then discussed how innovations can be transformed into viable and sustainable ventures. Core topics included business archetypes, business models, and innovation narratives, as well as practical aspects such as intellectual property (IP) strategy and team selection. He also examined funding pathways for sustainable start-ups, from FFF money and public funding programs to strategic investors and venture capital.
 
-## Homepage
-[Gadi Rothenberg](https://hims.uva.nl/profile/r/o/g.rothenberg/g.rothenberg.html#Research-Interests--Philosophy) 
+These principles were illustrated using three real-life case studies: microbial CO₂ conversion, biodiesel production, and off-grid energy supply systems. By analyzing how these ventures succeeded (or failed!), the audience gained insight into the real challenges of building and scaling a sustainable start-up.
+
+The seminar was based on his new textbook of the same title,[1] which expands on the themes and content of the seminar and includes seven detailed case studies of sustainability-driven start-ups and the personal stories of their founders.
+
+[1]	G. Rothenberg, **Innovation Management in Sustainable Chemistry**, Wiley-VCH: Weinheim, 2026, 352 pp. ISBN 9783527354511.
+

@@ -1,7 +1,7 @@
 ---
 title: "Research highlight"
 subtitle: "Nat. Commun."
-description: "Our study 'Active species in chloroaluminate ionic liquids catalyzing low-temperature polyolefin deconstruction' is published in **Nat. Commun.**!"
+description: "[Our study '*Active species in chloroaluminate ionic liquids catalyzing low-temperature polyolefin deconstruction*' is published in **Nat. Commun.**](https://wzhangx.com/news/2024-nat-comm/index.html)!"
 image: "featured.jpg"
 date: "2024-07-10"
 #categories: [news, job]
