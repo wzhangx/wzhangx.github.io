@@ -6,11 +6,12 @@ listing:
 
 - id: activities
   contents: 
+    - lab-activities/20260329
     - lab-activities/20260101
     - lab-activities/20251204
   sort: false
   type: grid
-  grid-columns: 2
+  grid-columns: 3
   image-height: 300px
   fields: [image, title, description]
   grid-item-align: center

@@ -9,7 +9,7 @@ toc: true
 {{< include /files/includes/_msclarity.qmd >}}
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-8}
+::: {.g-col-12 .g-col-md-6}
 
 We are always eager to work with committed researchers who are passionate about advancing interdisciplinary research in heterogeneous catalysis and sustainable chemistry.
 
@@ -25,7 +25,7 @@ We are always eager to work with committed researchers who are passionate about 
 :::
 
 
-::: {.g-col-12 .g-col-md-4}
+::: {.g-col-12 .g-col-md-6}
 
 ![ ](/files/headshots/cook1.jpg){fig-align="center"}
 
