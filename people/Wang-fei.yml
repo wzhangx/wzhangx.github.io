@@ -1,0 +1,11 @@
+    - path: https://
+      image: /files/headshots/wangfei.jpg
+      title: "**Fei WANG**"
+      lastname: "Wang"
+      started: "2026-07"
+      ended: ""       
+#      author: 
+      subtitle: "Started: 2026-07  |  Email: 15194568621@163.com"
+#      description: "Email: 15729591581@163.com"
+#      date: "2024-03-12"
+      categories: [PhD] 

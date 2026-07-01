@@ -20,6 +20,7 @@ listing:  #an example of listing external links
     - /people/bing.yml
     - /people/jiangtao.yml
     - /people/wei-wang.yml
+    - /people/wang-fei.yml
 
 - id: master
   #sort: "lastname asc"
