@@ -35,6 +35,7 @@ listing:  #an example of listing external links
   contents: 
     - /people/jia.yml
     - /people/fangzhou.yml
+    - /people/Huang-Ruiyang.yml
 
 #- id: assistant
 #  type: grid
