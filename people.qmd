@@ -21,6 +21,7 @@ listing:  #an example of listing external links
     - /people/jiangtao.yml
     - /people/wei-wang.yml
     - /people/wang-fei.yml
+    - /people/Liu-Baofa.yml
 
 - id: master
   #sort: "lastname asc"

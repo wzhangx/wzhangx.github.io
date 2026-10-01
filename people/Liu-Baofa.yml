@@ -1,11 +1,11 @@
     - path: https://
-      image: /files/headshots/wangfei.jpg
-      title: "**Fei WANG**"
-      lastname: "Wang"
-      started: "2026-07"
+      image: /files/headshots/Liu-Baofa.jpg
+      title: "**Baofa LIU**"
+      lastname: "LIU"
+      started: "2026-10"
       ended: ""       
 #      author: 
-      subtitle: "Started: 2026-07"
+      subtitle: "Started: 2026-10"
 #      description: "Email: 15194568621@163.com     "
 #      date: "2024-03-12"
       categories: [PhD] 
