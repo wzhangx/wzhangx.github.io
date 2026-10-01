@@ -1,6 +1,6 @@
     - path: https://
-      image: /files/images/lab-facilities/ACE.jpg
-      title: "ACE-MODEL R+ MM"
+      image: /files/images/lab-facilities/GCMS2050.jpg
+      title: "GCMS2050"
 #      author: 
 #      subtitle: "*Nature Communications*"
       #description: "SWITCH-China: open source model for the world's largest power system. Open data on power plants, transmission, costs, and demand by province."
@@ -8,8 +8,8 @@
       categories: [featured, power-system] 
 
     - path: https://
-      image: /files/images/lab-facilities/fix-bed.jpg
-      title: "Fixed-bed reactor"
+      image: /files/images/lab-facilities/Agilent.jpg
+      title: "Agilent GC 8890"
 #      author: 
 #      subtitle: "*Ecological Indicators*"
 #      description: "An excel based tool for low carbon cities development with key indicators, benchmarks, and measurement methods."
@@ -17,55 +17,11 @@
       categories: [featured, china] 
 
     - path: https://
-      image: /files/images/lab-facilities/NMR.jpg
-      title: "NMR"
+      image: /files/images/lab-facilities/GC2014.jpg
+      title: "Shimadzu GC"
 #      author: 
 #      subtitle: "*Ecological Indicators*"
 #      description: "An excel based tool for low carbon cities development with key indicators, benchmarks, and measurement methods."
 #      date: "2016-05-08"
       categories: [featured, china] 
 
-    - path: https://
-      image: /files/images/lab-facilities/SEM.jpg
-      title: "SEM"
-#      author: 
-#      subtitle: "*Ecological Indicators*"
-#      description: "An excel based tool for low carbon cities development with key indicators, benchmarks, and measurement methods."
-#      date: "2016-05-08"
-      categories: [featured, china] 
-
-    - path: https://
-      image: /files/images/lab-facilities/TEM.jpg
-      title: "TEM"
-#      author: 
-#      subtitle: "*Ecological Indicators*"
-#      description: "An excel based tool for low carbon cities development with key indicators, benchmarks, and measurement methods."
-#      date: "2016-05-08"
-      categories: [featured, china] 
-
-    - path: https://
-      image: /files/images/lab-facilities/TGA.jpg
-      title: "TGA"
-#      author: 
-#      subtitle: "*Ecological Indicators*"
-#      description: "An excel based tool for low carbon cities development with key indicators, benchmarks, and measurement methods."
-#      date: "2016-05-08"
-      categories: [featured, china] 
-
-    - path: https://
-      image: /files/images/lab-facilities/XRD.jpg
-      title: "XRD"
-#      author: 
-#      subtitle: "*Ecological Indicators*"
-#      description: "An excel based tool for low carbon cities development with key indicators, benchmarks, and measurement methods."
-#      date: "2016-05-08"
-      categories: [featured, china] 
-
-    - path: https://
-      image: /files/images/lab-facilities/auto.png
-      title: "Batch reactor"
-#      author: 
-#      subtitle: "*Ecological Indicators*"
-#      description: "An excel based tool for low carbon cities development with key indicators, benchmarks, and measurement methods."
-#      date: "2016-05-08"
-      categories: [featured, china] 

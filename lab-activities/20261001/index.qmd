@@ -1,0 +1,18 @@
+---
+title: "**2026_10 New Lab **"
+
+
+ 
+image: "04.jpg"
+---
+
+We’ve moved into our new lab! This exciting milestone marks the beginning of a new chapter for our team. We’re grateful for everyone’s support and look forward to exploring new ideas, tackling new challenges, and making discoveries together.
+
+![新实验室照片 1](01.jpg)
+
+![新实验室照片 2](02.jpg)
+
+![新实验室照片 3](03.jpg)
+
+![新实验室照片 4](04.jpg)
+

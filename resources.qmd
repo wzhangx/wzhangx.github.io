@@ -6,9 +6,10 @@ listing:
 
 - id: activities
   contents: 
-    - lab-activities/20260329
+    - lab-activities/202610
+    - lab-activities/20261001
     - lab-activities/20260101
-    - lab-activities/20251204
+   
   sort: false
   type: grid
   grid-columns: 3

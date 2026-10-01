@@ -1,0 +1,15 @@
+---
+title: "**2026_10 Lab tour Video**"
+image: "00.jpg"
+---
+
+We’ve moved into our new lab! This exciting milestone marks the beginning of a new chapter for our team. We’re grateful for everyone’s support and look forward to exploring new ideas, tackling new challenges, and making discoveries together.
+
+<video controls playsinline preload="metadata"
+       style="display:block; width:auto; max-width:100%; height:auto; margin:0 auto;">
+  <source src="https://wzhangx.github.io/Video/Lab%20tour.mp4"
+          type="video/mp4">
+  您的浏览器不支持视频播放，请使用下方链接观看。
+</video>
+
+[▶ 打开实验室参观视频](https://wzhangx.github.io/Video/Lab%20tour.mp4)
