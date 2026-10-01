@@ -26,15 +26,6 @@
       categories: [featured, china] 
 
     - path: https://
-      image: /files/images/lab-facilities/ACE.jpg
-      title: "ACE"
-#      author: 
-#      subtitle: "*Ecological Indicators*"
-#      description: "An excel based tool for low carbon cities development with key indicators, benchmarks, and measurement methods."
-#      date: "2016-05-08"
-      categories: [featured, china]
-
-    - path: https://
       image: /files/images/lab-facilities/fix-bed.jpg
       title: "Fix-bed reactor"
 #      author: 
