@@ -27,8 +27,8 @@ listing:
   type: grid
   fields: [image, title, subtitle, description, date]
   grid-item-align: left
-  grid-columns: 4
-  image-height: 325px
+  grid-columns: 3
+  image-height: 300px
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
